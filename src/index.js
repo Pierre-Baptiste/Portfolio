@@ -1,5 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+// import router
+import { BrowserRouter } from "react-router-dom";
+
+// Theming
+import Theming from "./Theming";
+import CssBaseline from "@material-ui/core/CssBaseline";
+
+ReactDOM.render(
+	<BrowserRouter>
+		<CssBaseline />
+		<Theming />
+	</BrowserRouter>,
+	document.getElementById("root")
+);

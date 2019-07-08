@@ -1,6 +1,14 @@
 import React from "react";
+
+// Routes
+import Routes from "./Routes";
+
 function App() {
-	return <div>Hello World</div>;
+	return (
+		<React.Fragment>
+			<Routes />
+		</React.Fragment>
+	);
 }
 
 export default App;
