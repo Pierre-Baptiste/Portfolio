@@ -36,7 +36,7 @@ let theme = createMuiTheme({
 		fontSize: 10
 	},
 	spacing: 4,
-	shadows: ["none"]
+	shadows: Array(25).fill("none")
 });
 
 theme = responsiveFontSizes(theme);

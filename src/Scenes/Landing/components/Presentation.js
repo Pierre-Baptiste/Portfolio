@@ -27,11 +27,11 @@ const useStyles = makeStyles(theme => ({
 		},
 		[theme.breakpoints.up("md")]: {
 			marginLeft: "50px",
-			marginTop: "300px"
+			marginTop: "200px"
 		},
 		[theme.breakpoints.up("lg")]: {
 			marginLeft: "75px",
-			marginTop: "300px"
+			marginTop: "200px"
 		}
 	},
 	h1classbottom: {

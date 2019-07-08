@@ -20,7 +20,10 @@ class Landing extends Component {
 						backgroundSize: "cover"
 					}}
 				>
-					<AppBar />
+					<AppBar
+						handleLanguageChange={this.props.handleLanguageChange}
+						Language={this.props.Language}
+					/>
 					<Presentation />
 				</div>
 			</div>
