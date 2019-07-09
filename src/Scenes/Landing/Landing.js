@@ -20,7 +20,7 @@ class Landing extends Component {
 					backgroundPosition: "right top"
 				}}
 			>
-				<Presentation />
+				<Presentation Language={this.props.Language} />
 			</div>
 		);
 	}

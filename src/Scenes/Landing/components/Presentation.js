@@ -29,18 +29,21 @@ const useStyles = makeStyles(theme => ({
 		[theme.breakpoints.between("lg", "lg")]: {
 			marginLeft: "75px",
 			marginTop: "200px",
-			fontSize: 70
+			fontSize: 60
 		},
 		[theme.breakpoints.between("md", "md")]: {
-			marginLeft: "50px",
-			marginTop: "200px",
-			fontSize: 60
+			flexGrow: 1,
+			alignSelf: "center",
+			position: "absolute",
+			fontSize: 50,
+			marginTop: "30px",
+			marginLeft: "auto"
 		},
 		[theme.breakpoints.between("sm", "sm")]: {
 			flexGrow: 1,
 			alignItems: "flex-start",
 			position: "absolute",
-			fontSize: 50,
+			fontSize: 40,
 			marginTop: "30px",
 			marginLeft: "auto"
 		},
@@ -48,8 +51,8 @@ const useStyles = makeStyles(theme => ({
 			flexGrow: 1,
 			alignItems: "flex-start",
 			position: "fixed",
-			fontSize: 30,
-			marginTop: "30px",
+			fontSize: 25,
+			marginTop: "20px",
 			marginLeft: "auto"
 		}
 	},
@@ -65,41 +68,60 @@ const useStyles = makeStyles(theme => ({
 		},
 		[theme.breakpoints.between("lg", "lg")]: {
 			marginLeft: "75px",
-			fontSize: 70
+			fontSize: 60
 		},
 		[theme.breakpoints.between("md", "md")]: {
-			marginLeft: "50px",
-			fontSize: 60
+			flexGrow: 1,
+			alignSelf: "center",
+			position: "absolute",
+			fontSize: 50,
+			marginTop: "70px",
+			marginLeft: "auto"
 		},
 		[theme.breakpoints.between("sm", "sm")]: {
 			flexGrow: 1,
 			alignItems: "flex-start",
 			position: "absolute",
-			fontSize: 50,
-			marginTop: "80px",
+			fontSize: 40,
+			marginTop: "70px",
 			marginLeft: "auto"
 		},
 		[theme.breakpoints.between("xs", "xs")]: {
 			flexGrow: 1,
 			alignItems: "flex-start",
 			position: "fixed",
-			fontSize: 30,
-			marginTop: "60px",
+			fontSize: 25,
+			marginTop: "50px",
 			marginLeft: "auto"
 		}
 	}
 }));
 
-export default function Presentation() {
+export default function Presentation(props) {
 	const classes = useStyles();
-	return (
-		<div className={classes.container}>
-			<Typography variant="h1" className={classes.h1classtop}>
-				Hello,
-			</Typography>
-			<Typography variant="h1" className={classes.h1classbottom}>
-				I'm Pierre-Baptiste<div style={{ color: "#001aff" }}>.</div>
-			</Typography>
-		</div>
-	);
+
+	if (props.Language === "English") {
+		return (
+			<div className={classes.container}>
+				<Typography variant="h1" className={classes.h1classtop}>
+					Hello,
+				</Typography>
+				<Typography variant="h1" className={classes.h1classbottom}>
+					I'm Pierre-Baptiste<div style={{ color: "#001aff" }}>.</div>
+				</Typography>
+			</div>
+		);
+	} else {
+		return (
+			<div className={classes.container}>
+				<Typography variant="h1" className={classes.h1classtop}>
+					Bonjour,
+				</Typography>
+				<Typography variant="h1" className={classes.h1classbottom}>
+					Je suis Pierre-Baptiste
+					<div style={{ color: "#001aff" }}>.</div>
+				</Typography>
+			</div>
+		);
+	}
 }

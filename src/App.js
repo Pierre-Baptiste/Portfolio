@@ -32,7 +32,7 @@ class App extends Component {
 					handleLanguageChange={this.handleLanguageChange.bind(this)}
 					Language={this.state.Language}
 				/>
-				<Routes />
+				<Routes Language={this.state.Language} />
 			</React.Fragment>
 		);
 	}
