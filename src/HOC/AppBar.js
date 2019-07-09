@@ -11,6 +11,8 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 
+import { Link } from "react-router-dom";
+
 const useStyles = makeStyles(theme => ({
 	root: {
 		flexGrow: 1
@@ -20,29 +22,7 @@ const useStyles = makeStyles(theme => ({
 		[theme.breakpoints.up("sm")]: {
 			display: "flex"
 		},
-		fontSize: 12,
-		opacity: 0.5,
-		transition: "opacity 0.2s",
-		"&:hover": {
-			cursor: "pointer",
-			color: "#001aff",
-			opacity: 1
-		}
-	},
-	lastitem: {
-		display: "none",
-		[theme.breakpoints.up("sm")]: {
-			display: "flex"
-		},
-		flexGrow: 1,
-		fontSize: 12,
-		opacity: 0.5,
-		transition: "opacity 0.2s",
-		"&:hover": {
-			cursor: "pointer",
-			color: "#001aff",
-			opacity: 1
-		}
+		fontSize: 12
 	},
 	langitem: {
 		cursor: "pointer",
@@ -83,6 +63,17 @@ const useStyles = makeStyles(theme => ({
 	},
 	placeholder: {
 		flexGrow: 1
+	},
+	link: {
+		textDecoration: "none",
+		color: "#000",
+		opacity: 0.5,
+		transition: "opacity 0.2s",
+		"&:hover": {
+			cursor: "pointer",
+			color: "#001aff",
+			opacity: 1
+		}
 	}
 }));
 
@@ -176,7 +167,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							01 : Home
+							<Link to="/home" className={classes.link}>
+								01 : Home
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -190,7 +183,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							02 : Works
+							<Link to="/works" className={classes.link}>
+								02 : Works
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -204,7 +199,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							03 : About me
+							<Link to="/about" className={classes.link}>
+								03 : About me
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -218,7 +215,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							04 : Contact
+							<Link to="/contact" className={classes.link}>
+								04 : Contact
+							</Link>
 						</Typography>
 						<Typography className={classes.placeholder} />
 						<Typography
