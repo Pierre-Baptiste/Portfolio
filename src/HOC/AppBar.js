@@ -3,12 +3,18 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
+import MenuIcon from "@material-ui/icons/Menu";
+import IconButton from "@material-ui/core/IconButton";
 
 const useStyles = makeStyles(theme => ({
 	root: {
 		flexGrow: 1
 	},
 	item: {
+		display: "none",
+		[theme.breakpoints.up("sm")]: {
+			display: "flex"
+		},
 		fontSize: 12,
 		opacity: 0.5,
 		transition: "opacity 0.2s",
@@ -19,6 +25,10 @@ const useStyles = makeStyles(theme => ({
 		}
 	},
 	lastitem: {
+		display: "none",
+		[theme.breakpoints.up("sm")]: {
+			display: "flex"
+		},
 		flexGrow: 1,
 		fontSize: 12,
 		opacity: 0.5,
@@ -35,6 +45,14 @@ const useStyles = makeStyles(theme => ({
 		opacity: 0.5
 	},
 	divider: {
+		display: "none",
+		[theme.breakpoints.up("sm")]: {
+			display: "flex"
+		},
+		marginRight: theme.spacing(2),
+		marginLeft: theme.spacing(2)
+	},
+	langDivider: {
 		marginRight: theme.spacing(2),
 		marginLeft: theme.spacing(2)
 	},
@@ -51,6 +69,13 @@ const useStyles = makeStyles(theme => ({
 			marginLeft: "75px",
 			marginRight: "75px"
 		}
+	},
+	menuButton: {
+		flexGrow: 1,
+		justifyContent: "flex-start",
+		[theme.breakpoints.up("sm")]: {
+			display: "none"
+		}
 	}
 }));
 
@@ -62,6 +87,14 @@ export default function SimpleAppBar(props) {
 			<div className={classes.root}>
 				<AppBar position="static" color="primary">
 					<Toolbar disableGutters={true} className={classes.toolbar}>
+						<IconButton
+							edge="start"
+							className={classes.menuButton}
+							color="inherit"
+							aria-label="Open drawer"
+						>
+							<MenuIcon />
+						</IconButton>
 						<Typography
 							variant="h6"
 							color="secondary"
@@ -124,7 +157,7 @@ export default function SimpleAppBar(props) {
 						<Typography
 							variant="h6"
 							color="secondary"
-							className={classes.divider}
+							className={classes.langDivider}
 						>
 							|
 						</Typography>
