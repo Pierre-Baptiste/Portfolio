@@ -71,192 +71,150 @@ const useStyles = makeStyles(theme => ({
 		}
 	},
 	menuButton: {
-		flexGrow: 1,
 		justifyContent: "flex-start",
 		[theme.breakpoints.up("sm")]: {
 			display: "none"
 		}
+	},
+	placeholder: {
+		flexGrow: 1
 	}
 }));
 
 export default function SimpleAppBar(props) {
 	const classes = useStyles();
 
-	if (props.Language === "English") {
-		return (
-			<div className={classes.root}>
-				<AppBar position="static" color="primary">
-					<Toolbar disableGutters={true} className={classes.toolbar}>
-						<IconButton
-							edge="start"
-							className={classes.menuButton}
-							color="inherit"
-							aria-label="Open drawer"
-						>
-							<MenuIcon />
-						</IconButton>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							01 : Home
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							02 : Works
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							03 : About me
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.lastitem}
-						>
-							04 : Contact
-						</Typography>
-						<Typography
-							variant="h6"
-							color="error"
-							className={classes.langitem}
-							style={{ opacity: 1 }}
-						>
-							<div id="En" onClick={props.handleLanguageChange}>
-								En
-							</div>
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.langDivider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.langitem}
-						>
-							<div id="Fr" onClick={props.handleLanguageChange}>
-								Fr
-							</div>
-						</Typography>
-					</Toolbar>
-				</AppBar>
-			</div>
-		);
-	} else {
-		return (
-			<div className={classes.root}>
-				<AppBar position="static" color="primary">
-					<Toolbar disableGutters={true} className={classes.toolbar}>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							01 : Home
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							02 : Works
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.item}
-						>
-							03 : About me
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.lastitem}
-						>
-							04 : Contact
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.langitem}
-						>
-							<div id="En" onClick={props.handleLanguageChange}>
-								En
-							</div>
-						</Typography>
-						<Typography
-							variant="h6"
-							color="secondary"
-							className={classes.divider}
-						>
-							|
-						</Typography>
-						<Typography
-							variant="h6"
-							color="error"
-							className={classes.langitem}
-							style={{ opacity: 1 }}
-						>
-							<div id="Fr" onClick={props.handleLanguageChange}>
-								Fr
-							</div>
-						</Typography>
-					</Toolbar>
-				</AppBar>
-			</div>
-		);
-	}
+	let languageSelector = () => {
+		if (props.Language === "English") {
+			return (
+				<React.Fragment>
+					<Typography
+						variant="h6"
+						color="error"
+						className={classes.langitem}
+						style={{ opacity: 1 }}
+					>
+						<div id="En" onClick={props.handleLanguageChange}>
+							En
+						</div>
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.langDivider}
+					>
+						|
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.langitem}
+					>
+						<div id="Fr" onClick={props.handleLanguageChange}>
+							Fr
+						</div>
+					</Typography>
+				</React.Fragment>
+			);
+		} else {
+			return (
+				<React.Fragment>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.langitem}
+					>
+						<div id="En" onClick={props.handleLanguageChange}>
+							En
+						</div>
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.langDivider}
+					>
+						|
+					</Typography>
+					<Typography
+						variant="h6"
+						color="error"
+						className={classes.langitem}
+						style={{ opacity: 1 }}
+					>
+						<div id="Fr" onClick={props.handleLanguageChange}>
+							Fr
+						</div>
+					</Typography>
+				</React.Fragment>
+			);
+		}
+	};
+
+	return (
+		<div className={classes.root}>
+			<AppBar position="static" color="primary">
+				<Toolbar disableGutters={true} className={classes.toolbar}>
+					<IconButton
+						edge="start"
+						className={classes.menuButton}
+						color="inherit"
+						aria-label="Open drawer"
+					>
+						<MenuIcon />
+					</IconButton>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.item}
+					>
+						01 : Home
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.divider}
+					>
+						|
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.item}
+					>
+						02 : Works
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.divider}
+					>
+						|
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.item}
+					>
+						03 : About me
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.divider}
+					>
+						|
+					</Typography>
+					<Typography
+						variant="h6"
+						color="secondary"
+						className={classes.item}
+					>
+						04 : Contact
+					</Typography>
+					<Typography className={classes.placeholder} />
+					{languageSelector()}
+				</Toolbar>
+			</AppBar>
+		</div>
+	);
 }
