@@ -13,7 +13,10 @@ class Landing extends Component {
 				style={{
 					backgroundImage: "url(" + Background + ")",
 					height: "100vh",
-					backgroundSize: "cover"
+					width: "100vw",
+					backgroundSize: "cover",
+					position: "fixed",
+					backgroundPosition: "right bottom"
 				}}
 			>
 				<Presentation />
