@@ -13,6 +13,7 @@ const useStyles = makeStyles(theme => ({
 		opacity: 0.5,
 		transition: "opacity 0.2s",
 		"&:hover": {
+			cursor: "pointer",
 			color: "#001aff",
 			opacity: 1
 		}
@@ -23,11 +24,13 @@ const useStyles = makeStyles(theme => ({
 		opacity: 0.5,
 		transition: "opacity 0.2s",
 		"&:hover": {
+			cursor: "pointer",
 			color: "#001aff",
 			opacity: 1
 		}
 	},
 	langitem: {
+		cursor: "pointer",
 		fontSize: 12,
 		opacity: 0.5
 	},

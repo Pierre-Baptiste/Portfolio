@@ -8,18 +8,7 @@ export default class Routes extends Component {
 	render() {
 		return (
 			<Switch>
-				<Route
-					path="/"
-					exact
-					render={() => (
-						<Landing
-							handleLanguageChange={
-								this.props.handleLanguageChange
-							}
-							Language={this.props.Language}
-						/>
-					)}
-				/>
+				<Route path="/" exact component={Landing} />
 			</Switch>
 		);
 	}

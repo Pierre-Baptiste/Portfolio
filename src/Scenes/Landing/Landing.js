@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 
-// HOC Components
-import AppBar from "./../HOC/AppBar";
-
 // Components
 import Presentation from "./components/Presentation";
 
@@ -12,20 +9,14 @@ import Background from "./assets/jake-davies-lEL5auXYrU0-unsplash.jpg";
 class Landing extends Component {
 	render() {
 		return (
-			<div>
-				<div
-					style={{
-						backgroundImage: "url(" + Background + ")",
-						height: "100vh",
-						backgroundSize: "cover"
-					}}
-				>
-					<AppBar
-						handleLanguageChange={this.props.handleLanguageChange}
-						Language={this.props.Language}
-					/>
-					<Presentation />
-				</div>
+			<div
+				style={{
+					backgroundImage: "url(" + Background + ")",
+					height: "100vh",
+					backgroundSize: "cover"
+				}}
+			>
+				<Presentation />
 			</div>
 		);
 	}

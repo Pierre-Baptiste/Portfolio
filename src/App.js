@@ -3,6 +3,9 @@ import React, { Component } from "react";
 // Routes
 import Routes from "./Routes";
 
+// HOC
+import AppBar from "./HOC/AppBar";
+
 class App extends Component {
 	constructor(props) {
 		super(props);
@@ -25,10 +28,11 @@ class App extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Routes
+				<AppBar
 					handleLanguageChange={this.handleLanguageChange.bind(this)}
 					Language={this.state.Language}
 				/>
+				<Routes />
 			</React.Fragment>
 		);
 	}
