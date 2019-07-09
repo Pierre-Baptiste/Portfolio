@@ -96,6 +96,8 @@ export default function SimpleAppBar(props) {
 		setState({ ...state, [side]: open });
 	};
 
+	const linksDrawer = ["/home", "/works", "/about", "contact"];
+
 	const fullListEn = side => (
 		<div
 			className={classes.fullList}
@@ -109,9 +111,11 @@ export default function SimpleAppBar(props) {
 					"02 : Works",
 					"03 : About me",
 					"04 : Contact"
-				].map(text => (
+				].map((text, i) => (
 					<ListItem button key={text}>
-						<ListItemText primary={text} />
+						<Link to={linksDrawer[i]} className={classes.link}>
+							<ListItemText primary={text} />
+						</Link>
 					</ListItem>
 				))}
 			</List>
@@ -131,9 +135,11 @@ export default function SimpleAppBar(props) {
 					"02 : Travaux",
 					"03 : À propos",
 					"04 : Contacter"
-				].map(text => (
+				].map((text, i) => (
 					<ListItem button key={text}>
-						<ListItemText primary={text} />
+						<Link to={linksDrawer[i]} className={classes.link}>
+							<ListItemText primary={text} />
+						</Link>
 					</ListItem>
 				))}
 			</List>
