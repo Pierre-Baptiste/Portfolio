@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
 		display: "flex",
 		justifyContent: "flex-start",
 		flexDirection: "column",
-		[theme.breakpoints.down("sm")]: {
+		[theme.breakpoints.down("md")]: {
 			alignItems: "center"
 		},
 		[theme.breakpoints.up("md")]: {
@@ -21,17 +21,36 @@ const useStyles = makeStyles(theme => ({
 		display: "flex",
 		alignItems: "baseline",
 		position: "relative",
-		[theme.breakpoints.down("sm")]: {
-			marginLeft: "25px",
-			marginTop: "25px"
-		},
-		[theme.breakpoints.up("md")]: {
-			marginLeft: "50px",
-			marginTop: "200px"
-		},
-		[theme.breakpoints.up("lg")]: {
+		[theme.breakpoints.up("xl")]: {
 			marginLeft: "75px",
-			marginTop: "200px"
+			marginTop: "200px",
+			fontSize: 80
+		},
+		[theme.breakpoints.between("lg", "lg")]: {
+			marginLeft: "75px",
+			marginTop: "200px",
+			fontSize: 70
+		},
+		[theme.breakpoints.between("md", "md")]: {
+			marginLeft: "50px",
+			marginTop: "200px",
+			fontSize: 60
+		},
+		[theme.breakpoints.between("sm", "sm")]: {
+			flexGrow: 1,
+			alignItems: "flex-start",
+			position: "absolute",
+			fontSize: 50,
+			marginTop: "30px",
+			marginLeft: "auto"
+		},
+		[theme.breakpoints.between("xs", "xs")]: {
+			flexGrow: 1,
+			alignItems: "flex-start",
+			position: "fixed",
+			fontSize: 30,
+			marginTop: "30px",
+			marginLeft: "auto"
 		}
 	},
 	h1classbottom: {
@@ -40,21 +59,39 @@ const useStyles = makeStyles(theme => ({
 		alignItems: "baseline",
 		position: "relative",
 		marginTop: "0px",
-		[theme.breakpoints.down("sm")]: {
-			marginLeft: "25px"
+		[theme.breakpoints.up("xl")]: {
+			marginLeft: "75px",
+			fontSize: 80
 		},
-		[theme.breakpoints.up("md")]: {
-			marginLeft: "50px"
+		[theme.breakpoints.between("lg", "lg")]: {
+			marginLeft: "75px",
+			fontSize: 70
 		},
-		[theme.breakpoints.up("lg")]: {
-			marginLeft: "75px"
+		[theme.breakpoints.between("md", "md")]: {
+			marginLeft: "50px",
+			fontSize: 60
+		},
+		[theme.breakpoints.between("sm", "sm")]: {
+			flexGrow: 1,
+			alignItems: "flex-start",
+			position: "absolute",
+			fontSize: 50,
+			marginTop: "80px",
+			marginLeft: "auto"
+		},
+		[theme.breakpoints.between("xs", "xs")]: {
+			flexGrow: 1,
+			alignItems: "flex-start",
+			position: "fixed",
+			fontSize: 30,
+			marginTop: "60px",
+			marginLeft: "auto"
 		}
 	}
 }));
 
 export default function Presentation() {
 	const classes = useStyles();
-
 	return (
 		<div className={classes.container}>
 			<Typography variant="h1" className={classes.h1classtop}>
