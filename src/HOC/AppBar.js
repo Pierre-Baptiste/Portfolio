@@ -277,7 +277,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							01 : Accueil
+							<Link to="/home" className={classes.link}>
+								01 : Accueil
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -291,7 +293,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							02 : Travaux
+							<Link to="/works" className={classes.link}>
+								02 : Travaux
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -305,7 +309,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							03 : À propos
+							<Link to="/about" className={classes.link}>
+								03 : À propos
+							</Link>
 						</Typography>
 						<Typography
 							variant="h6"
@@ -319,7 +325,9 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
-							04 : Contacter
+							<Link to="/contact" className={classes.link}>
+								04 : Contacter
+							</Link>
 						</Typography>
 						<Typography className={classes.placeholder} />
 						<Typography

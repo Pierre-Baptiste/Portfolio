@@ -75,7 +75,7 @@ const useStyles = makeStyles(theme => ({
 			alignSelf: "center",
 			position: "absolute",
 			fontSize: 50,
-			marginTop: "70px",
+			marginTop: "80px",
 			marginLeft: "auto"
 		},
 		[theme.breakpoints.between("sm", "sm")]: {
