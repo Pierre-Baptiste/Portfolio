@@ -44,7 +44,15 @@ theme = responsiveFontSizes(theme);
 export default class Theming extends Component {
 	render() {
 		return (
-			<Container maxWidth="xl" style={{ padding: "0" }}>
+			<Container
+				maxWidth="xl"
+				style={{
+					padding: "0",
+					width: "100vw",
+					height: "100vh",
+					backgroundColor: "#fff"
+				}}
+			>
 				<ThemeProvider theme={theme}>
 					<App />
 				</ThemeProvider>

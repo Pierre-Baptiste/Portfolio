@@ -14,7 +14,7 @@ class Landing extends Component {
 					backgroundImage: "url(" + Background + ")",
 					height: "100vh",
 					width: "100vw",
-					maxWidth: "1920px",
+					maxWidth: "1900px",
 					backgroundSize: "cover",
 					position: "fixed",
 					backgroundPosition: "right top"
