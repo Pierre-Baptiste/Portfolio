@@ -49,7 +49,7 @@ export default class Theming extends Component {
 				style={{
 					padding: "0",
 					width: "100vw",
-					height: "100vh",
+					minHeight: "100vh",
 					backgroundColor: "#fff"
 				}}
 			>

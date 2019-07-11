@@ -10,11 +10,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 
 ReactDOM.render(
 	<BrowserRouter>
-		<CssBaseline
-			style={{
-				backgroundColor: "#fff"
-			}}
-		/>
+		<CssBaseline />
 		<Theming />
 	</BrowserRouter>,
 	document.getElementById("root")

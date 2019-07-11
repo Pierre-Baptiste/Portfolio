@@ -6,26 +6,52 @@ import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
+import CardMedia from "@material-ui/core/CardMedia";
 
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
 	card: {
-		maxWidth: 275,
-		border: "solid"
+		[theme.breakpoints.between("xs", "xs")]: {
+			maxWidth: "100%"
+		},
+		[theme.breakpoints.between("sm", "sm")]: {
+			maxWidth: 350
+		},
+		[theme.breakpoints.between("md", "xl")]: {
+			maxWidth: 275
+		},
+		border: "solid",
+		height: 300,
+		textAlign: "left"
+	},
+	cardContent: {
+		padding: "0 20px"
 	},
 	bullet: {
 		display: "inline-block",
 		margin: "0 2px",
 		transform: "scale(0.8)"
 	},
-	title: {
+	number: {
 		fontSize: 14
 	},
 	pos: {
 		marginBottom: 12
+	},
+	title: {
+		fontWeight: "700"
+	},
+	media: {
+		height: 140,
+		filter: "grayscale(100%)",
+		transition: "filter 0.2s",
+		"&:hover": {
+			filter: "none",
+			transition: "filter 0.2s"
+		}
 	}
-});
+}));
 
 export default function WorkCard() {
 	const classes = useStyles();
@@ -34,15 +60,24 @@ export default function WorkCard() {
 	return (
 		<div>
 			<Card className={classes.card}>
-				<CardContent>
+				<CardMedia
+					className={classes.media}
+					image={require("./../assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+					title="Contemplative Reptile"
+				/>
+				<CardContent className={classes.cardContent}>
 					<Typography
-						className={classes.title}
+						className={classes.number}
 						color="textSecondary"
 						gutterBottom
 					>
-						Word of the Day
+						001/006
 					</Typography>
-					<Typography variant="h5" component="h2">
+					<Typography
+						variant="h5"
+						component="h2"
+						className={classes.title}
+					>
 						be
 						{bull}
 						nev
@@ -58,6 +93,7 @@ export default function WorkCard() {
 						{'"a benevolent smile"'}
 					</Typography>
 				</CardContent>
+
 				<CardActions>
 					<Button size="small">Learn More</Button>
 				</CardActions>
