@@ -1,7 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
+//import { makeStyles } from "@material-ui/core/styles";
 
-export default class Contact extends Component {
-	render() {
-		return <div>Contact</div>;
+/* const useStyles = makeStyles(theme => ({
+	root: {}
+})); */
+
+export default function Contact(props) {
+	//const classes = useStyles();
+
+	if (props.Language === "English") {
+		return <div>test</div>;
+	} else {
+		return <div>test</div>;
 	}
 }

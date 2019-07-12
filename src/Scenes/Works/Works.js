@@ -34,7 +34,7 @@ export default function Presentation(props) {
 
 	if (props.Language === "English") {
 		return (
-			<div className={classes.bg}>
+			<div>
 				<Typography
 					align="center"
 					variant="h3"

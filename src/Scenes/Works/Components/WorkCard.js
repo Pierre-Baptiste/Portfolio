@@ -28,6 +28,12 @@ const useStyles = makeStyles(theme => ({
 	cardContent: {
 		padding: "0 20px"
 	},
+	cardContentButton: {
+		"&:hover": {
+			color: "#001aff"
+		},
+		fontWeight: "700"
+	},
 	bullet: {
 		display: "inline-block",
 		margin: "0 2px",
@@ -93,9 +99,10 @@ export default function WorkCard() {
 						{'"a benevolent smile"'}
 					</Typography>
 				</CardContent>
-
 				<CardActions>
-					<Button size="small">Learn More</Button>
+					<Button size="small" className={classes.cardContentButton}>
+						Learn More
+					</Button>
 				</CardActions>
 			</Card>
 		</div>
