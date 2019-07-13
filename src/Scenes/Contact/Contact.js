@@ -51,6 +51,10 @@ const useStyles = makeStyles(theme => ({
 	socMed: {
 		fontFamily: "Roboto",
 		margin: "20px 0px"
+	},
+	link: {
+		textDecoration: "none",
+		color: "inherit"
 	}
 }));
 
@@ -78,47 +82,62 @@ export default function Contact(props) {
 				<Box className={classes.workCardBox} align="left">
 					<Grid container spacing={10}>
 						<Grid item xs={12} sm={12} md={8}>
-							<TextField
-								className={classes.margin}
-								label="E-mail"
-								variant="outlined"
-								fullWidth={true}
-								InputProps={{
-									classes: {
-										notchedOutline: classes.notchedOutline
-									}
-								}}
-							/>
-							<TextField
-								className={classes.margin}
-								label="Subject"
-								variant="outlined"
-								fullWidth={true}
-								InputProps={{
-									classes: {
-										notchedOutline: classes.notchedOutline
-									}
-								}}
-							/>
-							<TextField
-								className={classes.margin}
-								label="Message"
-								variant="outlined"
-								fullWidth={true}
-								multiline={true}
-								rows="7"
-								InputProps={{
-									classes: {
-										notchedOutline: classes.notchedOutline
-									}
-								}}
-							/>
-							<Button
-								variant="outlined"
-								className={classes.button}
+							<form
+								action="https://formspree.io/p.b.dupire@gmail.com"
+								method="POST"
 							>
-								SEND
-							</Button>
+								<TextField
+									className={classes.margin}
+									label="E-mail"
+									variant="outlined"
+									name="_replyto"
+									fullWidth={true}
+									required
+									InputProps={{
+										classes: {
+											notchedOutline:
+												classes.notchedOutline
+										}
+									}}
+								/>
+								<TextField
+									className={classes.margin}
+									label="Subject"
+									variant="outlined"
+									name="_subject"
+									required
+									fullWidth={true}
+									InputProps={{
+										classes: {
+											notchedOutline:
+												classes.notchedOutline
+										}
+									}}
+								/>
+								<TextField
+									className={classes.margin}
+									label="Message"
+									name="message"
+									variant="outlined"
+									fullWidth={true}
+									multiline={true}
+									required
+									rows="7"
+									InputProps={{
+										classes: {
+											notchedOutline:
+												classes.notchedOutline
+										}
+									}}
+								/>
+								<Button
+									variant="outlined"
+									type="submit"
+									className={classes.button}
+								>
+									SEND
+								</Button>
+							</form>
 						</Grid>
 						<Grid item xs={12} sm={12} md={4}>
 							<Grid
@@ -151,7 +170,12 @@ export default function Contact(props) {
 								</Grid>
 								<Grid item>
 									<Typography className={classes.infosText}>
-										p.b.dupire@gmail.com
+										<a
+											href="mailto:p.b.dupire@gmail.com"
+											className={classes.link}
+										>
+											p.b.dupire@gmail.com
+										</a>
 									</Typography>
 								</Grid>
 							</Grid>
@@ -178,17 +202,38 @@ export default function Contact(props) {
 							<Grid container direction="row" alignItems="center">
 								<Grid item>
 									<Typography className={classes.socialIcons}>
-										<Facebook />
+										<a
+											href="https://www.facebook.com/pierrebaptiste.dupire"
+											className={classes.link}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<Facebook />
+										</a>
 									</Typography>
 								</Grid>
 								<Grid item>
 									<Typography className={classes.socialIcons}>
-										<Twitter />
+										<a
+											href="https://twitter.com/PierreB58838628"
+											className={classes.link}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<Twitter />
+										</a>
 									</Typography>
 								</Grid>
 								<Grid item>
 									<Typography className={classes.socialIcons}>
-										<GithubCircle />
+										<a
+											href="https://github.com/Pierre-Baptiste"
+											className={classes.link}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<GithubCircle />
+										</a>
 									</Typography>
 								</Grid>
 								<Grid item>
@@ -196,7 +241,14 @@ export default function Contact(props) {
 										className={classes.socialIcons}
 										style={{ marginRight: "0px" }}
 									>
-										<Linkedin />
+										<a
+											href="https://www.linkedin.com/in/pb-dupire/"
+											className={classes.link}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<Linkedin />
+										</a>
 									</Typography>
 								</Grid>
 							</Grid>

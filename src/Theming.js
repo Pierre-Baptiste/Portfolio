@@ -22,7 +22,7 @@ let theme = createMuiTheme({
 			// light: "#0066ff",
 			main: "#000",
 			// dark: will be calculated from palette.secondary.main,
-			contrastText: "#ffcc00"
+			contrastText: "#001aff"
 		},
 		error: {
 			// light
