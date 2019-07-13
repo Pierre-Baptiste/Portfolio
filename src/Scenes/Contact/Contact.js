@@ -1,15 +1,210 @@
 import React from "react";
-//import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
+import { Typography } from "@material-ui/core";
+import Box from "@material-ui/core/Box";
+import TextField from "@material-ui/core/TextField";
+import Grid from "@material-ui/core/Grid";
+import Button from "@material-ui/core/Button";
 
-/* const useStyles = makeStyles(theme => ({
-	root: {}
-})); */
+import Phone from "@material-ui/icons/PhoneSharp";
+import Mail from "@material-ui/icons/AlternateEmailSharp";
+import Location from "@material-ui/icons/LocationOnSharp";
+import { Facebook, Twitter, GithubCircle, Linkedin } from "mdi-material-ui";
+
+const useStyles = makeStyles(theme => ({
+	title: {
+		marginTop: "30px",
+		marginBottom: "30px",
+		fontWeight: "700",
+		fontSize: "27px"
+	},
+	subtitleBox: {
+		maxWidth: "800px",
+		padding: "0 30px",
+		margin: "auto",
+		marginBottom: "60px"
+	},
+	workCardBox: {
+		maxWidth: "950px",
+		padding: "0 30px",
+		margin: "auto"
+	},
+	margin: {
+		margin: "5px 0px"
+	},
+	notchedOutline: {
+		borderWidth: "1px",
+		borderColor: "#000 !important"
+	},
+	button: {
+		margin: "5px 0",
+		borderColor: "#000 !important"
+	},
+	infos: { marginTop: "10px" },
+	infosIcons: {},
+	socialIcons: {
+		marginRight: "10px"
+	},
+	infosText: {
+		marginLeft: "15px"
+	},
+	socMed: {
+		fontFamily: "Roboto",
+		margin: "20px 0px"
+	}
+}));
 
 export default function Contact(props) {
-	//const classes = useStyles();
+	const classes = useStyles();
 
 	if (props.Language === "English") {
-		return <div>test</div>;
+		return (
+			<div>
+				<Typography
+					align="center"
+					variant="h3"
+					className={classes.title}
+				>
+					| 04 : Contact |
+				</Typography>
+				<Box className={classes.subtitleBox}>
+					<Typography align="center">
+						Nulla facilisi. Vivamus vestibulum, elit in scelerisque
+						ultricies, nisl nunc pulvinar ligula, id sodales arcu
+						sapien in nisi. Quisque libero enim, mattis non augue
+						posuere, venenatis dapibus urna.
+					</Typography>
+				</Box>
+				<Box className={classes.workCardBox} align="left">
+					<Grid container spacing={10}>
+						<Grid item xs={12} sm={12} md={8}>
+							<TextField
+								className={classes.margin}
+								label="E-mail"
+								variant="outlined"
+								fullWidth={true}
+								InputProps={{
+									classes: {
+										notchedOutline: classes.notchedOutline
+									}
+								}}
+							/>
+							<TextField
+								className={classes.margin}
+								label="Subject"
+								variant="outlined"
+								fullWidth={true}
+								InputProps={{
+									classes: {
+										notchedOutline: classes.notchedOutline
+									}
+								}}
+							/>
+							<TextField
+								className={classes.margin}
+								label="Message"
+								variant="outlined"
+								fullWidth={true}
+								multiline={true}
+								rows="7"
+								InputProps={{
+									classes: {
+										notchedOutline: classes.notchedOutline
+									}
+								}}
+							/>
+							<Button
+								variant="outlined"
+								className={classes.button}
+							>
+								SEND
+							</Button>
+						</Grid>
+						<Grid item xs={12} sm={12} md={4}>
+							<Grid
+								container
+								direction="row"
+								alignItems="center"
+								className={classes.infos}
+							>
+								<Grid item>
+									<Typography className={classes.infosIcons}>
+										<Phone />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography className={classes.infosText}>
+										+33 6 59 15 54 65
+									</Typography>
+								</Grid>
+							</Grid>
+							<Grid
+								container
+								direction="row"
+								alignItems="center"
+								className={classes.infos}
+							>
+								<Grid item>
+									<Typography className={classes.infosIcons}>
+										<Mail />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography className={classes.infosText}>
+										p.b.dupire@gmail.com
+									</Typography>
+								</Grid>
+							</Grid>
+							<Grid
+								container
+								direction="row"
+								alignItems="center"
+								className={classes.infos}
+							>
+								<Grid item>
+									<Typography className={classes.infosIcons}>
+										<Location />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography className={classes.infosText}>
+										Lille, France
+									</Typography>
+								</Grid>
+							</Grid>
+							<Typography variant="h5" className={classes.socMed}>
+								Follow me on social media
+							</Typography>
+							<Grid container direction="row" alignItems="center">
+								<Grid item>
+									<Typography className={classes.socialIcons}>
+										<Facebook />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography className={classes.socialIcons}>
+										<Twitter />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography className={classes.socialIcons}>
+										<GithubCircle />
+									</Typography>
+								</Grid>
+								<Grid item>
+									<Typography
+										className={classes.socialIcons}
+										style={{ marginRight: "0px" }}
+									>
+										<Linkedin />
+									</Typography>
+								</Grid>
+							</Grid>
+						</Grid>
+					</Grid>
+				</Box>
+			</div>
+		);
 	} else {
 		return <div>test</div>;
 	}

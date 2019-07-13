@@ -30,7 +30,8 @@ const useStyles = makeStyles(theme => ({
 	},
 	cardContentButton: {
 		"&:hover": {
-			color: "#001aff"
+			color: "#001aff",
+			backgroundColor: "#fff"
 		},
 		fontWeight: "700"
 	},

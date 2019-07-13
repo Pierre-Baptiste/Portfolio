@@ -12,9 +12,6 @@ import Avatar from "@material-ui/core/Avatar";
 const useStyles = makeStyles(theme => ({
 	inline: {
 		display: "inline"
-	},
-	buttonpad: {
-		marginTop: "15px"
 	}
 }));
 
@@ -22,29 +19,35 @@ export default function ListItemElement() {
 	const classes = useStyles();
 
 	return (
-		<ListItem alignItems="flex-start">
-			<ListItemAvatar>
-				<Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-			</ListItemAvatar>
-			<ListItemText
-				primary="First Experience"
-				secondary={
-					<React.Fragment>
-						<Typography
-							component="span"
-							variant="body2"
-							className={classes.inline}
-							color="textPrimary"
-						>
-							Indelec
-						</Typography>
-						{" - Lightning protection industry"}
-						<div className={classes.buttonpad}>
-							<DialogBox />
-						</div>
-					</React.Fragment>
-				}
-			/>
-		</ListItem>
+		<React.Fragment>
+			<ListItem alignItems="flex-start" style={{ paddingBottom: 0 }}>
+				<ListItemAvatar>
+					<Avatar
+						alt="Remy Sharp"
+						src="/static/images/avatar/1.jpg"
+					/>
+				</ListItemAvatar>
+				<ListItemText
+					primary="First Experience"
+					secondary={
+						<React.Fragment>
+							<Typography
+								component="span"
+								variant="body2"
+								className={classes.inline}
+								color="textPrimary"
+							>
+								Indelec
+							</Typography>
+							{" - Lightning protection industry"}
+							<br />
+							<Typography component={"span"}>
+								<DialogBox />
+							</Typography>
+						</React.Fragment>
+					}
+				/>
+			</ListItem>
+		</React.Fragment>
 	);
 }
