@@ -14,11 +14,13 @@ const useStyles = makeStyles(theme => ({
 		display: "inline"
 	},
 	avatar: {
-		filter: "grayscale(100%)",
-		transition: "filter 0.2s",
-		"&:hover": {
-			filter: "none",
-			transition: "filter 0.2s"
+		[theme.breakpoints.up("md")]: {
+			filter: "grayscale(100%)",
+			transition: "filter 0.2s",
+			"&:hover": {
+				filter: "none",
+				transition: "filter 0.2s"
+			}
 		}
 	},
 	link: {
@@ -35,13 +37,13 @@ export default function ListItemElement(props) {
 			<ListItem alignItems="flex-start" style={{ paddingBottom: 0 }}>
 				<ListItemAvatar>
 					<a
-						href={props.avatarLink}
+						href={props.avatarlink}
 						className={classes.link}
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						<Avatar
-							alt={props.imageTitle}
+							alt={props.imagetitle}
 							src={props.image}
 							className={classes.avatar}
 						/>

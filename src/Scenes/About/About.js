@@ -4,6 +4,7 @@ import { Typography } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
 
 import ListItemElement from "./Components/ListItemElement";
+import ImageBox from "./Components/ImageBox";
 
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
@@ -67,12 +68,15 @@ export default function About(props) {
 					<List className={classes.root}>
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -94,12 +98,15 @@ export default function About(props) {
 						<Divider variant="inset" component="li" />
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -130,12 +137,15 @@ export default function About(props) {
 					<List className={classes.root}>
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -157,12 +167,15 @@ export default function About(props) {
 						<Divider variant="inset" component="li" />
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -210,12 +223,15 @@ export default function About(props) {
 					<List className={classes.root}>
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -237,12 +253,15 @@ export default function About(props) {
 						<Divider variant="inset" component="li" />
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -273,12 +292,15 @@ export default function About(props) {
 					<List className={classes.root}>
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis
@@ -300,12 +322,15 @@ export default function About(props) {
 						<Divider variant="inset" component="li" />
 						<ListItemElement
 							image={require("./Assets/avatar2.png")}
-							imageTitle="This is a test"
+							imagetitle="This is a test"
 							title="My First Experience"
 							company="TestComp"
 							date="2018"
-							avatarLink={"https://indelec.com/"}
+							avatarlink={"https://indelec.com/"}
 						>
+							<ImageBox
+								imageBox={require("./Assets/avatar2.png")}
+							/>
 							<Typography gutterBottom>
 								Cras mattis consectetur purus sit amet
 								fermentum. Cras justo odio, dapibus ac facilisis

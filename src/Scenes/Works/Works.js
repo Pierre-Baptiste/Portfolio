@@ -26,6 +26,15 @@ const useStyles = makeStyles(theme => ({
 		maxWidth: "950px",
 		padding: "0 30px",
 		margin: "auto"
+	},
+	article: {
+		color: "#167484"
+	},
+	firstLetter: {
+		fontFamily: "unifrakturmaguntia, fantasy",
+		fontSize: "50px",
+		float: "left",
+		lineHeight: "1"
 	}
 }));
 
@@ -60,7 +69,28 @@ export default function Presentation(props) {
 								title="Test"
 								subTitle="This is a subtitle"
 								description="This is a description which usually is on two lines for design"
-							/>
+							>
+								<Typography className={classes.article}>
+									<span className={classes.firstLetter}>
+										T
+									</span>
+									eesssssst TessssssstNulla facilisi. Vivamus
+									vestibulum, elit in scelerisque ultricies,
+									nisl nunc pulvinar ligula, id sodales arcu
+									sapien in nisi. Quisque libero enim, mattis
+									non augue posuere, venenatis dapibus
+									urna.Nulla facilisi. Vivamus vestibulum,
+									elit in scelerisque ultricies, nisl nunc
+									pulvinar ligula, id sodales arcu sapien in
+									nisi. Quisque libero enim, mattis non augue
+									posuere, venenatis dapibus urna.Nulla
+									facilisi. Vivamus vestibulum, elit in
+									scelerisque ultricies, nisl nunc pulvinar
+									ligula, id sodales arcu sapien in nisi.
+									Quisque libero enim, mattis non augue
+									posuere, venenatis dapibus urna.
+								</Typography>
+							</WorkCard>
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard

@@ -8,6 +8,9 @@ import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import CardMedia from "@material-ui/core/CardMedia";
 
+import Dialog from "@material-ui/core/Dialog";
+import Slide from "@material-ui/core/Slide";
+
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
@@ -51,17 +54,33 @@ const useStyles = makeStyles(theme => ({
 	},
 	media: {
 		height: 140,
-		filter: "grayscale(100%)",
-		transition: "filter 0.2s",
-		"&:hover": {
-			filter: "none",
-			transition: "filter 0.2s"
+		[theme.breakpoints.up("md")]: {
+			filter: "grayscale(100%)",
+			transition: "filter 0.2s",
+			"&:hover": {
+				filter: "none",
+				transition: "filter 0.2s"
+			}
 		}
 	}
 }));
 
+const Transition = React.forwardRef(function Transition(props, ref) {
+	return <Slide direction="up" ref={ref} {...props} />;
+});
+
 export default function WorkCard(props) {
 	const classes = useStyles();
+	const [open, setOpen] = React.useState(false);
+
+	function handleClickOpen() {
+		setOpen(true);
+	}
+
+	function handleClose() {
+		setOpen(false);
+	}
+
 	const bull = <span className={classes.bullet}>•</span>;
 
 	return (
@@ -98,9 +117,21 @@ export default function WorkCard(props) {
 					</Typography>
 				</CardContent>
 				<CardActions>
-					<Button size="small" className={classes.cardContentButton}>
+					<Button
+						size="small"
+						className={classes.cardContentButton}
+						onClick={handleClickOpen}
+					>
 						Learn More
 					</Button>
+					<Dialog
+						fullScreen
+						open={open}
+						onClose={handleClose}
+						TransitionComponent={Transition}
+					>
+						{props.children}
+					</Dialog>
 				</CardActions>
 			</Card>
 		</div>
