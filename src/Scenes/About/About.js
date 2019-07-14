@@ -65,9 +65,59 @@ export default function About(props) {
 						Work Experience
 					</Typography>
 					<List className={classes.root}>
-						<ListItemElement />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
 						<Divider variant="inset" component="li" />
-						<ListItemElement />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
 					</List>
 					<Typography
 						className={`${classes.categoryTitle} ${
@@ -78,14 +128,205 @@ export default function About(props) {
 						Education
 					</Typography>
 					<List className={classes.root}>
-						<ListItemElement />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
 						<Divider variant="inset" component="li" />
-						<ListItemElement />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
 					</List>
 				</Box>
 			</div>
 		);
 	} else {
-		return <div>test</div>;
+		return (
+			<div>
+				<Typography
+					align="center"
+					variant="h3"
+					className={classes.title}
+				>
+					| 03 : About me |
+				</Typography>
+				<Box className={classes.subtitleBox}>
+					<Typography align="center">
+						Nulla facilisi. Vivamus vestibulum, elit in scelerisque
+						ultricies, nisl nunc pulvinar ligula, id sodales arcu
+						sapien in nisi. Quisque libero enim, mattis non augue
+						posuere, venenatis dapibus urna.
+					</Typography>
+				</Box>
+				<Box className={classes.workCardBox} align="left">
+					<Typography className={classes.categoryTitle} variant="h4">
+						Work Experience
+					</Typography>
+					<List className={classes.root}>
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
+						<Divider variant="inset" component="li" />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
+					</List>
+					<Typography
+						className={`${classes.categoryTitle} ${
+							classes.lastcategoryTitle
+						}`}
+						variant="h4"
+					>
+						Education
+					</Typography>
+					<List className={classes.root}>
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
+						<Divider variant="inset" component="li" />
+						<ListItemElement
+							image={require("./Assets/avatar2.png")}
+							imageTitle="This is a test"
+							title="My First Experience"
+							company="TestComp"
+							date="2018"
+							avatarLink={"https://indelec.com/"}
+						>
+							<Typography gutterBottom>
+								Cras mattis consectetur purus sit amet
+								fermentum. Cras justo odio, dapibus ac facilisis
+								in, egestas eget quam. Morbi leo risus, porta ac
+								consectetur ac, vestibulum at eros.
+							</Typography>
+							<Typography gutterBottom>
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Vivamus sagittis lacus vel
+								augue laoreet rutrum faucibus dolor auctor.
+							</Typography>
+							<Typography gutterBottom>
+								Aenean lacinia bibendum nulla sed consectetur.
+								Praesent commodo cursus magna, vel scelerisque
+								nisl consectetur et. Donec sed odio dui. Donec
+								ullamcorper nulla non metus auctor fringilla.
+							</Typography>
+						</ListItemElement>
+					</List>
+				</Box>
+			</div>
+		);
 	}
 }

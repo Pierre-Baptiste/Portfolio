@@ -60,7 +60,7 @@ const useStyles = makeStyles(theme => ({
 	}
 }));
 
-export default function WorkCard() {
+export default function WorkCard(props) {
 	const classes = useStyles();
 	const bull = <span className={classes.bullet}>•</span>;
 
@@ -69,8 +69,9 @@ export default function WorkCard() {
 			<Card className={classes.card}>
 				<CardMedia
 					className={classes.media}
-					image={require("./../assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-					title="Contemplative Reptile"
+					style={{ height: 140 }}
+					image={props.image}
+					title={props.imageTitle}
 				/>
 				<CardContent className={classes.cardContent}>
 					<Typography
@@ -78,26 +79,22 @@ export default function WorkCard() {
 						color="textSecondary"
 						gutterBottom
 					>
-						001/006
+						{props.date}
 					</Typography>
 					<Typography
 						variant="h5"
 						component="h2"
 						className={classes.title}
 					>
-						be
 						{bull}
-						nev
-						{bull}o{bull}
-						lent
+						{props.title}
+						{bull}
 					</Typography>
 					<Typography className={classes.pos} color="textSecondary">
-						adjective
+						{props.subTitle}
 					</Typography>
 					<Typography variant="body2" component="p">
-						well meaning and kindly.
-						<br />
-						{'"a benevolent smile"'}
+						{props.description}
 					</Typography>
 				</CardContent>
 				<CardActions>

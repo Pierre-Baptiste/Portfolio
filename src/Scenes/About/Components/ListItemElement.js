@@ -12,23 +12,43 @@ import Avatar from "@material-ui/core/Avatar";
 const useStyles = makeStyles(theme => ({
 	inline: {
 		display: "inline"
+	},
+	avatar: {
+		filter: "grayscale(100%)",
+		transition: "filter 0.2s",
+		"&:hover": {
+			filter: "none",
+			transition: "filter 0.2s"
+		}
+	},
+	link: {
+		textDecoration: "none",
+		color: "inherit"
 	}
 }));
 
-export default function ListItemElement() {
+export default function ListItemElement(props) {
 	const classes = useStyles();
 
 	return (
 		<React.Fragment>
 			<ListItem alignItems="flex-start" style={{ paddingBottom: 0 }}>
 				<ListItemAvatar>
-					<Avatar
-						alt="Remy Sharp"
-						src="/static/images/avatar/1.jpg"
-					/>
+					<a
+						href={props.avatarLink}
+						className={classes.link}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<Avatar
+							alt={props.imageTitle}
+							src={props.image}
+							className={classes.avatar}
+						/>
+					</a>
 				</ListItemAvatar>
 				<ListItemText
-					primary="First Experience"
+					primary={props.title}
 					secondary={
 						<React.Fragment>
 							<Typography
@@ -37,12 +57,12 @@ export default function ListItemElement() {
 								className={classes.inline}
 								color="textPrimary"
 							>
-								Indelec
+								{props.company}
 							</Typography>
-							{" - Lightning protection industry"}
+							{" - " + props.date}
 							<br />
 							<Typography component={"span"}>
-								<DialogBox />
+								<DialogBox {...props} />
 							</Typography>
 						</React.Fragment>
 					}
