@@ -11,6 +11,9 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Dialog from "@material-ui/core/Dialog";
 import Slide from "@material-ui/core/Slide";
 
+import IconButton from "@material-ui/core/IconButton";
+import ClearIcon from "@material-ui/icons/ClearSharp";
+
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
@@ -62,6 +65,64 @@ const useStyles = makeStyles(theme => ({
 				transition: "filter 0.2s"
 			}
 		}
+	},
+	articleImage: {
+		width: "100%",
+		position: "absolute",
+		top: "50%",
+		transform: "translateY(-50%) translateX(-50%)",
+		left: "50%"
+	},
+	imageContainer: {
+		alignItems: "center",
+		minHeight: "200px",
+		width: "100vw",
+		maxWidth: "700px",
+		overflow: "hidden",
+		marginBottom: "10px",
+		display: "block",
+		position: "relative",
+		margin: "30px auto"
+	},
+	titleContainer: {
+		maxWidth: "550px",
+		width: "100vw",
+		margin: "50px auto 0px auto",
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "15px"
+		}
+	},
+	titleArticle: {
+		fontFamily: "Roboto",
+		marginLeft: 0,
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "15px"
+		}
+	},
+	subTitleArticle: {
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "15px"
+		}
+	},
+	dateArticle: {
+		[theme.breakpoints.down("xs")]: {
+			marginLeft: "15px"
+		}
+	},
+	iconContainer: {
+		right: 10,
+		position: "fixed",
+		backgroundColor: "fff",
+		zIndex: 1100
+	},
+	clearButton: {
+		margin: "5px",
+		backgroundColor: "#fff"
+	},
+	articleContainer: {
+		position: "relative",
+		margin: "20px auto",
+		maxWidth: 500
 	}
 }));
 
@@ -116,7 +177,7 @@ export default function WorkCard(props) {
 						{props.description}
 					</Typography>
 				</CardContent>
-				<CardActions>
+				<CardActions style={{ marginLeft: "4px" }}>
 					<Button
 						size="small"
 						className={classes.cardContentButton}
@@ -130,7 +191,45 @@ export default function WorkCard(props) {
 						onClose={handleClose}
 						TransitionComponent={Transition}
 					>
-						{props.children}
+						<div className={classes.iconContainer}>
+							<IconButton
+								className={classes.clearButton}
+								aria-label="Clear"
+								onClick={handleClose}
+							>
+								<ClearIcon color="error" />
+							</IconButton>
+						</div>
+						<div className={classes.titleContainer}>
+							<Typography
+								className={classes.titleArticle}
+								variant="h2"
+							>
+								{props.title}
+							</Typography>
+							<Typography
+								className={classes.subTitleArticle}
+								variant="h6"
+							>
+								{props.subTitle}
+							</Typography>
+							<Typography
+								className={classes.dateArticle}
+								variant="h6"
+							>
+								{props.date}
+							</Typography>
+						</div>
+						<div className={classes.imageContainer}>
+							<img
+								src={props.image}
+								alt={props.imageTitle}
+								className={classes.articleImage}
+							/>
+						</div>
+						<div className={classes.articleContainer}>
+							{props.children}
+						</div>
 					</Dialog>
 				</CardActions>
 			</Card>
