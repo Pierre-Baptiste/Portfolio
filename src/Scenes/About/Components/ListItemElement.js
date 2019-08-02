@@ -13,16 +13,6 @@ const useStyles = makeStyles(theme => ({
 	inline: {
 		display: "inline"
 	},
-	avatar: {
-		[theme.breakpoints.up("md")]: {
-			filter: "grayscale(100%)",
-			transition: "filter 0.2s",
-			"&:hover": {
-				filter: "none",
-				transition: "filter 0.2s"
-			}
-		}
-	},
 	link: {
 		textDecoration: "none",
 		color: "inherit"
