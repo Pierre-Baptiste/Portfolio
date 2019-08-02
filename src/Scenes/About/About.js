@@ -187,7 +187,7 @@ export default function About(props) {
 						<ListItemElement
 							image={require("./Assets/bmelogo.png")}
 							imagetitle="BME Logo"
-							title="Budapest University of Technology and Economics"
+							title="Double Degree - Budapest University of Technology and Economics"
 							company="Master's Degree in Engineering"
 							date="2018 : Now"
 							avatarlink={"https://www.bme.hu/?language=en"}
@@ -205,9 +205,9 @@ export default function About(props) {
 						<ListItemElement
 							image={require("./Assets/ensamlogo.png")}
 							imagetitle="Ensam Logo"
-							title="École Nationale Supérieure d'Arts et Métiers Paristech"
+							title="Double Degree - École Nationale Supérieure d'Arts et Métiers Paristech"
 							company="Master's Degree in Engineering"
-							date="2016 : 2020"
+							date="2016 : Now"
 							avatarlink={"https://artsetmetiers.fr/en"}
 						>
 							<ImageBox
