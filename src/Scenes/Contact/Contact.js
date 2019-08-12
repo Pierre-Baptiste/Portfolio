@@ -6,7 +6,6 @@ import TextField from "@material-ui/core/TextField";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
-import Phone from "@material-ui/icons/PhoneSharp";
 import Mail from "@material-ui/icons/AlternateEmailSharp";
 import Location from "@material-ui/icons/LocationOnSharp";
 import { Facebook, Twitter, GithubCircle, Linkedin } from "mdi-material-ui";
@@ -77,10 +76,9 @@ export default function Contact(props) {
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
-						Nulla facilisi. Vivamus vestibulum, elit in scelerisque
-						ultricies, nisl nunc pulvinar ligula, id sodales arcu
-						sapien in nisi. Quisque libero enim, mattis non augue
-						posuere, venenatis dapibus urna.
+						Want to get in touch with me ? You can reach me through
+						e-mail, on the social media links and by filling out the
+						form.
 					</Typography>
 				</Box>
 				<Box className={classes.workCardBox} align="left">
@@ -145,23 +143,6 @@ export default function Contact(props) {
 							</form>
 						</Grid>
 						<Grid item xs={12} sm={12} md={4}>
-							<Grid
-								container
-								direction="row"
-								alignItems="center"
-								className={classes.infos}
-							>
-								<Grid item>
-									<Typography className={classes.infosIcons}>
-										<Phone />
-									</Typography>
-								</Grid>
-								<Grid item>
-									<Typography className={classes.infosText}>
-										+33 6 59 15 54 65
-									</Typography>
-								</Grid>
-							</Grid>
 							<Grid
 								container
 								direction="row"
@@ -274,10 +255,9 @@ export default function Contact(props) {
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
-						Nulla facilisi. Vivamus vestibulum, elit in scelerisque
-						ultricies, nisl nunc pulvinar ligula, id sodales arcu
-						sapien in nisi. Quisque libero enim, mattis non augue
-						posuere, venenatis dapibus urna.
+						Vous souhaitez me contacter ? Vous pouvez le faire sur
+						mon e-mail, à travers les différents réseaux sociaux
+						présentés ou en passant par le formulaire.
 					</Typography>
 				</Box>
 				<Box className={classes.workCardBox} align="left">
@@ -303,7 +283,7 @@ export default function Contact(props) {
 								/>
 								<TextField
 									className={classes.margin}
-									label="Subject"
+									label="Objet"
 									variant="outlined"
 									name="_subject"
 									required
@@ -341,23 +321,6 @@ export default function Contact(props) {
 							</form>
 						</Grid>
 						<Grid item xs={12} sm={12} md={4}>
-							<Grid
-								container
-								direction="row"
-								alignItems="center"
-								className={classes.infos}
-							>
-								<Grid item>
-									<Typography className={classes.infosIcons}>
-										<Phone />
-									</Typography>
-								</Grid>
-								<Grid item>
-									<Typography className={classes.infosText}>
-										+33 6 59 15 54 65
-									</Typography>
-								</Grid>
-							</Grid>
 							<Grid
 								container
 								direction="row"

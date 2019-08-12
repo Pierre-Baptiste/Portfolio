@@ -88,7 +88,7 @@ export default function DialogBox(props) {
 				onClick={handleClickOpen}
 				className={classes.buttonclick}
 			>
-				More
+				Plus
 			</Button>
 			<SimpleDialog open={open} onClose={handleClose} {...props} />
 		</React.Fragment>

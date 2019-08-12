@@ -176,7 +176,7 @@ export default function WorkCard(props) {
 						className={classes.cardContentButton}
 						onClick={handleClickOpen}
 					>
-						Learn More
+						Plus
 					</Button>
 					<Dialog
 						fullScreen
