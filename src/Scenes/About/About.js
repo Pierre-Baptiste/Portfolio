@@ -243,7 +243,7 @@ export default function About(props) {
 					variant="h3"
 					className={classes.title}
 				>
-					| 03 : About me |
+					| 03 : À propos |
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
@@ -255,7 +255,7 @@ export default function About(props) {
 				</Box>
 				<Box className={classes.workCardBox} align="left">
 					<Typography className={classes.categoryTitle} variant="h4">
-						Work Experience
+						Expériences Professionnelles
 					</Typography>
 					<List className={classes.root}>
 						<ListItemElement
@@ -263,58 +263,107 @@ export default function About(props) {
 							imagetitle="Leafee Logo"
 							title="Co-Fondateur"
 							company="Leafee"
-							date="2018 : Aujourd'hui"
+							date="2018 : Maintenant"
 							avatarlink={"http://www.leafeeapp.com/"}
 						>
 							<ImageBox
-								imageBox={require("./Assets/avatar2.png")}
+								imageBox={require("./Assets/SloganIllustration.png")}
 							/>
-							<Typography gutterBottom>
-								Cras mattis consectetur purus sit amet
-								fermentum. Cras justo odio, dapibus ac facilisis
-								in, egestas eget quam. Morbi leo risus, porta ac
-								consectetur ac, vestibulum at eros.
+							<Typography paragraph={true}>
+								Leafee is a Personal Finance Management
+								application that gathers all your banking data
+								in one place and estimates your ecological
+								footprint from it. The goal is to educate people
+								on how their finances play a role in today's
+								climate crisis and create incentives to reduce
+								their impact.
 							</Typography>
 							<Typography gutterBottom>
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Vivamus sagittis lacus vel
-								augue laoreet rutrum faucibus dolor auctor.
+								I am responsible for the fullstack development
+								and the design of the UI/UX (server side API
+								with Node.js, Database with MongoDB, and Front
+								with React.js)
 							</Typography>
 							<Typography gutterBottom>
-								Aenean lacinia bibendum nulla sed consectetur.
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Donec sed odio dui. Donec
-								ullamcorper nulla non metus auctor fringilla.
+								• Won the first prize in the category "Smart
+								Eco-Homes" and was 2nd in the overall ranking
+								(19 teams) at the MKB FinTechlab Hackathon
+							</Typography>
+							<Typography gutterBottom>
+								• Gained understanding of business models,
+								business strategies, market research and
+								personas
 							</Typography>
 						</ListItemElement>
 						<Divider variant="inset" component="li" />
 						<ListItemElement
-							image={require("./Assets/avatar2.png")}
-							imagetitle="This is a test"
-							title="My First Experience"
-							company="TestComp"
-							date="2018"
+							image={require("./Assets/a909ElMa_400x400.jpg")}
+							imagetitle="Indelec Logo"
+							title="Installation de deux sites d'essais contre la foudre au Rwanda"
+							company="Indelec"
+							date="Juin : Août 2018"
 							avatarlink={"https://indelec.com/"}
 						>
 							<ImageBox
-								imageBox={require("./Assets/avatar2.png")}
+								imageBox={require("./Assets/3267_468x260_ruches-indelec.jpg")}
 							/>
 							<Typography gutterBottom>
-								Cras mattis consectetur purus sit amet
-								fermentum. Cras justo odio, dapibus ac facilisis
-								in, egestas eget quam. Morbi leo risus, porta ac
-								consectetur ac, vestibulum at eros.
+								Verify and maintain the equipment that was
+								already there (lightning rod, surge protector
+								and communication system) and set up new gear
+								(storm detector). Writing a scientific paper
+								presented in an international conference about
+								my study on-field.
 							</Typography>
 							<Typography gutterBottom>
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Vivamus sagittis lacus vel
-								augue laoreet rutrum faucibus dolor auctor.
+								Negotiating with local authorities (minister)
+								for a larger project.
 							</Typography>
 							<Typography gutterBottom>
-								Aenean lacinia bibendum nulla sed consectetur.
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Donec sed odio dui. Donec
-								ullamcorper nulla non metus auctor fringilla.
+								Communicating with the local population to
+								inform about the products.
+							</Typography>
+							<Typography gutterBottom>
+								Writing a scientific paper presented in an
+								international conference about my study
+								on-field.
+							</Typography>
+						</ListItemElement>
+						<Divider variant="inset" component="li" />
+						<ListItemElement
+							image={require("./Assets/Colas_logo_vector.png")}
+							imagetitle="Colas Logo"
+							title="Stagiaire au le service matériel"
+							company="Colas"
+							date="Juin : Août 2017"
+							avatarlink={"https://www.colas.com/"}
+						>
+							<ImageBox
+								imageBox={require("./Assets/push_categorie_profil.jpg")}
+							/>
+							<Typography gutterBottom>
+								Deployed (installed and trained users) a
+								software to help managers of 30 asphalt plants
+								track maintenances requests and repairs.
+							</Typography>
+						</ListItemElement>
+						<Divider variant="inset" component="li" />
+						<ListItemElement
+							image={require("./Assets/lovelacelogo.jpeg")}
+							imagetitle="Lovelace Logo"
+							title="Stagiaire maintenance et administratif"
+							company="Lovelace Health System"
+							date="Février 2017"
+							avatarlink={"http://lovelace.com/"}
+						>
+							<ImageBox
+								imageBox={require("./Assets/Lovelace.jpg")}
+							/>
+							<Typography gutterBottom>
+								Maintenance intern 4 days out of five working on
+								the current projects and as an administrative
+								intern the last day assisting and learning from
+								the COO.
 							</Typography>
 						</ListItemElement>
 					</List>
@@ -324,66 +373,54 @@ export default function About(props) {
 						}`}
 						variant="h4"
 					>
-						Education
+						Éducation
 					</Typography>
 					<List className={classes.root}>
 						<ListItemElement
-							image={require("./Assets/avatar2.png")}
-							imagetitle="This is a test"
-							title="My First Experience"
-							company="TestComp"
-							date="2018"
-							avatarlink={"https://indelec.com/"}
+							image={require("./Assets/bmelogo.png")}
+							imagetitle="BME Logo"
+							title="Double diplôme - Budapest University of Technology and Economics"
+							company="Diplôme d'ingénieur"
+							date="2018 : Maintenant"
+							avatarlink={"https://www.bme.hu/?language=en"}
 						>
 							<ImageBox
-								imageBox={require("./Assets/avatar2.png")}
+								imageBox={require("./Assets//bmeimage.jpeg")}
 							/>
 							<Typography gutterBottom>
-								Cras mattis consectetur purus sit amet
-								fermentum. Cras justo odio, dapibus ac facilisis
-								in, egestas eget quam. Morbi leo risus, porta ac
-								consectetur ac, vestibulum at eros.
-							</Typography>
-							<Typography gutterBottom>
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Vivamus sagittis lacus vel
-								augue laoreet rutrum faucibus dolor auctor.
-							</Typography>
-							<Typography gutterBottom>
-								Aenean lacinia bibendum nulla sed consectetur.
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Donec sed odio dui. Donec
-								ullamcorper nulla non metus auctor fringilla.
+								Double diploma, major in "Design & Technology",
+								minor in "Thermal engineering". Certification in
+								environmental economics and management.
 							</Typography>
 						</ListItemElement>
 						<Divider variant="inset" component="li" />
 						<ListItemElement
-							image={require("./Assets/avatar2.png")}
-							imagetitle="This is a test"
-							title="My First Experience"
-							company="TestComp"
-							date="2018"
-							avatarlink={"https://indelec.com/"}
+							image={require("./Assets/ensamlogo.png")}
+							imagetitle="Ensam Logo"
+							title="Double diplôme - École Nationale Supérieure d'Arts et Métiers Paristech"
+							company="Diplôme d'ingénieur"
+							date="2016 : Maintenant"
+							avatarlink={"https://artsetmetiers.fr/en"}
 						>
 							<ImageBox
-								imageBox={require("./Assets/avatar2.png")}
+								imageBox={require("./Assets/ensamimage.jpg")}
 							/>
 							<Typography gutterBottom>
-								Cras mattis consectetur purus sit amet
-								fermentum. Cras justo odio, dapibus ac facilisis
-								in, egestas eget quam. Morbi leo risus, porta ac
-								consectetur ac, vestibulum at eros.
+								President of the music band, I organized 7 gigs
+								in two years.
 							</Typography>
 							<Typography gutterBottom>
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Vivamus sagittis lacus vel
-								augue laoreet rutrum faucibus dolor auctor.
+								Communication manager for "Grandes UAI", a sport
+								competition where 1000 students get together for
+								3 days to compete in different sports. Achieved
+								a communication strategy that took place on
+								social medias, written and online press.
+								Negotiated with 8 sponsors and implemented tools
+								for the team's communication
 							</Typography>
 							<Typography gutterBottom>
-								Aenean lacinia bibendum nulla sed consectetur.
-								Praesent commodo cursus magna, vel scelerisque
-								nisl consectetur et. Donec sed odio dui. Donec
-								ullamcorper nulla non metus auctor fringilla.
+								Co-manager of the school's ski trip. 1400
+								students for 8 days, 500.000€ of budget
 							</Typography>
 						</ListItemElement>
 					</List>

@@ -68,6 +68,46 @@ export default function Presentation(props) {
 					<Grid container className={classes.root} spacing={4}>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
+								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+								imageTitle="Picture of myself"
+								date="2019"
+								title="Personal Website"
+								subTitle="Creation of this website"
+								description="From the design perspective to the content and purpose of it"
+							/>
+						</Grid>
+						<Grid item xs={12} sm={6} md={4}>
+							<WorkCard
+								image={require("./assets/SKZWork.png")}
+								imageTitle="SKZ image"
+								date="2019"
+								title="SKZ"
+								subTitle="Annual school ski trip"
+								description="In charge of the graphic design and merchandising"
+							/>
+						</Grid>
+						<Grid item xs={12} sm={6} md={4}>
+							<WorkCard
+								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+								imageTitle="Leafee Picture"
+								date="2018"
+								title="Birth of Leafee"
+								subTitle="Early days of the startup"
+								description="From the Hackathon to the working product and everything in between"
+							/>
+						</Grid>
+						<Grid item xs={12} sm={6} md={4}>
+							<WorkCard
+								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+								imageTitle="UAI Team"
+								date="2018"
+								title="UAI"
+								subTitle="Annual school sport competition"
+								description="In charge of the graphic design and communication"
+							/>
+						</Grid>
+						<Grid item xs={12} sm={6} md={4}>
+							<WorkCard
 								image={require("./assets/asoggetti-rSFxBGpnluw-unsplash.jpg")}
 								imageTitle="Quadcopter"
 								date="2016"
@@ -229,56 +269,6 @@ export default function Presentation(props) {
 									work.
 								</Typography>
 							</WorkCard>
-						</Grid>
-						<Grid item xs={12} sm={6} md={4}>
-							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-								imageTitle="This is a test"
-								date="2018"
-								title="Test"
-								subTitle="This is a subtitle"
-								description="This is a description which usually is on two lines for design"
-							/>
-						</Grid>
-						<Grid item xs={12} sm={6} md={4}>
-							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-								imageTitle="This is a test"
-								date="2018"
-								title="Test"
-								subTitle="This is a subtitle"
-								description="This is a description which usually is on two lines for design"
-							/>
-						</Grid>
-						<Grid item xs={12} sm={6} md={4}>
-							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-								imageTitle="This is a test"
-								date="2018"
-								title="Test"
-								subTitle="This is a subtitle"
-								description="This is a description which usually is on two lines for design"
-							/>
-						</Grid>
-						<Grid item xs={12} sm={6} md={4}>
-							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-								imageTitle="This is a test"
-								date="2018"
-								title="Test"
-								subTitle="This is a subtitle"
-								description="This is a description which usually is on two lines for design"
-							/>
-						</Grid>
-						<Grid item xs={12} sm={6} md={4}>
-							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
-								imageTitle="This is a test"
-								date="2018"
-								title="Test"
-								subTitle="This is a subtitle"
-								description="This is a description which usually is on two lines for design"
-							/>
 						</Grid>
 					</Grid>
 				</Box>

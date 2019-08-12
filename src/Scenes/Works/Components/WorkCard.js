@@ -56,15 +56,7 @@ const useStyles = makeStyles(theme => ({
 		fontWeight: "700"
 	},
 	media: {
-		height: 140,
-		[theme.breakpoints.up("md")]: {
-			filter: "grayscale(100%)",
-			transition: "filter 0.2s",
-			"&:hover": {
-				filter: "none",
-				transition: "filter 0.2s"
-			}
-		}
+		height: 140
 	},
 	articleImage: {
 		width: "100%",
@@ -152,6 +144,7 @@ export default function WorkCard(props) {
 					style={{ height: 140 }}
 					image={props.image}
 					title={props.imageTitle}
+					onClick={handleClickOpen}
 				/>
 				<CardContent className={classes.cardContent}>
 					<Typography
