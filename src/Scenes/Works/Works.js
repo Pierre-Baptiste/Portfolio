@@ -70,7 +70,7 @@ export default function Presentation(props) {
 					<Grid container className={classes.root} spacing={4}>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+								image={require("./assets/Pb_Bg2.jpg")}
 								imageTitle="Picture of myself"
 								date="2019"
 								title="Personal Website"
@@ -181,7 +181,7 @@ export default function Presentation(props) {
 					<Grid container className={classes.root} spacing={4}>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/tony-dinh-54T98veBp-c-unsplash.jpg")}
+								image={require("./assets/Pb_Bg2.jpg")}
 								imageTitle="Picture of myself"
 								date="2019"
 								title="Site personnel"

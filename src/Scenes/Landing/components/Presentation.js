@@ -9,12 +9,7 @@ const useStyles = makeStyles(theme => ({
 		display: "flex",
 		justifyContent: "flex-start",
 		flexDirection: "column",
-		[theme.breakpoints.down("md")]: {
-			alignItems: "center"
-		},
-		[theme.breakpoints.up("md")]: {
-			alignItems: "flex-start"
-		}
+
 	},
 	h1classtop: {
 		fontFamily: "Roboto",
@@ -32,28 +27,22 @@ const useStyles = makeStyles(theme => ({
 			fontSize: 60
 		},
 		[theme.breakpoints.between("md", "md")]: {
-			flexGrow: 1,
-			alignSelf: "center",
-			position: "absolute",
+
 			fontSize: 50,
-			marginTop: "30px",
-			marginLeft: "auto"
+			marginTop: "50px",
+			marginLeft: "50px"
 		},
 		[theme.breakpoints.between("sm", "sm")]: {
-			flexGrow: 1,
-			alignItems: "flex-start",
-			position: "absolute",
+
 			fontSize: 40,
 			marginTop: "30px",
-			marginLeft: "auto"
+			marginLeft: "30px"
 		},
 		[theme.breakpoints.between("xs", "xs")]: {
-			flexGrow: 1,
-			alignItems: "flex-start",
-			position: "fixed",
+
 			fontSize: 25,
 			marginTop: "20px",
-			marginLeft: "auto"
+			marginLeft: "20px"
 		}
 	},
 	h1classbottom: {
@@ -71,28 +60,20 @@ const useStyles = makeStyles(theme => ({
 			fontSize: 60
 		},
 		[theme.breakpoints.between("md", "md")]: {
-			flexGrow: 1,
-			alignSelf: "center",
-			position: "absolute",
+			
 			fontSize: 50,
-			marginTop: "80px",
-			marginLeft: "auto"
+			marginLeft: "50px"
 		},
 		[theme.breakpoints.between("sm", "sm")]: {
-			flexGrow: 1,
-			alignItems: "flex-start",
-			position: "absolute",
+			
 			fontSize: 40,
-			marginTop: "70px",
-			marginLeft: "auto"
+			marginLeft: "30px"
 		},
 		[theme.breakpoints.between("xs", "xs")]: {
-			flexGrow: 1,
-			alignItems: "flex-start",
-			position: "fixed",
+			
 			fontSize: 25,
-			marginTop: "50px",
-			marginLeft: "auto"
+
+			marginLeft: "20px"
 		}
 	}
 }));

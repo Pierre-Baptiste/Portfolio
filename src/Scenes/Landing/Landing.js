@@ -17,7 +17,7 @@ class Landing extends Component {
 					maxWidth: "1920px",
 					backgroundSize: "cover",
 					position: "fixed",
-					backgroundPosition: "right top"
+					backgroundPosition: "85% top",
 				}}
 			>
 				<Presentation Language={this.props.Language} />
