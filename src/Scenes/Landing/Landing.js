@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import Presentation from "./components/Presentation";
 
 // Assets
-import Background from "./assets/jake-davies-lEL5auXYrU0-unsplash.jpg";
+import Background from "./assets/Pb_Bg.jpg";
 
 class Landing extends Component {
 	render() {
