@@ -6,6 +6,8 @@ import Grid from "@material-ui/core/Grid";
 
 import WorkCard from "./Components/WorkCard";
 
+import Circle from "@material-ui/icons/Brightness1";
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -43,6 +45,19 @@ const useStyles = makeStyles(theme => ({
     marginBottom: "10px",
     textAlign: "justify"
   },
+  articleEnd: {
+    fontFamily: "Roboto",
+    fontSize: 20,
+    padding: "0 20px",
+    marginTop: "60px",
+    textAlign: "center",
+    color: "#001aff",
+    marginBottom: "40px"
+  },
+  imageElement: {
+    maxWidth:"500px",
+    width: "100%"
+  },
   firstLetter: {
     fontFamily: "unifrakturmaguntia, fantasy",
     fontSize: "50px",
@@ -77,17 +92,17 @@ export default function Presentation(props) {
                 image={require("./assets/Pb_Bg2.jpg")}
                 imageTitle="Picture of myself"
                 date="2019"
-                title="Personal Branding"
+                title="Personal Website"
                 subTitle="Creation of this website"
                 description="From the design perspective to the content and purpose of it"
               >
                 <Typography className={classes.article}>
                   <span className={classes.firstLetter}>T</span>
-                  his is my personal identity. After I started creating it I
-                  realized how difficult it is to search for your real personal
-                  identity. If you are working for someone else it is easier to
-                  know what the client is looking for. But being your own client
-                  can be tricky.
+                  his is my personal website. After I started creating it I
+                  realized how difficult of a client your self can be. But
+                  overall it has been a fun and educational project. I deepened
+                  my knowledge of React.js and deployment processes. I also got
+                  acquainted with SEO.
                 </Typography>
                 <Typography className={classes.articleTitle}>
                   #01 - ABOUT THIS PROJECT
@@ -98,8 +113,70 @@ export default function Presentation(props) {
                   to be ready than sorry, I created this website along with my
                   personal branding to showcase my awesome work.
                 </Typography>
-				<Typography className={classes.articleTitle}>
+                <img
+                  src={require("./assets/PB_01.jpg")}
+                  alt="Landing of website"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleTitle}>
                   #02 - THE PROCESS
+                </Typography>
+                <Typography className={classes.article}>
+                  Conceptualizing and developing started around late June of
+                  this year (2019). I started mind-mapping to help break down my
+                  brand to it's truest form and from there I started
+                  experimenting out ideas. There were a lot of paths for me to
+                  chose considering my tastes but day-by-day, I ditched dead end
+                  iterations and built off others eventually coming to a
+                  conclusion that suited me best.
+                  <br />
+                  The basis of the wireframe is "Simplicity & Elegance"
+                </Typography>
+                <img
+                  src={require("./assets/Wireframe.png")}
+                  alt="Wireframe Landing page"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleTitle}>
+                  #03 - FONTS & COLORS
+                </Typography>
+                <Typography
+                  className={classes.article}
+                  style={{ fontFamily: "Roboto", textAlign: "right" }}
+                >
+                  Roboto Bold
+                  <br />
+                  The quick brown fox jumps over the lazy dog
+                  <br />
+                  0123456789
+                </Typography>
+                <Typography className={classes.article}>
+                  Monospace
+                  <br />
+                  The quick brown fox jumps over the lazy dog
+                  <br />
+                  0123456789
+                </Typography>
+                <Typography
+                  className={classes.article}
+                  style={{ textAlign: "right" }}
+                >
+                  <Circle style={{ color: "#000000" }} /> #000000
+                  <br />
+                  <Circle style={{ color: "#001aff" }} /> #001aff
+                  <br />
+                  <Circle style={{ color: "#f0f0f0" }} /> #f0f0f0
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #04 - RESPONSIVE DESIGN
+                </Typography>
+                <img
+                  src={require("./assets/Mockup.png")}
+                  alt="Mobile responsive"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleEnd}>
+                  #THANK YOU FOR READING
                 </Typography>
               </WorkCard>
             </Grid>

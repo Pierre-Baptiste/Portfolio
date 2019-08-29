@@ -77,7 +77,7 @@ const useStyles = makeStyles(theme => ({
 		margin: "30px auto"
 	},
 	titleContainer: {
-		maxWidth: "550px",
+		maxWidth: "500px",
 		width: "100vw",
 		margin: "50px auto 0px auto",
 		[theme.breakpoints.down("xs")]: {
