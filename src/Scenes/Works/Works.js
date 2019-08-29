@@ -87,7 +87,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/SKZWork.png")}
+								image={require("./assets/SKZWork.jpg")}
 								imageTitle="SKZ image"
 								date="2019"
 								title="SKZ"
@@ -121,7 +121,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/UAIWork.png")}
+								image={require("./assets/UAIWork.jpg")}
 								imageTitle="UAI Team"
 								date="2018"
 								title="UAI"
@@ -138,7 +138,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/asoggetti-rSFxBGpnluw-unsplash.jpg")}
+								image={require("./assets/DroneWork.jpg")}
 								imageTitle="Quadcopter"
 								date="2016"
 								title="Quadcopter"
@@ -198,7 +198,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/SKZWork.png")}
+								image={require("./assets/SKZWork.jpg")}
 								imageTitle="SKZ image"
 								date="2019"
 								title="SKZ"
@@ -232,7 +232,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/UAIWork.png")}
+								image={require("./assets/UAIWork.jpg")}
 								imageTitle="UAI Team"
 								date="2018"
 								title="UAI"
@@ -249,7 +249,7 @@ export default function Presentation(props) {
 						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
-								image={require("./assets/asoggetti-rSFxBGpnluw-unsplash.jpg")}
+								image={require("./assets/DroneWork.jpg")}
 								imageTitle="Quadcopter"
 								date="2016"
 								title="Quadcopter"

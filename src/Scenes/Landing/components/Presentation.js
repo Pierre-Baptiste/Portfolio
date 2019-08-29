@@ -99,8 +99,8 @@ export default function Presentation(props) {
 					Bonjour,
 				</Typography>
 				<Typography variant="h1" className={classes.h1classbottom}>
-					Je suis Pierre-Baptiste
-					<div style={{ color: "#001aff" }}>.</div>
+					Je m'appelle <br/>Pierre-Baptiste
+					<div style={{ color: "#001aff" }}><br/>.</div>
 				</Typography>
 			</div>
 		);
