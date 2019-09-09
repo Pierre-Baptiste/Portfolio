@@ -93,7 +93,7 @@ export default function Presentation(props) {
                 imageTitle="Picture of myself"
                 date="2019"
                 title="Personal Website"
-                subTitle="Creation of this website"
+                subTitle="Individual"
                 description="From the design perspective to the content and purpose of it"
               >
                 <Typography className={classes.article}>
@@ -186,13 +186,39 @@ export default function Presentation(props) {
                 imageTitle="SKZ image"
                 date="2019"
                 title="SKZ"
-                subTitle="Annual school ski trip"
-                description="In charge of the graphic design and merchandising"
+                subTitle="Team member"
+                description="Annual school ski trip gathering 1400 students"
               >
                 <Typography className={classes.article}>
-                  <span className={classes.firstLetter}>M</span>
-                  ore to come soon...
+                  <span className={classes.firstLetter}>O</span>
+                  ne week at the winter sports for Arts & Métiers engineering
+                  students that took place from january the 19th to the 26th of
+                  2018. Skiozarts (SKZ) celebrated its 30th edition last year
+                  with the aim of perpetuating a major challenge: bringing 1400
+                  students together in a major alpine resort in the middle of
+                  January, which is the largest student ski event in Europe.
                 </Typography>
+                <Typography className={classes.article}>
+                  Important figures:
+                  <ul>
+                    <li>Budget of €600k</li>
+                    <li>Organizing team of 20 people</li>
+                    <li>9 months of planning</li>
+                  </ul>
+                </Typography>
+                <Typography className={classes.article}>
+                  I was responsible for all the graphical aspect of the event.
+                  From establishing the design guidelines to the design of the
+                  merchandizing. My most relevant work will be presented below.
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #01 - THE LOGO
+                </Typography>
+                <img
+                  src={require("./assets/Mockup.png")}
+                  alt="Mobile responsive"
+                  className={classes.imageElement}
+                />
               </WorkCard>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
@@ -201,7 +227,7 @@ export default function Presentation(props) {
                 imageTitle="Leafee Picture"
                 date="2018"
                 title="Birth of Leafee"
-                subTitle="Early days of the startup"
+                subTitle="One of 4 Co-founders"
                 description="From the Hackathon to the working product and everything in between"
               >
                 <Typography className={classes.article}>
@@ -216,8 +242,8 @@ export default function Presentation(props) {
                 imageTitle="UAI Team"
                 date="2018"
                 title="UAI"
-                subTitle="Annual school sport competition"
-                description="In charge of the graphic design and communication"
+                subTitle="team member"
+                description="Annual school sport competition gathering 1000 students"
               >
                 <Typography className={classes.article}>
                   <span className={classes.firstLetter}>M</span>
