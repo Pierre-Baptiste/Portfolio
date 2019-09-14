@@ -368,6 +368,9 @@ export default function Presentation(props) {
                     marginBottom: "30px"
                   }}
                 />
+                <Typography className={classes.articleEnd}>
+                  #THANK YOU FOR READING
+                </Typography>
               </WorkCard>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
