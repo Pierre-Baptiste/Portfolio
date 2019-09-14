@@ -56,7 +56,9 @@ const useStyles = makeStyles(theme => ({
   },
   imageElement: {
     maxWidth:"500px",
-    width: "100%"
+    width: "100%",
+    display: "block",
+    margin: "auto"
   },
   firstLetter: {
     fontFamily: "unifrakturmaguntia, fantasy",
@@ -215,9 +217,156 @@ export default function Presentation(props) {
                   #01 - THE LOGO
                 </Typography>
                 <img
-                  src={require("./assets/Mockup.png")}
-                  alt="Mobile responsive"
+                  src={require("./assets/LogoLines.png")}
+                  alt="Logo with construction lines"
                   className={classes.imageElement}
+                  style={{ marginTop: "30px", marginBottom: "30px" }}
+                />
+                <Typography className={classes.article}>
+                  Traditionnaly, the logo contains 3 summits embeded in it. With
+                  this constraint in mind, I first started to work on the
+                  typography. The straight lines, harsh corners and fat typo
+                  remind us of the steepness of the mountains and its
+                  grandiosity while the roundness of the "S" sweetens the whole.
+                </Typography>
+                <Typography className={classes.article}>
+                  Another challenge was to integrate the 30th edition milestone
+                  sign. I choose the negative technique to make it discret but
+                  still noticable.
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #02 - COLORS
+                </Typography>
+                <Typography className={classes.article}>
+                  In the past few years, the event wore mostly the blue color as
+                  it is often associated with the cold icy mountain. To change
+                  that and set the difference for the 30th edition, I went down
+                  a riskier path with a red to pink gradient.
+                </Typography>
+                <Typography className={classes.article}>
+                  <Circle style={{ color: "#d32027" }} /> #d32027
+                  <br />
+                  <Circle style={{ color: "#e33c96" }} /> #e33c96
+                  <br />
+                  <Circle style={{ color: "#d5d8dc" }} /> #d5d8dc
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #03 - TRAILER
+                </Typography>
+                <Typography className={classes.article}>
+                  The making of the trailer was my main challenge as I've only
+                  had little experience with video editing before. But it also
+                  provided me with a project to learn how to.
+                </Typography>
+                <Typography className={classes.article}>
+                  I jumped into it head first, experimenting a lot. After long
+                  hours, I was really proud of the result.
+                </Typography>
+                <Typography className={classes.article}>
+                  The lenght of the video was reduced by 20% from the precedent
+                  one to make it more dynamic. It needed to be in 5 parts which
+                  are :
+                  <ul>
+                    <li>Teasing</li>
+                    <li>Meet the team</li>
+                    <li>Anouncement of the location</li>
+                    <li>Day-activities</li>
+                    <li>Night-activities</li>
+                  </ul>
+                </Typography>
+                <iframe
+                  title="SKZ 2019 Trailer"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/cDr8XHTkZVI"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <Typography className={classes.articleTitle}>
+                  #04 - MERCHANDISING
+                </Typography>
+                <Typography className={classes.article}>
+                  Each participant receives a bag full of personalised objects
+                  such as:
+                  <ul>
+                    <li>Sweatshirt</li>
+                    <li>Card deck</li>
+                    <li>Patch</li>
+                    <li>Cup</li>
+                    <li>External battery</li>
+                  </ul>
+                </Typography>
+                <Typography className={classes.article}>
+                  My job was two sided. Indeed, on one side I negociated the
+                  contract with the provider to get what we wanted into the
+                  fixed budget of €30k and to design the visuals for each one.
+                </Typography>
+                <Typography className={classes.article}>
+                  Here is an exemple of what the patch looked like:
+                </Typography>
+                <img
+                  src={require("./assets/EcussonSKZ.png")}
+                  alt="Ecusson SKZ"
+                  className={classes.imageElement}
+                  style={{
+                    width: "300px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <Typography className={classes.articleTitle}>
+                  #05 - VISUALS
+                </Typography>
+                <img
+                  src={require("./assets/MaskSKZ.jpg")}
+                  alt="Mask Logo"
+                  className={classes.imageElement}
+                  style={{
+                    width: "300px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src={require("./assets/TBKTourSKZ.jpg")}
+                  alt="TBK Tour visual"
+                  className={classes.imageElement}
+                  style={{
+                    width: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src={require("./assets/PrixSKZ.jpg")}
+                  alt="Price Visual SKZ"
+                  className={classes.imageElement}
+                  style={{
+                    width: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src={require("./assets/ActivitiesSKZ.jpg")}
+                  alt="Activities of SKZ"
+                  className={classes.imageElement}
+                  style={{
+                    width: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src={require("./assets/LogoSKZRound.png")}
+                  alt="Final logo"
+                  className={classes.imageElement}
+                  style={{
+                    width: "300px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
                 />
               </WorkCard>
             </Grid>
