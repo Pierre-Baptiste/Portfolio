@@ -383,8 +383,87 @@ export default function Presentation(props) {
                 description="From the Hackathon to the working product and everything in between"
               >
                 <Typography className={classes.article}>
-                  <span className={classes.firstLetter}>M</span>
-                  ore to come soon...
+                  <span className={classes.firstLetter}>W</span>
+                  hile completing my double degree in Budapest, 3 classmates and
+                  I participated in the 2018 edition of the MKB FintechLab
+                  Hackathon. Considered as the outsiders (no developper in the
+                  team, no existing product nor idea), we still managed to win
+                  in the category "Smart-Eco Home, an open banking concept" and
+                  occupy a proud second place for the whole event.
+                </Typography>
+                <Typography className={classes.article}>
+                  Here's how we did it.
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #01 - THE CHALLENGE
+                </Typography>
+                <Typography className={classes.article}>
+                  "BOŚ Bank from Poland is interested in smart solutions that
+                  can reduce people ecological footprint with the help of open
+                  banking standard. At the Fintechlab Hackathon taking place
+                  from the 30th of November until the 2nd of December 2018,
+                  teams will have 30 hours to develop the most effective
+                  prototypes which support environmental awareness and
+                  effectively reduce the negative impact on environment. The
+                  special challenge is that the teams should use the MKB’s tools
+                  of open banking and/or smart home products to complete the
+                  task."
+                </Typography>
+                <img
+                  src={require("./assets/Hackathon_win.jpg")}
+                  alt="Winners of the Hackathon"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleTitle}>
+                  #02 - THE IDEA
+                </Typography>
+                <Typography className={classes.article}>
+                  Our assumption was that many people want to be part of the
+                  ecological transition but lack an easy and intuitive tool to
+                  do so. We believe that such a tool could effectively raise
+                  awareness and change the users’ consumption habits. We thought
+                  about using the digital transition of banks as a lever, making
+                  the best out of open banking, to link management of ﬁnances
+                  and ecological impact.
+                </Typography>
+                <Typography className={classes.article}>
+                  From this point on, a PFM-like (Personnal Finance Management)
+                  solution came quite naturally. One that would be convenient to
+                  use regualarly but filled with the right data to guide the
+                  user toward a greener lifestyle.
+                </Typography>
+                <Typography className={classes.article}>
+                  The Minimum Viable Product would have the following features:
+                  <ul>
+                    <li>All accounts available in one place</li>
+                    <li>Budgetting capabilities</li>
+                    <li>Privacy & Security</li>
+                    <li>Ecological footprint calculated from transactions</li>
+                    <li>Guidance toward the reduction of it</li>
+                  </ul>
+                </Typography>
+                <img
+                  src={require("./assets/Hackathon_Pict.jpg")}
+                  alt="presentation asset"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleTitle}>
+                  #03 - THE PRODUCT
+                </Typography>
+                <Typography className={classes.article}>
+                  At the end of the hackathon, we already had a precise idea of
+                  what the product would look like, and the jury liked it. We
+                  produced the design of the main screens of the app, wrote a
+                  business plan, got acquainted with the regulation and did a
+                  lot of research on the maths behind the calculations.
+                </Typography>
+                <img
+                  src={require("./assets/Iphone_mockup_new_logo.png")}
+                  alt="presentation of the app"
+                  className={classes.imageElement}
+                />
+                <Typography className={classes.articleTitle}>
+                  #04 - WHAT AFTER ?
                 </Typography>
               </WorkCard>
             </Grid>
