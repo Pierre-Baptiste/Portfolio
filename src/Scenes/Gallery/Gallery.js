@@ -41,6 +41,17 @@ export default function About(props) {
 		</div>
 	);
   } else {
-    return null;
+    return (
+      <div>
+		<Typography align="center" variant="h3" className={classes.title}>
+          | 04 : Gallerie |
+        </Typography>
+        <Box className={classes.subtitleBox}>
+          <Typography align="center">
+            To be added
+          </Typography>
+        </Box>
+		</div>
+    );
   }
 }
