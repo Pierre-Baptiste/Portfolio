@@ -465,6 +465,32 @@ export default function Presentation(props) {
                 <Typography className={classes.articleTitle}>
                   #04 - WHAT AFTER ?
                 </Typography>
+                <Typography className={classes.article}>
+                  We could not just leave it there so we kept working on the
+                  idea to see where this would go. Our goal was mainly to learn
+                  as much as we could about the process of creating a business
+                  and actually run one. More personnaly, I saw an opportunity to
+                  learn to code and seized it.
+                </Typography>
+                <Typography className={classes.article}>
+                  We had our MVP about 3 months after and kept making iterations
+                  on its design and functionnalities. You can visit the website{" "}
+                  <a
+                    href="http://www.leafeeapp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color:"#001aff"}}
+                  >
+                    here
+                  </a>
+                  .
+                </Typography>
+                <Typography className={classes.article}>
+                ※ Due to a lack of time, the project is currently on hold. ※
+                </Typography>
+                <Typography className={classes.articleEnd}>
+                  #THANK YOU FOR READING
+                </Typography>
               </WorkCard>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>

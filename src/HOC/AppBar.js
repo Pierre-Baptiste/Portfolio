@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
 	},
 	item: {
 		display: "none",
-		[theme.breakpoints.up("sm")]: {
+		[theme.breakpoints.up("md")]: {
 			display: "flex"
 		},
 		fontSize: 12
@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
 	},
 	divider: {
 		display: "none",
-		[theme.breakpoints.up("sm")]: {
+		[theme.breakpoints.up("md")]: {
 			display: "flex"
 		},
 		marginRight: theme.spacing(2),
@@ -57,7 +57,7 @@ const useStyles = makeStyles(theme => ({
 	},
 	menuButton: {
 		justifyContent: "flex-start",
-		[theme.breakpoints.up("sm")]: {
+		[theme.breakpoints.up("md")]: {
 			display: "none"
 		}
 	},
@@ -96,7 +96,7 @@ export default function SimpleAppBar(props) {
 		setState({ ...state, [side]: open });
 	};
 
-	const linksDrawer = ["/home", "/works", "/about", "contact"];
+	const linksDrawer = ["/home", "/works", "/about", "/gallery", "contact"];
 
 	const fullListEn = side => (
 		<div
@@ -110,7 +110,8 @@ export default function SimpleAppBar(props) {
 					"01 : Home",
 					"02 : Works",
 					"03 : About me",
-					"04 : Contact"
+					"04 : Gallery",
+					"05 : Contact"
 				].map((text, i) => (
 					<ListItem button key={text}>
 						<Link to={linksDrawer[i]} className={classes.link}>
@@ -134,7 +135,8 @@ export default function SimpleAppBar(props) {
 					"01 : Accueil",
 					"02 : Travaux",
 					"03 : À propos",
-					"04 : Contacter"
+					"04 : Gallerie",
+					"04 : Contact",
 				].map((text, i) => (
 					<ListItem button key={text}>
 						<Link to={linksDrawer[i]} className={classes.link}>
@@ -221,8 +223,24 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
+							<Link to="/gallery" className={classes.link}>
+								04 : Gallery
+							</Link>
+						</Typography>
+						<Typography
+							variant="h6"
+							color="secondary"
+							className={classes.divider}
+						>
+							|
+						</Typography>
+						<Typography
+							variant="h6"
+							color="secondary"
+							className={classes.item}
+						>
 							<Link to="/contact" className={classes.link}>
-								04 : Contact
+								05 : Contact
 							</Link>
 						</Typography>
 						<Typography className={classes.placeholder} />
@@ -331,8 +349,24 @@ export default function SimpleAppBar(props) {
 							color="secondary"
 							className={classes.item}
 						>
+							<Link to="/gallery" className={classes.link}>
+								04 : Gallerie
+							</Link>
+						</Typography>
+						<Typography
+							variant="h6"
+							color="secondary"
+							className={classes.divider}
+						>
+							|
+						</Typography>
+						<Typography
+							variant="h6"
+							color="secondary"
+							className={classes.item}
+						>
 							<Link to="/contact" className={classes.link}>
-								04 : Contacter
+								05 : Contacter
 							</Link>
 						</Typography>
 						<Typography className={classes.placeholder} />

@@ -6,6 +6,7 @@ import Landing from "./Scenes/Landing/Landing";
 import About from "./Scenes/About/About";
 import Works from "./Scenes/Works/Works";
 import Contact from "./Scenes/Contact/Contact";
+import Gallery from "./Scenes/Gallery/Gallery";
 export default class Routes extends Component {
 	render() {
 		return (
@@ -24,6 +25,11 @@ export default class Routes extends Component {
 					path="/about"
 					exact
 					component={() => <About Language={this.props.Language} />}
+				/>
+				<Route
+					path="/gallery"
+					exact
+					component={() => <Gallery Language={this.props.Language} />}
 				/>
 				<Route
 					path="/contact"

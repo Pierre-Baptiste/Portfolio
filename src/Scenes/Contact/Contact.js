@@ -72,7 +72,7 @@ export default function Contact(props) {
 					variant="h3"
 					className={classes.title}
 				>
-					| 04 : Contact |
+					| 05 : Contact |
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
@@ -251,7 +251,7 @@ export default function Contact(props) {
 					variant="h3"
 					className={classes.title}
 				>
-					| 04 : Contact |
+					| 05 : Contact |
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
