@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: "60px"
   },
   imagebox: {
-    maxWidth: "1200px",
+    maxWidth: "1000px",
     margin: "auto"
   }
 }));

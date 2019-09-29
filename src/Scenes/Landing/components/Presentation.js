@@ -2,6 +2,8 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 
+import Typist from 'react-typist';
+
 const useStyles = makeStyles(theme => ({
 	container: {
 		width: "100%",
@@ -83,15 +85,48 @@ export default function Presentation(props) {
 
 	if (props.Language === "English") {
 		return (
-			<div className={classes.container}>
-				<Typography variant="h1" className={classes.h1classtop}>
-					Hello,
-				</Typography>
-				<Typography variant="h1" className={classes.h1classbottom}>
-					I'm Pierre-Baptiste<div style={{ color: "#001aff" }}>.</div>
-				</Typography>
-			</div>
-		);
+      <div className={classes.container}>
+        <Typography variant="h1" className={classes.h1classtop}>
+          Hello,
+        </Typography>
+        <Typography variant="h1" className={classes.h1classbottom}>
+          I'm&nbsp;
+          <Typist startDelay={1000}>
+            <span>
+              Pierre-Baptiste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={16} delay={1000} />
+            <span>
+              an engineer<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              a designer<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={11} delay={1000} />
+            <span>
+              a developer<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              a guitarist<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              passionate<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={11} delay={1000} />
+			<span>
+              creative<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={9} delay={1000} />
+			<span>
+              Pierre-Baptiste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+          </Typist>
+        </Typography>
+      </div>
+    );
 	} else {
 		return (
 			<div className={classes.container}>
