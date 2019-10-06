@@ -4,7 +4,7 @@ export default function ImageBox(props) {
 	return (
 		<div
 			style={{
-				height: "100px",
+				height: "200px",
 				width: "100%",
 				overflow: "hidden",
 				marginBottom: "10px",
