@@ -505,7 +505,7 @@ export default function Presentation(props) {
               >
                 <Typography className={classes.article}>
                   <span className={classes.firstLetter}>M</span>
-                  ore to come soon...
+                  ore to come soon... Really soon...
                 </Typography>
               </WorkCard>
             </Grid>
