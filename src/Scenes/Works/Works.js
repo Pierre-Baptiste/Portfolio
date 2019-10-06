@@ -95,7 +95,7 @@ export default function Presentation(props) {
                 imageTitle="Picture of myself"
                 date="2019"
                 title="Personal Website"
-                subTitle="Individual"
+                subTitle="Personal Project"
                 description="From the design perspective to the content and purpose of it"
               >
                 <Typography className={classes.article}>
