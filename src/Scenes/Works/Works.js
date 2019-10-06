@@ -56,7 +56,7 @@ const useStyles = makeStyles(theme => ({
   },
   imageElement: {
     maxWidth:"500px",
-    width: "100%",
+    width: "100vw",
     display: "block",
     margin: "auto"
   },
@@ -276,11 +276,12 @@ export default function Presentation(props) {
                 </Typography>
                 <iframe
                   title="SKZ 2019 Trailer"
-                  width="560"
-                  height="315"
+                  maxWidth="500px"
+                  width="100%"
+                  height="340px"
                   src="https://www.youtube.com/embed/cDr8XHTkZVI"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                   allowfullscreen
                 ></iframe>
                 <Typography className={classes.articleTitle}>
@@ -310,7 +311,7 @@ export default function Presentation(props) {
                   alt="Ecusson SKZ"
                   className={classes.imageElement}
                   style={{
-                    width: "300px",
+                    maxWidth: "300px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
@@ -323,7 +324,7 @@ export default function Presentation(props) {
                   alt="Mask Logo"
                   className={classes.imageElement}
                   style={{
-                    width: "300px",
+                    maxWidth: "300px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
@@ -333,7 +334,7 @@ export default function Presentation(props) {
                   alt="TBK Tour visual"
                   className={classes.imageElement}
                   style={{
-                    width: "500px",
+                    maxWidth: "500px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
@@ -343,7 +344,7 @@ export default function Presentation(props) {
                   alt="Price Visual SKZ"
                   className={classes.imageElement}
                   style={{
-                    width: "500px",
+                    maxWidth: "500px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
@@ -353,7 +354,7 @@ export default function Presentation(props) {
                   alt="Activities of SKZ"
                   className={classes.imageElement}
                   style={{
-                    width: "500px",
+                    maxWidth: "500px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
@@ -363,7 +364,7 @@ export default function Presentation(props) {
                   alt="Final logo"
                   className={classes.imageElement}
                   style={{
-                    width: "300px",
+                    maxWidth: "300px",
                     marginTop: "30px",
                     marginBottom: "30px"
                   }}
