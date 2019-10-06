@@ -699,7 +699,7 @@ export default function Presentation(props) {
                   src={
                     "https://lh3.googleusercontent.com/ruUiS-d0apcPgC9DcGHSDiUxyCWYrz7hKNpDZf9aWEN4GNRcYM4MHlIYE4D649hYqLo2nejFCHPSRfpTfE6Ne3LyGapT1Wwiy20hfOb3or5gjKw8LEungtkw03bvRZmGfgPK7ghMhPme-n8lGyT8AK1nJtE50_1Vup1UqBuWwB86Xt7PmxGKfb5LuGGcO6etQmjxm2hp_4iuzyAV-tmYPmX8SzCX00RaXVRqdVLinu1aI0nyyCKFTYlBTsWsoA0KpjRCpL8nOVitPbeOvwpbwbxd-CA5Mw3d7OCz4ZeoTeHE6mY40MoXz2EC-h-oyN1arQz9Cc2G89WHH_G2lerFPKZGMCpTHG5XZb-e-MdWvy___3JAPrleQserICWDpkn8XZKSx1Q5GX8dMnEjYJ-yAoj6Fbih-ODFXEoNX8cpG7Jwq6tMmj3fAyrBiM99UmoQ-tZ9VzA41UeAkrlLW-UUXxxEBiEQP6G5HJ_P-D3ve4glqg0JVBnzkMdccy2zfKkg_1BLMJDzCeIC_w0cjZhGloYtGYQBriKsiPL5nxbAynvDfJFjULw3oA2myzIOF5RlTCmD0txrEdDnJ7vZSbmyYBNW2Ju6o7oYG-z6B8ZE9mDas1nRuucci-jyIS-kjeQaSYnhunwrgqFt10qxyjdMqHksNi9RBcoVQqt1rA2G9FoLFna8z1aoaw=s666-no"
                   }
-                  alt="Photo #1"
+                  alt="President of the vent"
                   className={classes.imageElement}
                   style={{
                     marginTop: "30px",
@@ -710,7 +710,7 @@ export default function Presentation(props) {
                   src={
                     "https://lh3.googleusercontent.com/UGyTSLUmwSru6YaPtZfcyCHQEG8kZ9VtSpqJ7jsHgW3DuSnzCEXpDXqouuZMhZ8aG76CX7YFN8kee_wqqwZO2geYLMF15BFRGmPcmXzcn9L4nrxXeIbpZl3chYeXAYDiLMrhuBhVQnlT1xp0fo6U1xyXAT5sDnDjazg-QtIFtbgLfbykLLxlPduUXCVjZ9D9r-bvJm-Sj4yDrIt-HpvKdzMJMbXCR4PstTmBYv0_ziEHKXDGNpMfdhUealsUWrxDfsgW7dFct_clVEZ3TNYJcp-lSOsbiE5YRcVGvfXP2CZSuAJOm2brLImrx9aDv4aZGXWpVEXJFQeUOAWg9kF6dXft9lsKe88pE7uV5SiP3rVSk-Bo1nofnxAwXSU75psbM8eQuHUT8endbOmmLGsvTjJ5TB3HisKQBh1lntmuvM4Pyc9n_qOUwq6xlnRvlKrkFvefdRrsqQmlN8Gi9AUVGtfj8O4YE4RKWA1suBQUVUKu2Zfe_3YhA_0pU8DqtHXprFxAtkj6UjAiRJO1tEMS3LBnx8N8tVv1E2ENT8C2SjsTLy5wAbtZxE38fvl1wA1eL8SrPa-JY-8KQi8GV4KOD6H2Xx-uYB_yE7op66KbpKp6jlBBmgWHfeixON4UB3B_SajGF_gTyZNib-cOhbqn7MG2g7zAERTNpuCdtwSapF_NyklsuYMXOAlzdIgtgXcVBYPb8K8Wd-tr6I7FDG8Z0yRsRplbigXNQMLUloax8Kk6Kfw=w999-h666-no"
                   }
-                  alt="Photo #2"
+                  alt="campus of Aix en Provence celebrating"
                   className={classes.imageElement}
                   style={{
                     maxWidth: "500px",
@@ -722,7 +722,7 @@ export default function Presentation(props) {
                   src={
                     "https://lh3.googleusercontent.com/Rz2Eo3JDnt2T5oGWVAHlw8EKooFu6wKOkMJRSryF9EaylXpnrZKWl9UCi3aoCNcrQjPte-IgMJLYsn0PFcSL9XkkyFOdK6EWSfpUb83bcgZVv6BwhseP02tZt-JrKzHer4HA6uRD5QMci1LQuzAY-MnISQB7mS_gTgQEecfqZ9ZqAasdkecSnlgMW38fGEJcpCUd9TfUgQcLRRNUNc3MzA1h3vkwkQMacyurPRrEYFxv4IkhxX1c6QHQgMdTP_VIUWcF7At-PeHu1GU_RRJtvjeE-cOx_Bf_JW79tDkbEs3PzOvCiGQgHlWhuTKubRxNkNrp6TdJ_vZzaYybQi63l8qUbNOqmGcJJDi5WZczUcECQXjbmbQcn9Nkg0KsBTLja_Z09QcwB47Nbrgj0ZXvc77UmXDH42pqDkWY_1V9QlaVt2NlBKZaPRw0nL4uY3P0A7d2dBOKAo7KOsaDapKniKyeco2bmDu1UIkfYCzfnBSzWKwfFZ7pZZrbY_MXKCETSjOdsoPzZRzI74tUroeoNqA3-Z-o8I9vfibbBYRKjTPfYjbvBl_DVkvW4oBq383tJOrjlkVzwopMeCrVrThbpPwxZg3S3nwqhf3Bpw6gTsVa3IEdEqoULI5IdxwJCjI5Tk7yAy1kRWEAfVkC1_O2DFkZkEzBokxepplNMdyHSwPz_tyjuu_r_NBFi-oeUgCGQUwpPhrCgxdoiYTtnBljDFYBtGlnSOX9DNYEQbJUqj4eZz8=w1000-h664-no"
                   }
-                  alt="Photo #3"
+                  alt="campus of Metz celebrating"
                   className={classes.imageElement}
                   style={{
                     maxWidth: "500px",
@@ -734,7 +734,7 @@ export default function Presentation(props) {
                   src={
                     "https://lh3.googleusercontent.com/7-4b9JV5l5-sN7lpcy-0q0uYBQWdzjDKPI_vaxMd-jwNs14hsN1bLP4vjmSGEq-tF8rKsd5dTAa7Qc5QEjyhvydMX8Pq4TtkAMx3UxARod31c29c21zfxfv-LgtdDZ6MJNZpfaLnWh75qIf5ZcE0UZlFnVtm1l9GnbW8FhGpU0XdMIkHgPLRJ-z_6KEQ4f-goYzyIbVnnucDLZ4kuW8yfQ614BwHkxOCtx8pLRL6yfR5kyZgg91oRauwZMJt7b_UkHVLYTbP4KQzKDgKVB9_3e0qOGSoCM1e-Q7g9b2Hlw-ZS1LGUXvbzah1LNGNTNHxhb5TQuyUN6rvtA_bD_TbQgzuV1vO4fZOmME1hLm_DrFIVcbW2xZkAV8il74Ci03tGAle8eGHPGJO4qaUwvTnl6L5Y_WYn0YKBc1psMOoxh147kJ45IjJK_uT_OPICkNM1M4IbNrPiheUeQ6mgC0Y00EcwSU8c1aZqMw_iOskTVChzZccXt_axEF7gDwtEuxYZQO47DipFVUQe9TfsVtGUb3xMtbIFYKTy4hAI8L-fHx1uqa3HS319YCHvLkJPCrMipuoNFi2ZofSbtJE8sTSuAdgQ2GDgnlYlwk-Z2DiYPl637WaXZ1eR92IC-hRrvmPcLmVhmsp6qd5dFdyRaaOpYpyssJ7NnEYNly1UT5pjqLTqNSElKcUyTxQpZxfBvWLh0-6e67JjJupPspzBkSScotz1KYPRl0ahdkgtvuE88AGEbo=w999-h666-no"
                   }
-                  alt="Photo #4"
+                  alt="Band playing"
                   className={classes.imageElement}
                   style={{
                     maxWidth: "500px",
@@ -746,7 +746,7 @@ export default function Presentation(props) {
                   src={
                     "https://lh3.googleusercontent.com/cQZLfucDV8bhl-nbwVN6nGaWTqwPErPhxgOJZ79PiKLk_JkStYc1T8pGUkxC6pPNvYaNUgE0EqifFpZqDkogXnRKqs6wcIyAgfS3QtkIJY1_G-HAgfSRaDsntA44XiCehZ4I-v79LV_C1x3ssN0ocR85xTU6B6e5NqIeVtfnuE2MRAJdwYNMYEYR1pKlXLS3BL4DmIlVRKv3JPur1963j3ZA_Qk8Jvois8N0cgDxpEUNmZW8i71QtVvZ5orBNu7qWfxmH5JKlIncb8Wi2uTiGznPvUAwJe_8qKqrFBtsqT6HR4evFB858glU2ML74i_rBg7fFho3anTnMDjJsVet2LgO9f2W7QuamsfhilLOz1BBOjd-G6H3TDxFHEqNEt-WKpVVxWeanIE0OWL08Id_te40Jhjp9sPNoLOmPhL7n9uLf41rBDQk_AJkS_b3S0P941BM7USOUasrop2r4QQIIdzV_l6cNRe7ocixepF3fejkHZ9mKKQSI3WDz_w3ysuRQfb4k3cNKH8-f_IMKteQeZpCs-uKKTL4h1J5LEzkL8NTcWMO-v3emqiKy2xW9NzxlU5UTyFw9adeCgBt0wVCemJSvfMtVtQj20l4D5sqx4XyrrRxvrmFUWTC9iZ4smYSjwK9qWi3PzyylC7li70XgfiM3nptq5hlSYXn4DFO3b_wv2XM1Pk5ulxOC8Gb_JGxJwR1z8uwSrs-uFz--X9LuW_mmkH7BVCTDBOEaLQyaDr7xNw=s666-no"
                   }
-                  alt="Team photo"
+                  alt="UAI Team"
                   className={classes.imageElement}
                   style={{
                     marginTop: "30px",
