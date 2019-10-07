@@ -772,7 +772,7 @@ export default function Presentation(props) {
                 date="2016"
                 title="Quadcopter"
                 subTitle="Personnal Project"
-                description="The math behind an arduino based Flight Controller"
+                description="The math behind a stabilisation algorithm"
               >
                 <Typography className={classes.article}>
                   <span className={classes.firstLetter}>F</span>
@@ -945,6 +945,153 @@ export default function Presentation(props) {
                     alt="value explanation 7"
                   />{" "}
                   are the diagonal values from the inertia matrix of our system.
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #02 - PID CONTROLLER
+                </Typography>
+                <Typography className={classes.article}>
+                  We want our drone to automaticaly update the speed of the
+                  motors as to stay stabilized. To do so, I implemented a PID
+                  controller that looks like this:
+                </Typography>
+                <img
+                  src={
+                    "https://lh3.googleusercontent.com/PPb0OE7tmp5pp29n62KlDIPfV0C4msnTzR5Tls2AKzgPk91R6iSI6DI1FTiuS7LdgcmSlCKI5J2wa9aiIoRuBh_eztdrUdOXq91S8zf9MEBrvPNvpvSkCcmF-j22KDw_OEbbZVuG6tsb8ky7mw0N6MRJ3xPugzlSyxlRowy6pP1Y6-UsO2HqMjugD8kWUSjg8zsuEgJefGKJtfaZYthn072iqiG0vBhYmDniR-f4b6Fd59tI5MN-9XUCNyypcwBcqFbV4vDwYGytLZCtyjTGLLvvOC--WsJRJ9-ve6b4BbwbFYm97EOkfJo3EKfE0J4AcN2lHsywAuSU3tvCD2Mn-ZQALk7XVYcHVoz5hchLQj5QXRGe-yJJjZukkZiGkVSLDnmuaguDDZljtJ7Aul9TAOakieRmPZfm3izuEJDHeyMRQ5BtFZXh3LzUXshlsyTILM9Vv6RQjmYV1nShqNXed0ru6C1Dixhi1mmyr9AaeHIpZOhHhri6YdZu0Jqpj9PYfEbBG4XduLIwEisoV0TQndePqwAFG2Zoe3JfDgD8nvcWyniExLTFW9eBPYErfYhnCdNloMN-dFWRIqOEwdf-RmaRLWLbeCPIoN95sy2zxS4iWp-OxggaTDZrDPkcEUGbItKENUStBmwxm8Pb1dJROLWM2caMuGLMDCDMNbYpQgsxGspZFbgsWw=w400-h142-no"
+                  }
+                  alt="PID controller diagram"
+                  className={classes.imageElement}
+                  style={{
+                    maxWidth: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <Typography className={classes.article}>with:</Typography>
+                <img
+                  src="https://latex.codecogs.com/svg.latex?\large&space;e(t)=x_{d}(t)-x(t)"
+                  title="\large e(t)=x_{d}(t)-x(t)"
+                  alt="Equation 4"
+                  className={classes.eqElement}
+                  style={{
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src="https://latex.codecogs.com/svg.latex?\large&space;u(t)=K_{p}e(t)&plus;K_{I}\int_{0}^{t}e(\tau&space;)d\tau&plus;K_{D}\frac{\mathrm{d}&space;e(t)}{\mathrm{d}&space;t}"
+                  title="\large u(t)=K_{p}e(t)+K_{I}\int_{0}^{t}e(\tau )d\tau+K_{D}\frac{\mathrm{d} e(t)}{\mathrm{d} t}"
+                  alt="Equation 5"
+                  className={classes.eqElement}
+                  style={{
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <Typography className={classes.article}>
+                  where{" "}
+                  <img
+                    src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;u(t)"
+                    title="\small u(t)"
+                    alt="PID 1"
+                  />{" "}
+                  is the corrected input,{" "}
+                  <img
+                    src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;e(t)"
+                    title="\small e(t)"
+                    alt="PID 2"
+                  />{" "}
+                  the error, ie the difference between the desired output and
+                  the corrected input and{" "}
+                  <img
+                    src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;K_{p},K_{I},K_{D}"
+                    title="\small K_{p},K_{I},K_{D}"
+                    alt="PID 3"
+                  />{" "}
+                  the coefficient for our controller that need to be adjusted to
+                  obtain the best results.
+                </Typography>
+                <Typography className={classes.article}>
+                  The goal of our controller is to control the speed of each
+                  motor in order to keep the roll, pitch and yaw stabilized.
+                  After working out the equations, we arrive at our final model:
+                </Typography>
+                <img
+                  src="https://latex.codecogs.com/svg.latex?\LARGE&space;\left\{\begin{matrix}&space;\omega{_{1}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}-\frac{2bu_{\psi&space;}I_{xx}&plus;u_{\varphi&space;}I_{zz}kL}{4bkL}\\&space;\omega{_{2}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}&plus;\frac{u_{\varphi&space;}I_{zz}}{4b}-\frac{u_{\theta&space;}I_{yy}}{2kL}\\&space;\omega{_{3}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}-\frac{-2bu_{\psi&space;}I_{xx}&plus;u_{\varphi&space;}I_{zz}kL}{4bkL}\\&space;\omega{_{4}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}&plus;\frac{u_{\varphi&space;}I_{zz}}{4b}&plus;\frac{u_{\theta&space;}I_{yy}}{2kL}&space;\end{matrix}\right."
+                  title="\LARGE \left\{\begin{matrix} \omega{_{1}}^{2}=\frac{mg}{cos\theta\, cos\psi\, 4k}-\frac{2bu_{\psi }I_{xx}+u_{\varphi }I_{zz}kL}{4bkL}\\ \omega{_{2}}^{2}=\frac{mg}{cos\theta\, cos\psi\, 4k}+\frac{u_{\varphi }I_{zz}}{4b}-\frac{u_{\theta }I_{yy}}{2kL}\\ \omega{_{3}}^{2}=\frac{mg}{cos\theta\, cos\psi\, 4k}-\frac{-2bu_{\psi }I_{xx}+u_{\varphi }I_{zz}kL}{4bkL}\\ \omega{_{4}}^{2}=\frac{mg}{cos\theta\, cos\psi\, 4k}+\frac{u_{\varphi }I_{zz}}{4b}+\frac{u_{\theta }I_{yy}}{2kL} \end{matrix}\right."
+                  alt="Control model equation"
+                  className={classes.eqElement}
+                  style={{
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <Typography className={classes.article}>
+                  with{" "}
+                  <img
+                    src="https://latex.codecogs.com/svg.latex?\inline&space;\small&space;u_{\psi&space;},u_{\varphi&space;},u_{\theta&space;}"
+                    title="\small u_{\psi },u_{\varphi },u_{\theta }"
+                    alt="PID 2"
+                  />{" "}
+                  the corresponding corrected input for the pitch, roll and yaw.
+                </Typography>
+                <Typography className={classes.articleTitle}>
+                  #03 - SIMULATIONS
+                </Typography>
+                <Typography className={classes.article}>
+                  From here on, I implemented this equations into a python
+                  script to simulate the response of the system.
+                </Typography>
+                <Typography className={classes.article}>
+                  I imagined a scenario where the drone would be 10m high with a
+                  10° offset in each of the rotational axis. Here are the
+                  results I got first for the position and then for the angular
+                  position:
+                </Typography>
+                <img
+                  src={
+                    "https://lh3.googleusercontent.com/3BV7GY0y7KyJU-fEdcJ0NcDewpA3NKVekzy4LSBzdQjRcMlMws8oxQm0qA2do88P7QkMz3XmL8tJyrbhCQyNYau4aaZAVUbaML7gQNGPGSnLv_elgd0IYmUonTz7wioikB0NELX88icPQXDQAR8G6uuvmSmDcyNec8kDx9PyiHjiop8rbTn6RFsFzs5Ica-RYH8uIhdJvKGftC9EDIcesPvC66MaRTDgdClW_8sAx4V-YUh55XcJOU9ytJWluXAca54aJGbzQzVrcC28WNv9Q7wIBIOlY-nOtlJvm92j3aaEAnvaKyxqaEZ-zIS3NeLamAslFNn37s5ZaB8AvHlcr3Bz8wuG-CNYApghmY991X8dJwbXaweWr3u0jkEy5y_ARywgqQutAYNFgz0E9e6IrPvE8rwTJJfqnM_HnYRSA76UKVunUno46lKBN3elzu3t4aVakUroS88j_4pqr51EKvseQlEt0xnfQkEk-SeoeTyGtMsygLm_UEMDXenqHnOkT_miyWwI7Iu-CoiVChuhj5gqGRDt6Ps9oMyQpxjwqv7Gh6glfAMxWPk2KQbDQcSvuitqKmtzraodAD_M_z0Xk5VjARNwnq-c6xGBy5AcYtaO1AO43wCJ5EhxiTtUe3h8JWRI23WeJjv71JcEkCLdNpHGW8QviXh0NpBOIT37uHSGX9tJz5tlkQ=w899-h355-no"
+                  }
+                  alt="corrected position graph"
+                  className={classes.imageElement}
+                  style={{
+                    maxWidth: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <img
+                  src={
+                    "https://lh3.googleusercontent.com/KGj7JAPrsCOyr8rA3CsX3ZbQN5KPC95_2y48GoYCGanuiPcQ59waBd5Ov8Lm72Yfy-5e4PO-NVxJCmzVPjH4fx2jN5_JhlimVMvpKsAJAD9IE_rzkYnAWlx84wa2uq0or2l6zh13ikPhnQWUhwnO7k3IOZKSPwQ4tliPxtVZb6cm7bySTtUvFCxJLVfp2T6RcrCNi3Dxr8LQ8opA1aV8iuOyRZzyWF0BSE1ScIr2fxpNgUxi7Wo5aKz-H1hgw_k8YwqZxbT3m6x9MuFo5v4PdUcVT33oOcVMSY50FSvJ_ErNRqida2RkSHTpBAsGRuZng-0jdDn5zHPfOFDOsjQa5Uv21dhPItinDKGTJNrv7zY8ZMf889cKnNfOAdOdHGwYJHoXVdHglwljO2MKpmz71sRYYlAaO9VvW_7OzwfJ7c9Jk6ACennH1YTczk06IUKTDFPubgYPb8kgRstiNN0cgsA6ACAj8JR6LRTQhhBbeOXc_cINsQC4g7vDHahJjUY5qu-s3CHwJ4M19s-qZGE7AQHZu_slngy0fOy2JTQ4LLTA_YW0c1s2wEI9W9N-3Ld5SUxi_e0jjkYFSNEao87jdVX4gKZVchqy8SYwLbF8pMCZc23GsC7tigrL1P3g8PMMDDu1QonWj3W709cqj9zYZEfiyd1BLQgnm0tWDQhWj4w0lnphGTqdDQ=w899-h355-no"
+                  }
+                  alt="Angular position corrected"
+                  className={classes.imageElement}
+                  style={{
+                    maxWidth: "500px",
+                    marginTop: "30px",
+                    marginBottom: "30px"
+                  }}
+                />
+                <Typography className={classes.article}>
+                  As we can see from the graphs, the quadcopter can stay at a
+                  set altitude while converging towards a stabilized position.
+                </Typography>
+                <Typography className={classes.article}>
+                  The equations seem to be working propoerly, but the real
+                  challenge comes when we implement this model into a real
+                  system, where our assumptions don't necessarily apply.
+                </Typography>
+                <Typography className={classes.article}>
+                  You can find the code for this simulation <a
+                    href="https://github.com/Pierre-Baptiste/Quadcopter-simulation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "#001aff" }}
+                  >
+                    here
+                  </a>.
+                </Typography>
+                <Typography className={classes.articleEnd}>
+                  #THANK YOU FOR READING
                 </Typography>
               </WorkCard>
             </Grid>
