@@ -51,7 +51,7 @@ export default function About(props) {
         </Typography>
         <Box className={classes.subtitleBox}>
           <Typography align="center">
-            Want to learn more about my carreer path and education ? Here you
+            Want to learn more about my career path and education? Here you
             will find everything you would want to know about it.
           </Typography>
         </Box>
@@ -83,8 +83,8 @@ export default function About(props) {
                 incentives to reduce their impact.
               </Typography>
               <Typography gutterBottom>
-                I am responsible for the fullstack development and the design of
-                the UI/UX (server side API with Node.js, Database with MongoDB,
+                I am responsible for the full-stack development and the design of
+                the UI/UX (server-side API with Node.js, Database with MongoDB,
                 and Front with React.js)
               </Typography>
               <Typography gutterBottom>
@@ -93,7 +93,7 @@ export default function About(props) {
                 Hackathon
               </Typography>
               <Typography gutterBottom>
-                • Gained understanding of business models, business strategies,
+                • Gained an understanding of business models, business strategies,
                 market research and personas
               </Typography>
             </ListItemElement>
@@ -226,10 +226,10 @@ export default function About(props) {
                 President of the music band, I organized 7 gigs in two years.
               </Typography>
               <Typography gutterBottom>
-                Communication manager for "Grandes UAI", a sport competition
+                Communication manager for "Grandes UAI", a sports competition
                 where 1000 students get together for 3 days to compete in
                 different sports. Achieved a communication strategy that took
-                place on social medias, written and online press. Negotiated
+                place on social media, written and online press. Negotiated
                 with 8 sponsors and implemented tools for the team's
                 communication
               </Typography>

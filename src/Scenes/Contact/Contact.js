@@ -76,7 +76,7 @@ export default function Contact(props) {
 				</Typography>
 				<Box className={classes.subtitleBox}>
 					<Typography align="center">
-						Want to get in touch with me ? You can reach me through
+						Want to get in touch with me? You can reach me through
 						e-mail, on the social media links and by filling out the
 						form.
 					</Typography>
