@@ -59,7 +59,7 @@ export default function About(props) {
         <Box className={classes.subtitleBox}>
           <Typography align="center">
             De temps en temps je prends des photos étonnamment bonnes/cool,
-            d'autres fois je m'amuse l'art digital.... Quoi que ce soit, ça
+            d'autres fois je m'amuse avec l'art digital.... Quoi que ce soit, ça
             tombe ici!
           </Typography>
         </Box>
