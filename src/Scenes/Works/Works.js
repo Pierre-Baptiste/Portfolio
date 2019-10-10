@@ -781,8 +781,8 @@ export default function Presentation(props) {
                   build my solution for it.
                 </Typography>
                 <Typography className={classes.article}>
-                  This website's purpose is not to educate you, the reader, but
-                  rather is a place to showcase my projects. This is why the
+                  This article's purpose is not to be a tutorial, but
+                  rather is an overview of the project. This is why the
                   explanations will be kept to the minimum for the sake of
                   length.
                 </Typography>
