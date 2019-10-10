@@ -1,1 +1,7 @@
-Sitemap: http://pbdupire.com/sitemap.xml
+User-agent: *
+Disallow: /contact
+Disallow: /contact/
+Disallow: /about
+Disallow: /about/
+Disallow: /works
+Disallow: /works/
