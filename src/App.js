@@ -16,7 +16,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		if (detectBrowserLanguage() === "fr-FR" || "fr") {
+		if (detectBrowserLanguage() === "fr-FR" || detectBrowserLanguage() === "fr") {
 			this.setState({ Language: "French" })
 		} 
 		console.log(detectBrowserLanguage())
