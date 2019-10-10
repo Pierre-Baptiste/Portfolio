@@ -63,6 +63,9 @@ export default function About(props) {
             tombe ici!
           </Typography>
         </Box>
+        <Box className={classes.imagebox}>
+          <Grid />
+        </Box>
       </div>
     );
   }
