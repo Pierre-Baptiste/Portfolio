@@ -523,9 +523,7 @@ export default function Presentation(props) {
                   </a>
                   .
                 </Typography>
-                <Typography className={classes.article}>
-                  ※ Due to a lack of time, the project is currently on hold. ※
-                </Typography>
+
                 <Typography className={classes.articleEnd}>
                   #THANK YOU FOR READING
                 </Typography>
@@ -804,8 +802,8 @@ export default function Presentation(props) {
                   </ul>
                 </Typography>
                 <Typography className={classes.article}>
-                  We'll start by writing the movement equation that comes
-                  from Newton's laws of motion.
+                  We'll start by writing the movement equation that comes from
+                  Newton's laws of motion.
                 </Typography>
                 <Typography className={classes.article}>
                   <img
@@ -1012,8 +1010,8 @@ export default function Presentation(props) {
                 </Typography>
                 <Typography className={classes.article}>
                   The goal of our controller is to control the speed of each
-                  motor to keep the roll, pitch and yaw stabilized.
-                  After working out the equations, we arrive at our final model:
+                  motor to keep the roll, pitch and yaw stabilized. After
+                  working out the equations, we arrive at our final model:
                 </Typography>
                 <img
                   src="https://latex.codecogs.com/svg.latex?\LARGE&space;\left\{\begin{matrix}&space;\omega{_{1}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}-\frac{2bu_{\psi&space;}I_{xx}&plus;u_{\varphi&space;}I_{zz}kL}{4bkL}\\&space;\omega{_{2}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}&plus;\frac{u_{\varphi&space;}I_{zz}}{4b}-\frac{u_{\theta&space;}I_{yy}}{2kL}\\&space;\omega{_{3}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}-\frac{-2bu_{\psi&space;}I_{xx}&plus;u_{\varphi&space;}I_{zz}kL}{4bkL}\\&space;\omega{_{4}}^{2}=\frac{mg}{cos\theta\,&space;cos\psi\,&space;4k}&plus;\frac{u_{\varphi&space;}I_{zz}}{4b}&plus;\frac{u_{\theta&space;}I_{yy}}{2kL}&space;\end{matrix}\right."

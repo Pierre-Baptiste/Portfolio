@@ -51,8 +51,8 @@ export default function About(props) {
         </Typography>
         <Box className={classes.subtitleBox}>
           <Typography align="center">
-            Want to learn more about my career path and education? Here you
-            will find everything you would want to know about it.
+            Want to learn more about my career path and education? Here you will
+            find everything you would want to know about it.
           </Typography>
         </Box>
         <Box className={classes.workCardBox} align="left">
@@ -60,6 +60,45 @@ export default function About(props) {
             Work Experience
           </Typography>
           <List className={classes.root}>
+            <ListItemElement
+              image={
+                "https://lh3.googleusercontent.com/_aiU0pvp9aAKQBWjOLWfEpxJiFZhnUc-TXZPBLGJuKTOkvppdT7NweMrtGfPQPq1iyytStQJxEirdUGUzJuJtIAbEkMKYdUoysbzgMuNCKGpCKfinKRdSFTDP-ioDentKu-2dTpZcmas9s8qSpy2C-KzLRE52V3Z-XdcVHCeODoXRrMhyOzTCAzvSzIy0Q_SQqqRgkpjloPVWg199ygtMgAY6tmWO9AAdRMA_5O4CI_eP5Ted4DGh-pq9gmC61tHljeEtPqQ79I5VQFZEEEv0KZkUt3PjfYc61_8dPLlmUKlTJh0sEEm6w1EIxQTCpz6cgIhx3g09Atv-C_dZntARzhBLvZvrf2Ita_yddAriUa_WAYcKBIANg0S4zdDYuU7wUu1nMaYWAH7RfAsUTY4SozFObN84k-vW9u-lzXGZSYMVp1ewo0qOL1lS3OrIyfgvisXrtgoBiftG4i4vBCDuB8M5NNTyvJT0FZZEj-vxItbgSnGFWd6KNHZLOlFEC5P3575LWsFRWwdXvj2Qk3R6RcKTNcpayKJWbH2rFMMVgeLTSg2gKRMGkzgMKBvBqDgQpcgb_3SPKcFH8250-mwgMXsTr_Qzp4XkYtHiRc1X7RsBApDOu8DhSjMG11aJjOt9UG9mFpCUh6JVA5HHEip3sXjZ7FPsOrvVbWq6QV2-wKHnmKnGOUhJihdcaO4PO516aPdz9TSLegiCYc5OXrRfmyq-Gl6FjYf2aMkqSnrp2Fzm6U=s400-no"
+              }
+              imagetitle="DT Logo"
+              title="Business Developer Intern"
+              company="Design Terminal"
+              date="September 2019 : Now"
+              avatarlink={"http://designterminal.org/"}
+            >
+              <ImageBox
+                imageBox={
+                  "https://lh3.googleusercontent.com/nL1WNNXXCjxZB68c4aS1YP9KNKupdxcE3TeEIPYc3sAkkr7Urd0RrEAAJl0azezncg_ewna7kRB-W2MHb_yoiCRw_TIMEgV8huOxveUTOMCBF4TEmoEM8bljjMvzsjWbSGDoY4hOBGeaau94_BqxADD1sCWRtQ5_ZoLkHCIJstNLJEeFwOI36HjDFtFVXrSAa830VCOxuFnQqQk69UkcF-iB7eDg0w70IfkYya_SWVQA9mabsCiWCeFAYhMMKzdDbPK0td_4CJ9HLJXeMQFWeGDaLY2_0Z8UUV6WO3whl0PlyIhUefdLzpo_xHxg8Dce2nA6-bDk0o5Eyghvb-2MgZeEKb6rA1VXELhxpTW-SOFmDDt0ELY_xgSlsOYc5OzTVcbvQ24eegHujFsmQ6SoBnt5U9kiDI6Uubv-nMnW4oNq3YqKAZXN49wHZsXNlGYySI1mt--uzrZv0bmLliVXg5unMjxpjjZkiw2lXWkjwMfrtebF4GvesprJdNaVlS-EE01Dx_x4CSy4Y1WZDGgPeWusH3IitczJzn-FoXvYMqzUYdsElgEXbY_AI5FlrlnqQgnB7y6LxXdHFYBrh4fEOE4a0Ac_QgHHui7JbJDXOrPP05TQl2jxVqM5ZXZ5W61FdLrpmCkBjD7IxwSoB1YtsEG6WKLGjXw-Qq67-4J9geaPZb1tD6ohsQ=w1187-h617-no"
+                }
+              />
+              <Typography paragraph={true}>
+                Design Terminal is an innovation agency that builds bridges
+                between startups and corporations.
+              </Typography>
+              <Typography gutterBottom>
+                I assist in the business development division, and more
+                specifically in the international expansion program.
+              </Typography>
+              <Typography gutterBottom>
+                I am able to apply my skills transversally, from the knowledge
+                of the startup ecosystem I gained through my current startup
+                experience, to my technical capacities. I have done:
+              </Typography>
+              <Typography gutterBottom>
+                • Created a tool to automate the generation of business
+                proposals
+              </Typography>
+              <Typography gutterBottom>• Market research</Typography>
+              <Typography gutterBottom>
+                • Identification of potential business partners
+              </Typography>
+              <Typography gutterBottom>• Social media benchmarking</Typography>
+            </ListItemElement>
+            <Divider variant="inset" component="li" />
             <ListItemElement
               image={
                 "https://lh3.googleusercontent.com/MAOtf1C3oA0KwFj0SmYUZa58iXT9cUCUEVizCnm2wQ_f2sllyUKAN7GmEDxxCNBzXZ7A7hiQMuEhamAFBfVPoYzHX5SVPR1X2EJhe2SEsVtfMrm_dZqmfMKr4YUHvxS-0euGnIYDXqIJZtcwHWlMdyCCCKdN1XmkWCV_mwufKiJ4Ek2zWbqQ4j5S-XJtC8QZ3KWabUBKB_z6SV-28XN39QdHcdRp5Odcox7R7iNwRtRfEjDpE-mflMYN-WM5aOYPeFfF2DsV_w0PqFYRcdkF5Grkmv3adeG-qa8TlOX6rrH6NivukRnt5vLG9LgtviRQqcuxnvQuAudSVB-zDQH4CwXOISJ3p6TCs2cBEKlfcdmadi-RS7c_nQ0QCM_3ddcNtBMtE4jzXV2DndsVEIgKUb0MWuaW1B300n0xgQflVXfdP1FQgqnff2UWvd1keFic-vtWvaOYxYCjvSJeUiHNnsP7P5Z6J5-H_TYmn2EuM4kXVcRlqmnkZTtevhOA03mn9C6Y51PJPj-MgKP5n1PwP0mmiF6KvCZhADUym5rF040G4Z7KWG3MhoMe3wWSHLykClluHRpxb0LNpD-nvbRL1sPpB2BiZ6Fu0fpU8Rs4m_vmjluW_OzjfTHqCUq42hLUX-Vr_GNmJV8020cr2CC66tXxHVsd_8guzvQSQRDCNoH9gcrrZkA62F9UV9VCxMhAmokpmA10XpKfKFTm2_RbAwRbdNpul5vI6X3ddEpybWvpSvg=s150-no"
@@ -83,9 +122,9 @@ export default function About(props) {
                 incentives to reduce their impact.
               </Typography>
               <Typography gutterBottom>
-                I am responsible for the full-stack development and the design of
-                the UI/UX (server-side API with Node.js, Database with MongoDB,
-                and Front with React.js)
+                I am responsible for the full-stack development and the design
+                of the UI/UX (server-side API with Node.js, Database with
+                MongoDB, and Front with React.js)
               </Typography>
               <Typography gutterBottom>
                 • Won the first prize in the category "Smart Eco-Homes" and was
@@ -93,8 +132,8 @@ export default function About(props) {
                 Hackathon
               </Typography>
               <Typography gutterBottom>
-                • Gained an understanding of business models, business strategies,
-                market research and personas
+                • Gained an understanding of business models, business
+                strategies, market research and personas
               </Typography>
             </ListItemElement>
             <Divider variant="inset" component="li" />
@@ -229,9 +268,8 @@ export default function About(props) {
                 Communication manager for "Grandes UAI", a sports competition
                 where 1000 students get together for 3 days to compete in
                 different sports. Achieved a communication strategy that took
-                place on social media, written and online press. Negotiated
-                with 8 sponsors and implemented tools for the team's
-                communication
+                place on social media, written and online press. Negotiated with
+                8 sponsors and implemented tools for the team's communication
               </Typography>
               <Typography gutterBottom>
                 Co-manager of the school's ski trip. 1400 students for 8 days,
@@ -264,6 +302,40 @@ export default function About(props) {
 						Expériences Professionnelles
 					</Typography>
 					<List className={classes.root}>
+					<ListItemElement
+              image={
+                "https://lh3.googleusercontent.com/_aiU0pvp9aAKQBWjOLWfEpxJiFZhnUc-TXZPBLGJuKTOkvppdT7NweMrtGfPQPq1iyytStQJxEirdUGUzJuJtIAbEkMKYdUoysbzgMuNCKGpCKfinKRdSFTDP-ioDentKu-2dTpZcmas9s8qSpy2C-KzLRE52V3Z-XdcVHCeODoXRrMhyOzTCAzvSzIy0Q_SQqqRgkpjloPVWg199ygtMgAY6tmWO9AAdRMA_5O4CI_eP5Ted4DGh-pq9gmC61tHljeEtPqQ79I5VQFZEEEv0KZkUt3PjfYc61_8dPLlmUKlTJh0sEEm6w1EIxQTCpz6cgIhx3g09Atv-C_dZntARzhBLvZvrf2Ita_yddAriUa_WAYcKBIANg0S4zdDYuU7wUu1nMaYWAH7RfAsUTY4SozFObN84k-vW9u-lzXGZSYMVp1ewo0qOL1lS3OrIyfgvisXrtgoBiftG4i4vBCDuB8M5NNTyvJT0FZZEj-vxItbgSnGFWd6KNHZLOlFEC5P3575LWsFRWwdXvj2Qk3R6RcKTNcpayKJWbH2rFMMVgeLTSg2gKRMGkzgMKBvBqDgQpcgb_3SPKcFH8250-mwgMXsTr_Qzp4XkYtHiRc1X7RsBApDOu8DhSjMG11aJjOt9UG9mFpCUh6JVA5HHEip3sXjZ7FPsOrvVbWq6QV2-wKHnmKnGOUhJihdcaO4PO516aPdz9TSLegiCYc5OXrRfmyq-Gl6FjYf2aMkqSnrp2Fzm6U=s400-no"
+              }
+              imagetitle="DT Logo"
+              title="Stagiaire développement commercial"
+              company="Design Terminal"
+              date="Septembre 2019 : Maintenant"
+              avatarlink={"http://designterminal.org/"}
+            >
+              <ImageBox
+                imageBox={
+                  "https://lh3.googleusercontent.com/nL1WNNXXCjxZB68c4aS1YP9KNKupdxcE3TeEIPYc3sAkkr7Urd0RrEAAJl0azezncg_ewna7kRB-W2MHb_yoiCRw_TIMEgV8huOxveUTOMCBF4TEmoEM8bljjMvzsjWbSGDoY4hOBGeaau94_BqxADD1sCWRtQ5_ZoLkHCIJstNLJEeFwOI36HjDFtFVXrSAa830VCOxuFnQqQk69UkcF-iB7eDg0w70IfkYya_SWVQA9mabsCiWCeFAYhMMKzdDbPK0td_4CJ9HLJXeMQFWeGDaLY2_0Z8UUV6WO3whl0PlyIhUefdLzpo_xHxg8Dce2nA6-bDk0o5Eyghvb-2MgZeEKb6rA1VXELhxpTW-SOFmDDt0ELY_xgSlsOYc5OzTVcbvQ24eegHujFsmQ6SoBnt5U9kiDI6Uubv-nMnW4oNq3YqKAZXN49wHZsXNlGYySI1mt--uzrZv0bmLliVXg5unMjxpjjZkiw2lXWkjwMfrtebF4GvesprJdNaVlS-EE01Dx_x4CSy4Y1WZDGgPeWusH3IitczJzn-FoXvYMqzUYdsElgEXbY_AI5FlrlnqQgnB7y6LxXdHFYBrh4fEOE4a0Ac_QgHHui7JbJDXOrPP05TQl2jxVqM5ZXZ5W61FdLrpmCkBjD7IxwSoB1YtsEG6WKLGjXw-Qq67-4J9geaPZb1tD6ohsQ=w1187-h617-no"
+                }
+              />
+              <Typography paragraph={true}>
+			  Design Terminal est une "agence de l'innovation" qui a pour but de rapprocher les start-up des entreprises.
+              </Typography>
+              <Typography gutterBottom>
+			  Je travaille dans le département du développement commercial, et plus particulièrement sur l'expansion internationale. 
+              </Typography>
+              <Typography gutterBottom>
+			  De part mes expériences passées, je suis en mesure d'appliquer beaucoup de mes compétences transversales, que ce soit mes connaissances du monde des startups ou mes capacités techniques, elles s'avèrent très utiles. À ce jour, j'ai:
+              </Typography>
+              <Typography gutterBottom>
+                • Créé un outil pour automatiser la génération de propositions commerciales
+              </Typography>
+              <Typography gutterBottom>• Éffectué des analyses de marchés</Typography>
+              <Typography gutterBottom>
+                • Identifié des partenaires commerciaux potentiels
+              </Typography>
+              <Typography gutterBottom>• Analyse marketing sur les réseaux sociaux</Typography>
+            </ListItemElement>
+            <Divider variant="inset" component="li" />
 					<ListItemElement
 							image={"https://lh3.googleusercontent.com/MAOtf1C3oA0KwFj0SmYUZa58iXT9cUCUEVizCnm2wQ_f2sllyUKAN7GmEDxxCNBzXZ7A7hiQMuEhamAFBfVPoYzHX5SVPR1X2EJhe2SEsVtfMrm_dZqmfMKr4YUHvxS-0euGnIYDXqIJZtcwHWlMdyCCCKdN1XmkWCV_mwufKiJ4Ek2zWbqQ4j5S-XJtC8QZ3KWabUBKB_z6SV-28XN39QdHcdRp5Odcox7R7iNwRtRfEjDpE-mflMYN-WM5aOYPeFfF2DsV_w0PqFYRcdkF5Grkmv3adeG-qa8TlOX6rrH6NivukRnt5vLG9LgtviRQqcuxnvQuAudSVB-zDQH4CwXOISJ3p6TCs2cBEKlfcdmadi-RS7c_nQ0QCM_3ddcNtBMtE4jzXV2DndsVEIgKUb0MWuaW1B300n0xgQflVXfdP1FQgqnff2UWvd1keFic-vtWvaOYxYCjvSJeUiHNnsP7P5Z6J5-H_TYmn2EuM4kXVcRlqmnkZTtevhOA03mn9C6Y51PJPj-MgKP5n1PwP0mmiF6KvCZhADUym5rF040G4Z7KWG3MhoMe3wWSHLykClluHRpxb0LNpD-nvbRL1sPpB2BiZ6Fu0fpU8Rs4m_vmjluW_OzjfTHqCUq42hLUX-Vr_GNmJV8020cr2CC66tXxHVsd_8guzvQSQRDCNoH9gcrrZkA62F9UV9VCxMhAmokpmA10XpKfKFTm2_RbAwRbdNpul5vI6X3ddEpybWvpSvg=s150-no"}
 							imagetitle="Leafee Logo"
