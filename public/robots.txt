@@ -6,4 +6,4 @@ Disallow: /about/
 Disallow: /works
 Disallow: /works/
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://www.pbdupire.com/sitemap.xml
