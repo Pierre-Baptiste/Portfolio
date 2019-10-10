@@ -39,25 +39,31 @@ export default function About(props) {
           | 04 : Gallery |
         </Typography>
         <Box className={classes.subtitleBox}>
-          <Typography align="center">To be added</Typography>
+          <Typography align="center">
+            Sometimes I take surprisingly good/cool pictures, other times I have
+            a little fun with computer art... Whatever it is, it falls here, for
+            the world to see!
+          </Typography>
         </Box>
         <Box className={classes.imagebox}>
-        <Grid />
+          <Grid />
         </Box>
       </div>
     );
   } else {
     return (
       <div>
-		<Typography align="center" variant="h3" className={classes.title}>
+        <Typography align="center" variant="h3" className={classes.title}>
           | 04 : Gallerie |
         </Typography>
         <Box className={classes.subtitleBox}>
           <Typography align="center">
-            To be added
+            De temps en temps je prends des photos étonnamment bonnes/cool,
+            d'autres fois je m'amuse l'art digital.... Quoi que ce soit, ça
+            tombe ici!
           </Typography>
         </Box>
-		</div>
+      </div>
     );
   }
 }
