@@ -129,15 +129,47 @@ export default function Presentation(props) {
     );
 	} else {
 		return (
-			<div className={classes.container}>
-				<Typography variant="h1" className={classes.h1classtop}>
-					Bonjour,
-				</Typography>
-				<Typography variant="h1" className={classes.h1classbottom}>
-					Je m'appelle <br/>Pierre-Baptiste
-					<div style={{ color: "#001aff" }}><br/>.</div>
-				</Typography>
-			</div>
-		);
+      <div className={classes.container}>
+        <Typography variant="h1" className={classes.h1classtop}>
+          Bonjour,
+        </Typography>
+        <Typography variant="h1" className={classes.h1classbottom}>
+          Je suis&nbsp;
+          <Typist startDelay={1000}>
+            <span>
+              Pierre-Baptiste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={16} delay={1000} />
+            <span>
+              ingénieur<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              graphiste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={11} delay={1000} />
+            <span>
+              développeur<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              guitariste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={12} delay={1000} />
+            <span>
+              passioné<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={11} delay={1000} />
+            <span>
+              créatif<span style={{ color: "#001aff" }}>.</span>
+            </span>
+            <Typist.Backspace count={9} delay={1000} />
+            <span>
+              Pierre-Baptiste<span style={{ color: "#001aff" }}>.</span>
+            </span>
+          </Typist>
+        </Typography>
+      </div>
+    );
 	}
 }
