@@ -864,7 +864,7 @@ export default function Presentation(props) {
                 </Typography>
                 <Typography className={classes.article}>
                   <img
-                    src="https://latex.codecogs.com/svg.latex?\large&space;\overrightarrow{\tau&space;_{total}}=&space;\begin{bmatrix}&space;\tau_{\psi}\\&space;\tau_{\theta&space;}\\&space;\tau_{\varphi&space;}&space;\end{bmatrix}&space;=\begin{bmatrix}&space;Lk(\omega&space;_{2}^{2}-\omega&space;_{4}^{2})\\&space;Lk(\omega&space;_{1}^{2}-\omega&space;_{3}^{2})\\&space;b((\omega&space;_{1}^{2}-\omega&space;_{2}^{2}&plus;\omega&space;_{3}^{2}-\omega&space;_{4}^{2})))&space;\end{bmatrix}"
+                    src="https://latex.codecogs.com/svg.latex?\large&space;\overrightarrow{\tau&space;_{total}}=&space;\begin{bmatrix}&space;\tau_{\psi}\\&space;\tau_{\theta&space;}\\&space;\tau_{\varphi&space;}&space;\end{bmatrix}&space;=\begin{bmatrix}&space;Lk(\omega&space;_{2}^{2}-\omega&space;_{4}^{2})\\&space;Lk(\omega&space;_{1}^{2}-\omega&space;_{3}^{2})\\&space;b(\omega&space;_{1}^{2}-\omega&space;_{2}^{2}&plus;\omega&space;_{3}^{2}-\omega&space;_{4}^{2})&space;\end{bmatrix}"
                     title="\overrightarrow{\tau _{total}}=\begin{bmatrix} Lk(\omega _{2}^{2}-\omega _{4}^{2})\\ Lk(\omega _{1}^{2}-\omega _{3}^{2})\\ b((\omega _{1}^{2}-\omega _{2}^{2}+\omega _{3}^{2}-\omega _{4}^{2}))) \end{bmatrix}"
                     alt="Equation 1"
                     className={classes.eqElement}
@@ -1129,7 +1129,7 @@ export default function Presentation(props) {
               >
                 <Typography className={classes.article}>
                   <span className={classes.firstLetter}>C</span>e site web à une
-                  vocation de portfolio. C'est à dire qu'il ressence mes projets
+                  vocation de portfolio. C'est-à-dire qu'il recense mes projets
                   et mes expériences. Très vite après avoir commencé sa
                   création, j'ai réalisé à quel point il peut être difficile
                   d'être son propre client. Dans l'ensemble, ce fut un projet
@@ -1160,12 +1160,12 @@ export default function Presentation(props) {
                   La conceptualisation et le développement ont commencé vers fin
                   juin de cette année (2019). J'ai d'abord commencé loin de
                   l'ordinateur, sur du papier, à décomposer ce qui me définit et
-                  me ressemble et à partir de là, j'ai commencé à expérimenter .
+                  me ressemble et à partir de là, j'ai commencé à expérimenter.
                   Jour après jour le résultat prenait forme jusqu'à arriver à ce
                   que vous avez sous les yeux.
                   <br />
                   Le fil rouge que je voulais concerver est "Simplicité &
-                  Elégance".
+                  Élégance".
                 </Typography>
                 <img
                   src={
@@ -1234,8 +1234,8 @@ export default function Presentation(props) {
                   <span className={classes.firstLetter}>U</span>
                   ne semaine aux sports d'hiver pour les élèves ingénieurs Arts
                   & Métiers qui s'est déroulée du 19 au 26 janvier 2018.
-                  Skiozarts (SKZ) a fêté cette année là sa 30ème édition avec
-                  l'intention de perpétuer la tradition : réunir 1400 étudiants
+                  Skiozarts (SKZ) a fêté cette année-là sa 30ème édition avec
+                  l'intention de perpétuer la tradition: réunir 1400 étudiants
                   dans une grande station de ski alpine mi-janvier, et rester le
                   plus grand événement étudiant de ski en Europe.
                 </Typography>
@@ -1243,7 +1243,7 @@ export default function Presentation(props) {
                   Chiffres importants :
                   <ul>
                     <li>Un budget de 600.000€</li>
-                    <li>Equipe organisatrice de 20 personnes</li>
+                    <li>Équipe organisatrice de 20 personnes</li>
                     <li>9 mois de préparation</li>
                   </ul>
                 </Typography>
@@ -1267,19 +1267,20 @@ export default function Presentation(props) {
                   Traditionnellement, le logo contient 3 sommets. C'est gardant
                   cette contrainte à l'esprit que j'ai commencé à travailler sur
                   la typographie. Les lignes droites, les angles marqués et la
-                  typo grasse nous rappellent la raideur des montagnes et sa
-                  grandiosité tandis que la rondeur du "S" adoucit l'ensemble.
+                  typo grasse nous rappellent la raideur des montagnes et son
+                  caractère imposant tandis que la rondeur du "S" adoucit
+                  l'ensemble.
                 </Typography>
                 <Typography className={classes.article}>
                   Un autre défi consistait à intégrer l'indication de l'édition,
-                  la 30ème quand même. J'ai choisis de l'implanter en négatif
+                  la 30ème quand même. J'ai choisi de l'implanter en négatif
                   pour la rendre discrète mais quand même perceptible.
                 </Typography>
                 <Typography className={classes.articleTitle}>
                   #02 - COULEURS
                 </Typography>
                 <Typography className={classes.article}>
-                  Au cours des dernières années, l'événement se vettisait
+                  Au cours des dernières années, l'événement se vêtait
                   surtout de la couleur bleue, étant souvent associée à la
                   montagne glacée et froide. Pour changer cela et marquer la
                   différence pour la 30ème édition, j'ai emprunté un chemin plus
@@ -1307,9 +1308,8 @@ export default function Presentation(props) {
                   résultat convaincant.
                 </Typography>
                 <Typography className={classes.article}>
-                  La longueur de la vidéo a été réduite de 20% par rapport à la
-                  précédente pour la rendre plus dynamique. Il devait y figurer
-                  au minimum 5 parties :
+                  La longueur de la vidéo a été réduite de 20% par rapport à celle de l'édition
+                  précédente pour la rendre plus dynamique. Il devait y figurer 5 "chapitres" :
                   <ul>
                     <li>Teasing</li>
                     <li>Présentation de l'équipe</li>
@@ -1446,7 +1446,7 @@ export default function Presentation(props) {
                   out en complétant mon double diplôme à Budapest, 3 camarades
                   de classe et moi avons participé à l'édition 2018 du MKB
                   FintechLab Hackathon. Considérés comme les outsiders (pas de
-                  développeur dans l'équipe, pas de produit existant ni d'idée),
+                  développeur dans l'équipe, pas de produit existant ni d'idée au début),
                   nous avons quand même réussi à gagner dans la catégorie
                   "Smart-Eco Home, an open banking concept" et à décrocher une
                   seconde place pour l'ensemble de l'événement.
@@ -1455,18 +1455,18 @@ export default function Presentation(props) {
                   Mais comment avons nous fait?
                 </Typography>
                 <Typography className={classes.articleTitle}>
-                  #01 - Le CHALLENGE
+                  #01 - LE CHALLENGE
                 </Typography>
                 <Typography className={classes.article}>
                   "BOŚ Bank, de Pologne, s'intéresse aux solutions intelligentes
-                  qui permettent de réduire l'empreinte écologique des gens à
+                  qui permettent de réduire l'empreinte écologique à
                   l'aide de standards d'open banking. Lors du Fintechlab
                   Hackathon qui se déroulera du 30 novembre au 2 décembre 2018,
                   les équipes disposeront de 36 heures pour développer les
-                  prototypes les plus efficaces en matière de sensibilisation à
-                  l'environnement et de réduction efficace des impacts négatifs
-                  sur l'environnement. Le défi particulier est que les équipes
-                  doivent utiliser les outils open banking de MKB et / ou des
+                  solutions les plus efficaces en matière de sensibilisation à
+                  l'environnement et de réduction des impacts négatifs
+                  sur l'environnement. La contrainte est que les équipes
+                  devront utiliser les outils open banking de MKB et / ou des
                   produits de maison connectées"
                 </Typography>
                 <img
@@ -1534,7 +1534,7 @@ export default function Presentation(props) {
                   className={classes.imageElement}
                 />
                 <Typography className={classes.articleTitle}>
-                  #04 - ET APRÈS ?
+                  #04 - ET ENSUITE ?
                 </Typography>
                 <Typography className={classes.article}>
                   Nous ne pouvions pas en rester là, nous avons alors continué à
@@ -1586,7 +1586,7 @@ export default function Presentation(props) {
                   Chiffres importants :
                   <ul>
                     <li>Un budget de 250.000€</li>
-                    <li>Equipe organisatrice de 20 personnes</li>
+                    <li>Équipe organisatrice de 20 personnes</li>
                     <li>50 semaines de préparation</li>
                     <li>Plus de 20 sports</li>
                   </ul>
@@ -1612,9 +1612,8 @@ export default function Presentation(props) {
                 <Typography className={classes.article}>
                   Pour cette édition, j'ai voulu donner un aspect prestigieux au
                   logo. C'est pourquoi la police "Cinzel" a été utilisée. Pour
-                  apporter l'attribut sportif au logo, j'ai choisi d'utiliser la
-                  même palette que pour les Jeux Olympiques et, de plus,
-                  d'ajouter le symbole de la flamme au mélange. J'étais très
+                  apporter l'attribut sportif à celui-ci, j'ai choisi d'utiliser la
+                  même palette que pour les Jeux Olympiques et d'ajouter le symbole de la flamme au mélange. J'étais
                   satisfait du résultat, mais si je devais le refaire, je
                   n'opterais pas pour une police mince car cela a posé des
                   problèmes plus tard.
@@ -1824,12 +1823,12 @@ export default function Presentation(props) {
                   longueur.
                 </Typography>
                 <Typography className={classes.articleTitle}>
-                  #01 - MODELISATION
+                  #01 - MODÉLISATION
                 </Typography>
                 <Typography className={classes.article}>
                   Avant de commencer à creuser dans les maths, il est important
                   de faire quelques suppositions afin de simplifier et de
-                  définir notre problème. Elles sont les suivantes :
+                  définir notre problème. Elles sont les suivantes:
                 </Typography>
                 <Typography className={classes.article}>
                   <ul>
@@ -1902,7 +1901,7 @@ export default function Presentation(props) {
                 </Typography>
                 <Typography className={classes.article}>
                   <img
-                    src="https://latex.codecogs.com/svg.latex?\large&space;\overrightarrow{\tau&space;_{total}}=&space;\begin{bmatrix}&space;\tau_{\psi}\\&space;\tau_{\theta&space;}\\&space;\tau_{\varphi&space;}&space;\end{bmatrix}&space;=\begin{bmatrix}&space;Lk(\omega&space;_{2}^{2}-\omega&space;_{4}^{2})\\&space;Lk(\omega&space;_{1}^{2}-\omega&space;_{3}^{2})\\&space;b((\omega&space;_{1}^{2}-\omega&space;_{2}^{2}&plus;\omega&space;_{3}^{2}-\omega&space;_{4}^{2})))&space;\end{bmatrix}"
+                    src="https://latex.codecogs.com/svg.latex?\large&space;\overrightarrow{\tau&space;_{total}}=&space;\begin{bmatrix}&space;\tau_{\psi}\\&space;\tau_{\theta&space;}\\&space;\tau_{\varphi&space;}&space;\end{bmatrix}&space;=\begin{bmatrix}&space;Lk(\omega&space;_{2}^{2}-\omega&space;_{4}^{2})\\&space;Lk(\omega&space;_{1}^{2}-\omega&space;_{3}^{2})\\&space;b(\omega&space;_{1}^{2}-\omega&space;_{2}^{2}&plus;\omega&space;_{3}^{2}-\omega&space;_{4}^{2})&space;\end{bmatrix}"
                     title="\overrightarrow{\tau _{total}}=\begin{bmatrix} Lk(\omega _{2}^{2}-\omega _{4}^{2})\\ Lk(\omega _{1}^{2}-\omega _{3}^{2})\\ b((\omega _{1}^{2}-\omega _{2}^{2}+\omega _{3}^{2}-\omega _{4}^{2}))) \end{bmatrix}"
                     alt="Equation 1"
                     className={classes.eqElement}

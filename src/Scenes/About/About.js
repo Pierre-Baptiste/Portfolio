@@ -314,15 +314,16 @@ export default function About(props) {
               />
               <Typography paragraph={true}>
                 Design Terminal est la première agence d'innovation d'Europe
-                centrale, qui forme des "champions de l'innovation" grâce à
-                des partenariats avec des entreprises et à l'accélération de talents.
+                centrale, qui forme des "champions de l'innovation" grâce à des
+                partenariats avec des entreprises et à l'accélération de
+                talents.
               </Typography>
               <Typography gutterBottom>
                 Je travaille dans le département du développement commercial, et
                 plus particulièrement sur l'expansion internationale.
               </Typography>
               <Typography gutterBottom>
-                De part mes expériences passées, je suis en mesure d'appliquer
+                De par mes expériences passées, je suis en mesure d'appliquer
                 beaucoup de mes compétences transversales, que ce soit mes
                 connaissances du monde des startups ou mes capacités techniques,
                 elles s'avèrent très utiles. À ce jour, j'ai:
@@ -332,7 +333,7 @@ export default function About(props) {
                 commerciales
               </Typography>
               <Typography gutterBottom>
-                • Éffectué des analyses de marchés
+                • Effectué des analyses de marchés
               </Typography>
               <Typography gutterBottom>
                 • Identifié des partenaires commerciaux potentiels
@@ -377,7 +378,7 @@ export default function About(props) {
               </Typography>
               <Typography gutterBottom>
                 - Compréhension accrue des business models, des stratégies et
-                des études de marchés.
+                des études de marché.
               </Typography>
             </ListItemElement>
             <Divider variant="inset" component="li" />
@@ -401,16 +402,17 @@ export default function About(props) {
                 maintenir deux sites d'essais contre la foudre au Rwanda. Cela
                 implique la vérification et la maintenance d'équipement présents
                 (paratonnerres, parafoudres et systèmes de communication) et
-                d'installer de nouveaux équipements tel qu'un détecteur d'orage.
+                d'installer de nouveaux équipements tels qu'un détecteur
+                d'orage.
               </Typography>
               <Typography gutterBottom>
                 Pour ce faire, la mission se scinde en 3 parties, la première
                 dite de formation théorique (niveau N1 de la certification
                 Qualifoudre) mais aussi pratique en rapport avec les
                 technologies INDELEC d'un mois environ. Une deuxième partie qui
-                correspond au voyage lui même d'une quinzaine de jours, il a une
+                correspond au voyage lui-même d'une quinzaine de jours, il a une
                 dimension technique certaine mais aussi sociale, en effet, des
-                rendez vous avec les autorités locales aux sites d'essais et
+                rendez-vous avec les autorités locales aux sites d'essais et
                 avec le ministère sont organisées. Enfin la dernière partie,
                 d'un mois également, sera consacrée au traitement des données
                 relevées, à l'élaboration de statistique et à la rédaction d'un
@@ -436,8 +438,8 @@ export default function About(props) {
               <Typography gutterBottom>
                 Pour une durée de 10 semaines, ma mission était de déployer un
                 logiciel d’aide et de suivi de maintenance dans 30 postes
-                d’enrobage de la région Nord-Est. En totale autonomie, j’ai moi
-                même organisé mon emploi du temps pour pouvoir accomplir la
+                d’enrobage de la région Nord-Est. En totale autonomie, j’ai
+                moi-même organisé mon emploi du temps pour pouvoir accomplir la
                 totalité de ma mission dans les temps impartis.
               </Typography>
             </ListItemElement>
@@ -458,7 +460,7 @@ export default function About(props) {
                 }
               />
               <Typography gutterBottom>
-                Stagiaire en maintenance 4 jours sur 5 travaillant sur les
+                Stagiaire en maintenance 4 jours sur 5, travaillant sur les
                 projets en cours et en tant que stagiaire administratif le
                 dernier jour, assistant et apprenant du COO.
               </Typography>
@@ -489,7 +491,17 @@ export default function About(props) {
               <Typography gutterBottom>
                 Double diplôme, majeur en "Design & Technology", mineur en
                 "Thermal engineering". Certification en management et économie
-                environementale.
+                environnementale.
+              </Typography>
+              <Typography gutterBottom>
+                Je réalise actuellement un mémoire de fin d'études sur le
+                développement d'un produit permettant de mesurer la respiration
+                du sol (le rejet en CO2 du sol) dans le but de comparer les
+                différentes techniques de cultivation en regard de cet
+                indicateur et de potentiellement développer de nouvelles
+                techniques qui permettront de transformer le sol en "puis à CO2"
+                et ainsi réduire considérablement le taux de CO2 dans
+                l'atmosphère.
               </Typography>
             </ListItemElement>
             <Divider variant="inset" component="li" />
@@ -509,7 +521,7 @@ export default function About(props) {
                 }
               />
               <Typography gutterBottom>
-                President du club de musique, j'ai organisé 7 concerts et géré
+                Président du club de musique, j'ai organisé 7 concerts et géré
                 l'organisation du club toute l'année.
               </Typography>
               <Typography gutterBottom>

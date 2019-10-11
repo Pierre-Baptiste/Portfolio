@@ -361,7 +361,7 @@ export default function Contact(props) {
 								</Grid>
 							</Grid>
 							<Typography variant="h5" className={classes.socMed}>
-								Follow me on social media
+								Retrouvez moi sur les réseaux
 							</Typography>
 							<Grid container direction="row" alignItems="center">
 								<Grid item>
