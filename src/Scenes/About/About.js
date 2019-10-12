@@ -105,7 +105,7 @@ export default function About(props) {
               avatarlink={"http://www.leafeeapp.com/"}
             >
               <ImageBox
-                imageBox={"https://i.imgur.com/2PIsAflm.jpg"}
+                imageBox={"https://i.imgur.com/2PIsAfl.jpg"}
               />
               <Typography paragraph={true}>
                 Leafee is a Personal Finance Management application that gathers
@@ -330,7 +330,7 @@ export default function About(props) {
               avatarlink={"http://www.leafeeapp.com/"}
             >
               <ImageBox
-                imageBox={"https://i.imgur.com/2PIsAflm.jpg"}
+                imageBox={"https://i.imgur.com/2PIsAfl.jpg"}
               />
               <Typography paragraph={true}>
                 Leafee est une application de gestion des finances personnelles
