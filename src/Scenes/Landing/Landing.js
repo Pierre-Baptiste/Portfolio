@@ -3,15 +3,12 @@ import React, { Component } from "react";
 // Components
 import Presentation from "./components/Presentation";
 
-// Assets
-import Background from "./assets/Pb_Bg.jpg";
-
 class Landing extends Component {
 	render() {
 		return (
 			<div
 				style={{
-					backgroundImage: "url(" + Background + ")",
+					backgroundImage: "url(https://i.imgur.com/NqEMWSm.jpg)",
 					height: "100vh",
 					width: "100vw",
 					maxWidth: "1920px",
