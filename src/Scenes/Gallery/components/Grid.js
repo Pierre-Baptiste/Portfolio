@@ -3,6 +3,8 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 
+import { FooterCaption } from "./footer";
+
 export default function Grid() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
@@ -24,6 +26,9 @@ export default function Grid() {
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
+              components={
+                {FooterCaption}
+              }
               currentIndex={currentImage}
               views={photos.map(x => ({
                 ...x,
