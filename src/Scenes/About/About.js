@@ -5,6 +5,7 @@ import Box from "@material-ui/core/Box";
 
 import ListItemElement from "./Components/ListItemElement";
 import ImageBox from "./Components/ImageBox";
+import SkillItem from "./Components/SkillItem";
 
 import List from "@material-ui/core/List";
 import Divider from "@material-ui/core/Divider";
@@ -277,6 +278,15 @@ export default function About(props) {
               </Typography>
             </ListItemElement>
           </List>
+          <Typography
+            className={`${classes.categoryTitle} ${classes.lastcategoryTitle}`}
+            variant="h4"
+          >
+            Skills
+          </Typography>
+          <List className={classes.root}>
+            <SkillItem/>
+          </List>
         </Box>
       </div>
     );
@@ -538,6 +548,15 @@ export default function About(props) {
                 des goodies.
               </Typography>
             </ListItemElement>
+          </List>
+          <Typography
+            className={`${classes.categoryTitle} ${classes.lastcategoryTitle}`}
+            variant="h4"
+          >
+            Compétences
+          </Typography>
+          <List className={classes.root}>
+            <SkillItem/>
           </List>
         </Box>
       </div>
