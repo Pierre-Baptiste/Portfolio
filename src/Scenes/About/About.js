@@ -62,9 +62,7 @@ export default function About(props) {
           </Typography>
           <List className={classes.root}>
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/_aiU0pvp9aAKQBWjOLWfEpxJiFZhnUc-TXZPBLGJuKTOkvppdT7NweMrtGfPQPq1iyytStQJxEirdUGUzJuJtIAbEkMKYdUoysbzgMuNCKGpCKfinKRdSFTDP-ioDentKu-2dTpZcmas9s8qSpy2C-KzLRE52V3Z-XdcVHCeODoXRrMhyOzTCAzvSzIy0Q_SQqqRgkpjloPVWg199ygtMgAY6tmWO9AAdRMA_5O4CI_eP5Ted4DGh-pq9gmC61tHljeEtPqQ79I5VQFZEEEv0KZkUt3PjfYc61_8dPLlmUKlTJh0sEEm6w1EIxQTCpz6cgIhx3g09Atv-C_dZntARzhBLvZvrf2Ita_yddAriUa_WAYcKBIANg0S4zdDYuU7wUu1nMaYWAH7RfAsUTY4SozFObN84k-vW9u-lzXGZSYMVp1ewo0qOL1lS3OrIyfgvisXrtgoBiftG4i4vBCDuB8M5NNTyvJT0FZZEj-vxItbgSnGFWd6KNHZLOlFEC5P3575LWsFRWwdXvj2Qk3R6RcKTNcpayKJWbH2rFMMVgeLTSg2gKRMGkzgMKBvBqDgQpcgb_3SPKcFH8250-mwgMXsTr_Qzp4XkYtHiRc1X7RsBApDOu8DhSjMG11aJjOt9UG9mFpCUh6JVA5HHEip3sXjZ7FPsOrvVbWq6QV2-wKHnmKnGOUhJihdcaO4PO516aPdz9TSLegiCYc5OXrRfmyq-Gl6FjYf2aMkqSnrp2Fzm6U=s400-no"
-              }
+              image={"https://i.imgur.com/hY0BcdK.png"}
               imagetitle="DT Logo"
               title="Business Developer Intern"
               company="Design Terminal"
@@ -72,9 +70,7 @@ export default function About(props) {
               avatarlink={"http://designterminal.org/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/nL1WNNXXCjxZB68c4aS1YP9KNKupdxcE3TeEIPYc3sAkkr7Urd0RrEAAJl0azezncg_ewna7kRB-W2MHb_yoiCRw_TIMEgV8huOxveUTOMCBF4TEmoEM8bljjMvzsjWbSGDoY4hOBGeaau94_BqxADD1sCWRtQ5_ZoLkHCIJstNLJEeFwOI36HjDFtFVXrSAa830VCOxuFnQqQk69UkcF-iB7eDg0w70IfkYya_SWVQA9mabsCiWCeFAYhMMKzdDbPK0td_4CJ9HLJXeMQFWeGDaLY2_0Z8UUV6WO3whl0PlyIhUefdLzpo_xHxg8Dce2nA6-bDk0o5Eyghvb-2MgZeEKb6rA1VXELhxpTW-SOFmDDt0ELY_xgSlsOYc5OzTVcbvQ24eegHujFsmQ6SoBnt5U9kiDI6Uubv-nMnW4oNq3YqKAZXN49wHZsXNlGYySI1mt--uzrZv0bmLliVXg5unMjxpjjZkiw2lXWkjwMfrtebF4GvesprJdNaVlS-EE01Dx_x4CSy4Y1WZDGgPeWusH3IitczJzn-FoXvYMqzUYdsElgEXbY_AI5FlrlnqQgnB7y6LxXdHFYBrh4fEOE4a0Ac_QgHHui7JbJDXOrPP05TQl2jxVqM5ZXZ5W61FdLrpmCkBjD7IxwSoB1YtsEG6WKLGjXw-Qq67-4J9geaPZb1tD6ohsQ=w1187-h617-no"
-                }
+                imageBox={"https://i.imgur.com/D6aBgj9.jpg"}
               />
               <Typography paragraph={true}>
                 Design Terminal is an innovation agency that builds bridges
@@ -101,9 +97,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/MAOtf1C3oA0KwFj0SmYUZa58iXT9cUCUEVizCnm2wQ_f2sllyUKAN7GmEDxxCNBzXZ7A7hiQMuEhamAFBfVPoYzHX5SVPR1X2EJhe2SEsVtfMrm_dZqmfMKr4YUHvxS-0euGnIYDXqIJZtcwHWlMdyCCCKdN1XmkWCV_mwufKiJ4Ek2zWbqQ4j5S-XJtC8QZ3KWabUBKB_z6SV-28XN39QdHcdRp5Odcox7R7iNwRtRfEjDpE-mflMYN-WM5aOYPeFfF2DsV_w0PqFYRcdkF5Grkmv3adeG-qa8TlOX6rrH6NivukRnt5vLG9LgtviRQqcuxnvQuAudSVB-zDQH4CwXOISJ3p6TCs2cBEKlfcdmadi-RS7c_nQ0QCM_3ddcNtBMtE4jzXV2DndsVEIgKUb0MWuaW1B300n0xgQflVXfdP1FQgqnff2UWvd1keFic-vtWvaOYxYCjvSJeUiHNnsP7P5Z6J5-H_TYmn2EuM4kXVcRlqmnkZTtevhOA03mn9C6Y51PJPj-MgKP5n1PwP0mmiF6KvCZhADUym5rF040G4Z7KWG3MhoMe3wWSHLykClluHRpxb0LNpD-nvbRL1sPpB2BiZ6Fu0fpU8Rs4m_vmjluW_OzjfTHqCUq42hLUX-Vr_GNmJV8020cr2CC66tXxHVsd_8guzvQSQRDCNoH9gcrrZkA62F9UV9VCxMhAmokpmA10XpKfKFTm2_RbAwRbdNpul5vI6X3ddEpybWvpSvg=s150-no"
-              }
+              image={"https://i.imgur.com/OiaD4IU.png"}
               imagetitle="Leafee Logo"
               title="Co-Founder"
               company="Leafee"
@@ -111,9 +105,7 @@ export default function About(props) {
               avatarlink={"http://www.leafeeapp.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/_xeLfyflczlTYrm6nKP1TQwe_3L6kEhBWu3y3kuKRD1YNyz-DOIVk3IESVR7IMO4-QipPikj52LG7YODHSpX_OqNdRLE-wlZgEa0uSWGYSNa5HVPSmBS77OOaGEU5J3NQagQfrp1MEk5ZIPnQnxIbRvyxT_WhvkIi0vGitYfSbtn7syTd479sxx6I8oYZ-cSx2bOX19k1o_7szmN_KxqqpkcDjzr16OAkK2esd46td860JCrfpUoftik3k2Bj1Qhy6R8P0hhCv3K8QoP8CiHY4YhrJNL0ZqWDyzfUNPbe7qNx7r25DBS0ZGIyO0vszEKgSu1VKeU0DPl5b-Gdsm5dqLzeuT6HXLaVca4peUIwz1FAhvXWrXgbTG7qLUGUHkF-SdkQs7DpvK8w1SOlNCDNR8FJZblc0aHOI4-3_AODbOf4OVxAzvDjrb6T-Q23LoSIa99aK-6ylNMfW4JnkQWnUIckA9n-qU98ccL_yLbTQO283n02RGC8NvJfDYLh5qnVawn-fy4ew3onBhWFtOlKH24NfBUNqHHSIrVjsVUgHclpHz4JMpKzdvtmIpP9qyQrybJqBxQTftL2MdGdwvdHzWcD9e3Dt4DrCWLm68rz7Ii91Cj2m4HJOimMJgUZa4JJgBpWow2Ntmph5AL8dTfoBq68fY6GHkmct24jLjDEMJB78bhaPalQQ=w1022-h666-no"
-                }
+                imageBox={"https://i.imgur.com/2PIsAflm.jpg"}
               />
               <Typography paragraph={true}>
                 Leafee is a Personal Finance Management application that gathers
@@ -139,9 +131,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/jsUFrCJw0D9TuAqjnwQGdmT0cVMjPgQTTJqqQ6uJ1YUXwZ2PJJ-8xi0YRBzfIQ_BJzYUdfTaZVCAolZgAbUBi6GSR5eVpsEw10f622oV61KPgMUlw2-EAHVcz7Y6SzV6GbHdFmvQkvKrC3M125nYeFzFfjlPjFDFxdcqBnXsY31aIgwdKiMEjg6CbdS7S0NL9QhlTn7M_u0P_UMRWuAhsHgkfiHRlgWqD9NMx00BQb0lxBuB093MCPui75twgNzGt-xNpGHCFiJ3KXSWF8GoA38__LyL5sts66flESJaBi_LxWha5p9Tzqm8IBGdedFMsmZe3Ss1wwjvhhw5kkXcaSw6Wj-zk4dGM8fI7Of3dfr_E4VdIJSaowfx4wWg2u3JVFNUP_O5llsusGZJJCX_1skUuqUh_hVIfuv6kuxC_aviceZhWZvtseAZtgM9vov_U2Ab3DmLA0jBNIU41EyJQbuSbv5hTa2zdDGFa6ViFtLWt0GmGtGxcE33JqcJxdJXF99w4pUznC4j5J75NYRA2wWUDxdGwrS_y-ExSFcaI__rf4iBcAkG5AuMbGFYqhgR3HhWGYZd2w_QtzpDvOll_u6FRxHBFr-jY08jLuzUt0w6FJ2LcWJsSBFGTpXLKiw4H5NSoM21yaKxf070URZEnlkldA4FfoqoZF8CNO6PeaZVFXrxF4e2Vw=s318-no"
-              }
+              image={"https://i.imgur.com/bWjcSDB.jpg"}
               imagetitle="Indelec Logo"
               title="Set up of two Lightning tests sites in Rwanda"
               company="Indelec"
@@ -149,9 +139,7 @@ export default function About(props) {
               avatarlink={"https://indelec.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/1jIUtZhGs33Nt3pEr3w5mpWqdtyEk_Lsjbp6Imh7JQMnR5OmJ-tfOCOdfMt7r4ERLMVtbo7JqA5bnLx6BZAaG8SKko-HzLo0xLSTVnoDPdQFJsOUPhTuOBtOcxNZ5J-JwyQt55iwbXwVSEJwHNAeLaNntm-sJ5-Zc3wVZxHc8L4KqAopNdqw_p9gUqR4ogeqCfTLwtsYKpAelFhmBSG2PJ9Aop25j-oY9xGwV-u_hv4MzCeKYuLqEPYcPgovcpb-dkWnqspbjV5YIpe-HN3L_jXZyMQgq38ORn54fP4evXcz_SkzGg0ob9MAp09QjJ875wJG5Fi2At8x5p320zFABF8z5NXEHrFB6Ktt4NjQwg8D3b7VmicJ0CgU_QkMAP6qiQemqSUS8Dqo7egvUgse_5iyF_ZB646vL5n-_WawaCuRxSbPKs696XUS2OSXMNYqHVV-5nTOzJkRTDrGgtLOjKtKadUq_awMCniDaJonaO4LBYOWcY4KLoWsqRChYorRVzxtEzBbl0Zqem6Jo2922J8s_Q1tckmIMJM2N6uoIgCoah_wW9nIcAAXGpRC4suZQQvuJ7oGXbie2MqSAnv3enM5Iv2BzqdvCOoL4fy5tl7uYpnJ4AP5vCDwKslUkUWrWdereX1t1ViUG5Sy2fFN1QdhzElHoQJpXCBpKSh0X2lqEBZ7xOTlLA=w468-h260-no"
-                }
+                imageBox={"https://i.imgur.com/eBYQ9OS.jpg"}
               />
               <Typography gutterBottom>
                 Verify and maintain the equipment that was already there
@@ -175,9 +163,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/jom-9ip11dRHe7C1gWm38IMmJQs43oJBdTKJDF0yy87zJYb3J0gNRaJn6mBKusRSKDkJbWGTjHCKG56R9QGwNyMI3IihefQwYxGh5mKOpD_se-wqVnr3WoLJcQEa-uVOzCoxPKfdnAH6RF4-glr2-TrCfQkSX7m0ggDP3a9VLq46P54qER9RiX1Fpjc6prhj9VAnnHb8OPLWcPZ3xWjopCes3vlRlgrp4v6UxBjzWQct1IICv-wg34GAZvo8MpuIodojLpw3A_mayrRdqLjR8_VFQJ32Y-dQb7pll55HUu4VJA6GkxyA51cj1XTTLs7siIX8QN5PF3uGu9wCRBIrV1PyiK2k0Cz-AWKXuY2JxSsxjNku8yKRa1o7oCscgtAelm7C59YIz5ebYpouKjkvs3HS4XaCP2l2M_a-sDnJZ4DTCC_NpU5R6-PVMrZLyFUbVsjcaxrIOQ50sbKe2mMAla6DFZQT24n2pIsjlBtIA7PNNI8eB1ykMDIqgWE9afexPkMero0eJgfyGBR7P7aq7S3fOpMKm5M2HccI2hXkUF1lTRFfaYAYTzIKybdVB39OlmeOg7C_bw1LQ_V4pB2hh6-2Aj52cErNHoOURMchuCjfqUlYPGwLB87gy4qw3uli1j7kmMncrsmrykD2S4ALqMJKpanfLopSIRGKtZkgpBEkjpCRPoY4RQ=s250-no"
-              }
+              image={"https://i.imgur.com/kuTb09D.png"}
               imagetitle="Colas Logo"
               title="Intern at the equipment department"
               company="Colas"
@@ -185,9 +171,7 @@ export default function About(props) {
               avatarlink={"https://www.colas.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/he4L-29dAab3KbM9tQ8kmrYXqwYE2-nWDg8bfjhYS77ohE46vC_npbsinFe2KEEnyNmIV4tkNnpV9Hp8tkJDlzDuQvceXwSP5P4NCi0ICu2Fy9A-9WG5JmyIK9fQadUJS27b13cQB_9yNV-H-NzQVRwHQ3XZfjWpgVIL01x5OX46oG87mafDhSAbKi1YNJJJbiiYcEudSrV0cZg4oM8Fbs-oNx66S709jxzO5kQ2btsOd38f9nDecmV1s6UeyX_1SPW4WicCuPE8q0QE_JnQCi2cTzVO1V7GsToE3XBg0jHEvMHL8J89yjsu6_gcxriZozKwuI8_GoafMx2ROwAcgqL8YAEkVazzDfy3bSHtSU3kKfmAt5yGAkABPYa_brcUrHcCfkMfKgf9_LrgaFoCCOOUBxvrLGzSzNE2wqyThuPsIGs_UFgI0YEg9F_gs3pTQIQ5dZf18_uO6FwscTYGKUwfoJnay5SMQRM38MR22HOyJ1zfxxe8-bs_0Qm70xVl0FB2Tu-FmasBPO1DEXwn-ikZLEKE6XaHDRhihw-btpXhsyqlo7iyLfzT8Ato5K-9z3YizuJxSvZtm8qJMsuhgGMRMXfWypGHk-dBuqHtZ75FjbaDZcjZc3iunhk5Rls58iB9kGnMs6_I0Mstqn_JvQMm60oVeyYoLlBkSV_iggpoBkOlCinLxRq2FDXhPkOoqCcoBP2g3L_hrnRim-s1cmM0eVhcc1DFWMEvox4mqOxjhyw=w555-h383-no"
-                }
+                imageBox={"https://i.imgur.com/UgIidzE.jpg"}
               />
               <Typography gutterBottom>
                 Deployed (installed and trained users) a software to help
@@ -197,9 +181,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/Q23jvYCxZfiLevOSHQkPk9H_5BT_FicABjZbqfVIOqw6KqbREQfgc_ab6hQmEWDwv4EV2MCbDCyG0PUChLrS67V-kbqqObCr48JLDpB9twMgs-jb_UHTsIMoK30Wo_4Cf9HU7C7zYpNwqiC7G4v7TbPio0RcCpQqsjILEv_zbbRix6rog-1STS5wqb3yQkVr3-yK59xGYC8i5C_q_8ofNPd345WODXH2D-kllTnC-UvSytXf6DVrUi2WpBGliZkcoQYJoo5PeGl48_ftFxNF5tQCTt7KQiNedBPySDRwHJUqvKDeE8y_RCq3VeNwXWcL63yFcNHRO0qEhaXYIXPJn3bNjqJbZNW02qNYw0qTPFZ_TpUnyLLA8XwEHxP8F6YqDyKMN4-L8dpupOEIbEHLt2LgIjpEUUj0w-_4tg_xsMbHZwXz0AuV_v7CG4n5bBjj48NLc18z0rB02ptu0M1rjlXayMzlHikpW6c_snwoGtHM22kr8U5rJpMBQqpxvGxBQ30rwWFX1vWOC6XHQ66yNn8VkajyfqRpwJTPkhwlsw5cIOMSvgOPENWF39fj0TTXphv1M_ZwR_l9Jeig4yFUeIXpe9LMOzGPJklZpfWs6JZHEC3M4m8YJl1tFlyF-1Dft4Kv4ITfOu2WvpBfr8ilX5LL0TdFqchz7aOFrE4XOvYSY2A-qfh5kg=s400-no"
-              }
+              image={"https://i.imgur.com/QpkmRKQ.jpg"}
               imagetitle="Lovelace Logo"
               title="Maintenance and Administration Intern "
               company="Lovelace Health System"
@@ -207,9 +189,7 @@ export default function About(props) {
               avatarlink={"http://lovelace.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/l5t4ZvfvyagTHEPFw3YmgT4gzCPmCTH7SdgscDRAcxNbKAOiz1HvJs7IMHLdtLYInK6cC2FtqmKGDjlP1t5-HGiI_0ieM8TP2695o6yZnWRhE16b6_iLqeCY4qD_DqtI0rnDB_N2yV_L2b-Xzt8e_9bZh5u4BmmSB5SmO1VqB4B3--gUqZIbK3WDBrBea4GUEUK6jop_0JTax9KrbBHfhQx50h34ANuG1-4KJZ939rUI0EyrpVc-xdL3ywAy1PXWIbc0EpqpMz9TwC6ukqVD-AfrBqkboe0FIwTDmax9gEQKq9Vdt5UtvEpmLPv6wjVJLYDcBISlP-lv0az2cVOsRjnJ7hW4wqmVLMi6Ryzm-p9hfu3RDlODE3uksUadN7YbeNprjIGfAYWBlxUTV3v1oT_Ykbz5vSXh_OtaLhr8lNekYxUuefYYmnKq8_j97Ol8LO_SUiKDby1Uz8XvBcqfo8_SdKShdvRqH1qb3E7Hr2T8akRbANLy6_GyLLWcf8Q7xmQ3wNmpmxaPnbE3uvIlIOwmwMlRkeFYZVpa9_uutwaY-FQM91YB9CV08thbvsANjrM2dh8-9WjpojcefNXUoaKu0FpMSv-5MG0AJU0fEPhEKHzzRwKxAgxM64KdIKmV0XUHboGxQGZfr0mT0MdS2uyKAaC3X34CrjN9-qqBrW1QoluAGRL7URmmwkRBJ0yDjAM-d0AtFpYV-4mwqfO6aokErp-GzR-bwJPQXTrQ4omMh7k=w920-h436-no"
-                }
+                imageBox={"https://i.imgur.com/OAiKKLT.jpg"}
               />
               <Typography gutterBottom>
                 Maintenance intern 4 days out of five working on the current
@@ -226,9 +206,7 @@ export default function About(props) {
           </Typography>
           <List className={classes.root}>
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/X5pPJiGOz6U8RwPFwdIa9woVSix3pzTzA5d9v686o4TnNVhjuM_fuLtl1xExJRekZ66PGJkrlJ9r5VzS-GqZ9_scplp1tIsAwEs_340kEWb6ChyANCbFf5cBwwGvDKbPkC7AJcYLXuFj3SMA5oxgBmAP5JeC2g309qgoJWfqikxR8vn-ctgxlccU8_lvHdsLwawYm4N2bxjIXstV5RgbHmNCbFIySOwmcgttuLYAu-8RmCc7bLGW-4l22K0f2BTlAxHJqjD3Dw5i62R7UM9bOGAYxbQ0lJYls_R-WzjD50rPvVnZM7KLT34VLjpwdpAp62TE36FU_igh4goqtXiju6Zm0RZSbzdeeEJrF-QkOSSJ5JriQzPh_Ti4LwAuARyZPei2JnOpA9LMfmcf_quWm9BSfRq_xhokaK8DHcCqQXb1pncSW4xARJ2gADHrk82awXslcLTRvauqfdm8NBJibVv8Cc1gNYKXfrpTn9wcCpXMMm4xP41-WewCBaJH1z10plMaE5KOCMLQuw_TvtueHfn0FdXK8YYPKEnELMRsjUvUSJ47159AK2_CwjMT0SmsLUNCgbYTpWF6CAB5BcRiAbriT_TAG2sXbwqIobxLrnLsXsrov7mDGGoimwiYYtfJN20-dFRnC7nqImDmIE5li3TyHK0NeRUq-Be6KvpvaJlipdX7gt5euA=w350-h250-no"
-              }
+              image={"https://i.imgur.com/wkePpuN.png"}
               imagetitle="BME Logo"
               title="Double Degree - Budapest University of Technology and Economics"
               company="Master's Degree in Engineering"
@@ -236,9 +214,7 @@ export default function About(props) {
               avatarlink={"https://www.bme.hu/?language=en"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/0a-sP-eKmp0rd2Pg6j21UTAKfv_ESGzYzHkkEeq4M6VuwiVVTDbepHXSTQz8Hz3SN3LHHwMp5N_heLjfgkRH_-fxrnI8GeIVT9s81q_EXsdluXKnj9GpTBH1BOet2r5zsfIInxwybPgHBZ5U7YEonOAE6voI64uOZhGa4x4DvygJIn3Nl_YZno2MEIEKYQsY7kJ0HLnLway8XFXhC8hW8AkUoXlWgk9pnqa49vus8ApslId-IY1YKQo3uwSxS19FbNcM2d9vpsTRy74Bjek2sawIRr-YPlVAP3WTSkpML479vCCnN21Pio_3LGmundUlxfuPks_7wmTRcZhDrgjxC553KhQdHB4Lc-usPaHUoCeTlvZZoVpvpDrmY-XfvOEqNDim_7rtKBs-vHvBxYqA8ycmeMhd5Oa1KDN6woBBZt_rGZOnTzYGNNcVXIvUerGm223f_X3iFzCjXOhLxBAdjaJryUEjxJUFx0uLQ_jRsX_lT_kOKKC54q7L7QhrkSLR93zlLFukGn3Ph8bfIU0tv5C0RArRmXAceFcYs8A4sPa9W_A6LAEe5PYj3TLRJ3x70urw3Xj4IS5W3T9p1gD5Op2hIGDWWymEZKiuJBRn0yT-SFUOrhMOlCnEpybhnoNPQE81O5MH1qtjh2PqqiW3Eaf-A3tq3cF0LZ6Q9JLyZ6X-Yj6J-nzVktG0cfcNciiBwuuDsO8YcsOmnrYhKDa1m8DK-7iZbWBjdVDYEnxfJEMwE-U=w700-h245-no"
-                }
+                imageBox={"https://i.imgur.com/IzuNA4S.jpg"}
               />
               <Typography gutterBottom>
                 Double diploma, major in "Design & Technology", minor in
@@ -248,9 +224,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/eHQOGyJpNC9F7ikX-2eqN5y1g3Zn3UKeci4CfwmfDaDwg1ER-_63J7GuQG1WBT6vRQFfERDWOJfMqP-6d-xNKAoCU9gSN-iDsbnPoSvJ255C5E8nIh8P1Fiv8bvT1nzrPB-AZDleyhBrnifwsCGl_UZriu6zQ-_dmm-xbhfZDcvULGdJ68XHIwA1unf6w57VCEsMGrhhuw-VRIekyP4aj-np761e-h7c0VigVPO1l7V3497xlp9uUbIMlY85sj4TzmY1FB5KWhwecM605xJQzgMWxtDorCC1ZL22lV_s8aSI5mp889VIyDck8XRZ8dHAPvM60TArKZY9Sjbqu2ycLl9gAnLZtMKONDHQyyi2uEae_5S-VhUOVDIwYF2ty4g3uo_Nu0WI9rQb1lPVWdQtmBEUH3fRKAGDVd7OvzrSmmop2ZcpmgbDoMrVlx3uNcXeGrvc2rF2MSFm4Ht_rJ1O7V2npvbHefbOeu4Kw6jAQHms-U4_9FWFbQxAas1ZVhDFCXAs9HjA-ewIup5udWjF-MbmioKy-iYqZ1YPHZYrN2llHumXdxJBiTconAR_yLcqKGzKxeqdvBv3CV53qpSOFaKD2YIXrLanl5hnulzekHz4ZAXnJpjRjDHhOrYuTYRw7SkWoHCGZ0PpmoAfaPO3D65F55-MbS9Vh8rkTrYipjOR_0AX7jaHcg=s296-no"
-              }
+              image={"https://i.imgur.com/5APEJjm.jpg"}
               imagetitle="Ensam Logo"
               title="Double Degree - École Nationale Supérieure d'Arts et Métiers Paristech"
               company="Master's Degree in Engineering"
@@ -258,9 +232,7 @@ export default function About(props) {
               avatarlink={"https://artsetmetiers.fr/en"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/W6JYoi-L9MUm69fFlmazX6zYMkPoX_XY97WFMPiVJvX43qG5Oggzc_xDPTU8rXDdg1oaUyLHGIGOSL75DOcnCU7PPMT7Ytz4YyYsyy8p5U6nB4YsfQ7iy1-lV_4m6gakzlbsl1aU6VXkR66MGGsIRT4UExa2km3Vev2fa6Gy2_SXGGhSV9S5qcoD-4OKeWh8bPvfmDe-l0JUujqFjf3LIgBhZ2Q0pRUSetRalfiZQyGpJ6C-WMaEMvM__Me4cm4a_ogZ41-0FkxfuzXHEAjbd-qgYcprwBt8XBJZntcX8LeRbZnMN20o46uAjG3dfauwl0leR3HPKUJQz93dhjtop_NjPKh217za_xQ_wA3cPwKlmJFs7ob8krJho_LdPwYdZ_dswdG-yr_0mP9REV_SOAE4pkSNWn5Zdrh95ATc3_nsODNFhAu6GccPVqXoXHnDb8VNkE_gl2B84tfxaUtgxVUfv8xKEpFwUsXk8FJ1oADwOaS8809cSYoxZioRqFMAMmRoIcxSOJ07kgaJhcdNT6mwGcywM5Y1GlLYdqUDPQqRQvkdZpkGg_b_sPGiKYvABKL3vSIkr_xM5_7ZrBX2Hu-oLu6XmwXGT6yB32eBnNyywyRu4zNt40W007y3QmJlbfg0RVJFSqT_C309wEYFDQ8KGzePAl6zy-bV4GqGli0fwgc7uMjTMVVrbgemVaFfSWxuyZtQVGrct-faRjILxHa2iSGB7nWD1uIkao-E4TZMOXw=w920-h319-no"
-                }
+                imageBox={"https://i.imgur.com/Cr5dztz.jpg"}
               />
               <Typography gutterBottom>
                 President of the music band, I organized 7 gigs in two years.
@@ -308,9 +280,7 @@ export default function About(props) {
           </Typography>
           <List className={classes.root}>
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/_aiU0pvp9aAKQBWjOLWfEpxJiFZhnUc-TXZPBLGJuKTOkvppdT7NweMrtGfPQPq1iyytStQJxEirdUGUzJuJtIAbEkMKYdUoysbzgMuNCKGpCKfinKRdSFTDP-ioDentKu-2dTpZcmas9s8qSpy2C-KzLRE52V3Z-XdcVHCeODoXRrMhyOzTCAzvSzIy0Q_SQqqRgkpjloPVWg199ygtMgAY6tmWO9AAdRMA_5O4CI_eP5Ted4DGh-pq9gmC61tHljeEtPqQ79I5VQFZEEEv0KZkUt3PjfYc61_8dPLlmUKlTJh0sEEm6w1EIxQTCpz6cgIhx3g09Atv-C_dZntARzhBLvZvrf2Ita_yddAriUa_WAYcKBIANg0S4zdDYuU7wUu1nMaYWAH7RfAsUTY4SozFObN84k-vW9u-lzXGZSYMVp1ewo0qOL1lS3OrIyfgvisXrtgoBiftG4i4vBCDuB8M5NNTyvJT0FZZEj-vxItbgSnGFWd6KNHZLOlFEC5P3575LWsFRWwdXvj2Qk3R6RcKTNcpayKJWbH2rFMMVgeLTSg2gKRMGkzgMKBvBqDgQpcgb_3SPKcFH8250-mwgMXsTr_Qzp4XkYtHiRc1X7RsBApDOu8DhSjMG11aJjOt9UG9mFpCUh6JVA5HHEip3sXjZ7FPsOrvVbWq6QV2-wKHnmKnGOUhJihdcaO4PO516aPdz9TSLegiCYc5OXrRfmyq-Gl6FjYf2aMkqSnrp2Fzm6U=s400-no"
-              }
+              image={"https://i.imgur.com/hY0BcdK.png"}
               imagetitle="DT Logo"
               title="Stagiaire développement commercial"
               company="Design Terminal"
@@ -318,9 +288,7 @@ export default function About(props) {
               avatarlink={"http://designterminal.org/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/nL1WNNXXCjxZB68c4aS1YP9KNKupdxcE3TeEIPYc3sAkkr7Urd0RrEAAJl0azezncg_ewna7kRB-W2MHb_yoiCRw_TIMEgV8huOxveUTOMCBF4TEmoEM8bljjMvzsjWbSGDoY4hOBGeaau94_BqxADD1sCWRtQ5_ZoLkHCIJstNLJEeFwOI36HjDFtFVXrSAa830VCOxuFnQqQk69UkcF-iB7eDg0w70IfkYya_SWVQA9mabsCiWCeFAYhMMKzdDbPK0td_4CJ9HLJXeMQFWeGDaLY2_0Z8UUV6WO3whl0PlyIhUefdLzpo_xHxg8Dce2nA6-bDk0o5Eyghvb-2MgZeEKb6rA1VXELhxpTW-SOFmDDt0ELY_xgSlsOYc5OzTVcbvQ24eegHujFsmQ6SoBnt5U9kiDI6Uubv-nMnW4oNq3YqKAZXN49wHZsXNlGYySI1mt--uzrZv0bmLliVXg5unMjxpjjZkiw2lXWkjwMfrtebF4GvesprJdNaVlS-EE01Dx_x4CSy4Y1WZDGgPeWusH3IitczJzn-FoXvYMqzUYdsElgEXbY_AI5FlrlnqQgnB7y6LxXdHFYBrh4fEOE4a0Ac_QgHHui7JbJDXOrPP05TQl2jxVqM5ZXZ5W61FdLrpmCkBjD7IxwSoB1YtsEG6WKLGjXw-Qq67-4J9geaPZb1tD6ohsQ=w1187-h617-no"
-                }
+                imageBox={"https://i.imgur.com/D6aBgj9.jpg"}
               />
               <Typography paragraph={true}>
                 Design Terminal est la première agence d'innovation d'Europe
@@ -354,9 +322,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/MAOtf1C3oA0KwFj0SmYUZa58iXT9cUCUEVizCnm2wQ_f2sllyUKAN7GmEDxxCNBzXZ7A7hiQMuEhamAFBfVPoYzHX5SVPR1X2EJhe2SEsVtfMrm_dZqmfMKr4YUHvxS-0euGnIYDXqIJZtcwHWlMdyCCCKdN1XmkWCV_mwufKiJ4Ek2zWbqQ4j5S-XJtC8QZ3KWabUBKB_z6SV-28XN39QdHcdRp5Odcox7R7iNwRtRfEjDpE-mflMYN-WM5aOYPeFfF2DsV_w0PqFYRcdkF5Grkmv3adeG-qa8TlOX6rrH6NivukRnt5vLG9LgtviRQqcuxnvQuAudSVB-zDQH4CwXOISJ3p6TCs2cBEKlfcdmadi-RS7c_nQ0QCM_3ddcNtBMtE4jzXV2DndsVEIgKUb0MWuaW1B300n0xgQflVXfdP1FQgqnff2UWvd1keFic-vtWvaOYxYCjvSJeUiHNnsP7P5Z6J5-H_TYmn2EuM4kXVcRlqmnkZTtevhOA03mn9C6Y51PJPj-MgKP5n1PwP0mmiF6KvCZhADUym5rF040G4Z7KWG3MhoMe3wWSHLykClluHRpxb0LNpD-nvbRL1sPpB2BiZ6Fu0fpU8Rs4m_vmjluW_OzjfTHqCUq42hLUX-Vr_GNmJV8020cr2CC66tXxHVsd_8guzvQSQRDCNoH9gcrrZkA62F9UV9VCxMhAmokpmA10XpKfKFTm2_RbAwRbdNpul5vI6X3ddEpybWvpSvg=s150-no"
-              }
+              image={"https://i.imgur.com/OiaD4IU.png"}
               imagetitle="Leafee Logo"
               title="Co-Fondateur"
               company="Leafee"
@@ -364,9 +330,7 @@ export default function About(props) {
               avatarlink={"http://www.leafeeapp.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/_xeLfyflczlTYrm6nKP1TQwe_3L6kEhBWu3y3kuKRD1YNyz-DOIVk3IESVR7IMO4-QipPikj52LG7YODHSpX_OqNdRLE-wlZgEa0uSWGYSNa5HVPSmBS77OOaGEU5J3NQagQfrp1MEk5ZIPnQnxIbRvyxT_WhvkIi0vGitYfSbtn7syTd479sxx6I8oYZ-cSx2bOX19k1o_7szmN_KxqqpkcDjzr16OAkK2esd46td860JCrfpUoftik3k2Bj1Qhy6R8P0hhCv3K8QoP8CiHY4YhrJNL0ZqWDyzfUNPbe7qNx7r25DBS0ZGIyO0vszEKgSu1VKeU0DPl5b-Gdsm5dqLzeuT6HXLaVca4peUIwz1FAhvXWrXgbTG7qLUGUHkF-SdkQs7DpvK8w1SOlNCDNR8FJZblc0aHOI4-3_AODbOf4OVxAzvDjrb6T-Q23LoSIa99aK-6ylNMfW4JnkQWnUIckA9n-qU98ccL_yLbTQO283n02RGC8NvJfDYLh5qnVawn-fy4ew3onBhWFtOlKH24NfBUNqHHSIrVjsVUgHclpHz4JMpKzdvtmIpP9qyQrybJqBxQTftL2MdGdwvdHzWcD9e3Dt4DrCWLm68rz7Ii91Cj2m4HJOimMJgUZa4JJgBpWow2Ntmph5AL8dTfoBq68fY6GHkmct24jLjDEMJB78bhaPalQQ=w1022-h666-no"
-                }
+                imageBox={"https://i.imgur.com/2PIsAflm.jpg"}
               />
               <Typography paragraph={true}>
                 Leafee est une application de gestion des finances personnelles
@@ -393,9 +357,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/jsUFrCJw0D9TuAqjnwQGdmT0cVMjPgQTTJqqQ6uJ1YUXwZ2PJJ-8xi0YRBzfIQ_BJzYUdfTaZVCAolZgAbUBi6GSR5eVpsEw10f622oV61KPgMUlw2-EAHVcz7Y6SzV6GbHdFmvQkvKrC3M125nYeFzFfjlPjFDFxdcqBnXsY31aIgwdKiMEjg6CbdS7S0NL9QhlTn7M_u0P_UMRWuAhsHgkfiHRlgWqD9NMx00BQb0lxBuB093MCPui75twgNzGt-xNpGHCFiJ3KXSWF8GoA38__LyL5sts66flESJaBi_LxWha5p9Tzqm8IBGdedFMsmZe3Ss1wwjvhhw5kkXcaSw6Wj-zk4dGM8fI7Of3dfr_E4VdIJSaowfx4wWg2u3JVFNUP_O5llsusGZJJCX_1skUuqUh_hVIfuv6kuxC_aviceZhWZvtseAZtgM9vov_U2Ab3DmLA0jBNIU41EyJQbuSbv5hTa2zdDGFa6ViFtLWt0GmGtGxcE33JqcJxdJXF99w4pUznC4j5J75NYRA2wWUDxdGwrS_y-ExSFcaI__rf4iBcAkG5AuMbGFYqhgR3HhWGYZd2w_QtzpDvOll_u6FRxHBFr-jY08jLuzUt0w6FJ2LcWJsSBFGTpXLKiw4H5NSoM21yaKxf070URZEnlkldA4FfoqoZF8CNO6PeaZVFXrxF4e2Vw=s318-no"
-              }
+              image={"https://i.imgur.com/bWjcSDB.jpg"}
               imagetitle="Indelec Logo"
               title="Mise en place de deux sites d'essais contre la foudre au Rwanda"
               company="Indelec"
@@ -403,9 +365,7 @@ export default function About(props) {
               avatarlink={"https://indelec.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/1jIUtZhGs33Nt3pEr3w5mpWqdtyEk_Lsjbp6Imh7JQMnR5OmJ-tfOCOdfMt7r4ERLMVtbo7JqA5bnLx6BZAaG8SKko-HzLo0xLSTVnoDPdQFJsOUPhTuOBtOcxNZ5J-JwyQt55iwbXwVSEJwHNAeLaNntm-sJ5-Zc3wVZxHc8L4KqAopNdqw_p9gUqR4ogeqCfTLwtsYKpAelFhmBSG2PJ9Aop25j-oY9xGwV-u_hv4MzCeKYuLqEPYcPgovcpb-dkWnqspbjV5YIpe-HN3L_jXZyMQgq38ORn54fP4evXcz_SkzGg0ob9MAp09QjJ875wJG5Fi2At8x5p320zFABF8z5NXEHrFB6Ktt4NjQwg8D3b7VmicJ0CgU_QkMAP6qiQemqSUS8Dqo7egvUgse_5iyF_ZB646vL5n-_WawaCuRxSbPKs696XUS2OSXMNYqHVV-5nTOzJkRTDrGgtLOjKtKadUq_awMCniDaJonaO4LBYOWcY4KLoWsqRChYorRVzxtEzBbl0Zqem6Jo2922J8s_Q1tckmIMJM2N6uoIgCoah_wW9nIcAAXGpRC4suZQQvuJ7oGXbie2MqSAnv3enM5Iv2BzqdvCOoL4fy5tl7uYpnJ4AP5vCDwKslUkUWrWdereX1t1ViUG5Sy2fFN1QdhzElHoQJpXCBpKSh0X2lqEBZ7xOTlLA=w468-h260-no"
-                }
+                imageBox={"https://i.imgur.com/eBYQ9OS.jpg"}
               />
               <Typography gutterBottom>
                 Pour une durée de 11 semaines, ma mission est d'installer et
@@ -431,9 +391,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/jom-9ip11dRHe7C1gWm38IMmJQs43oJBdTKJDF0yy87zJYb3J0gNRaJn6mBKusRSKDkJbWGTjHCKG56R9QGwNyMI3IihefQwYxGh5mKOpD_se-wqVnr3WoLJcQEa-uVOzCoxPKfdnAH6RF4-glr2-TrCfQkSX7m0ggDP3a9VLq46P54qER9RiX1Fpjc6prhj9VAnnHb8OPLWcPZ3xWjopCes3vlRlgrp4v6UxBjzWQct1IICv-wg34GAZvo8MpuIodojLpw3A_mayrRdqLjR8_VFQJ32Y-dQb7pll55HUu4VJA6GkxyA51cj1XTTLs7siIX8QN5PF3uGu9wCRBIrV1PyiK2k0Cz-AWKXuY2JxSsxjNku8yKRa1o7oCscgtAelm7C59YIz5ebYpouKjkvs3HS4XaCP2l2M_a-sDnJZ4DTCC_NpU5R6-PVMrZLyFUbVsjcaxrIOQ50sbKe2mMAla6DFZQT24n2pIsjlBtIA7PNNI8eB1ykMDIqgWE9afexPkMero0eJgfyGBR7P7aq7S3fOpMKm5M2HccI2hXkUF1lTRFfaYAYTzIKybdVB39OlmeOg7C_bw1LQ_V4pB2hh6-2Aj52cErNHoOURMchuCjfqUlYPGwLB87gy4qw3uli1j7kmMncrsmrykD2S4ALqMJKpanfLopSIRGKtZkgpBEkjpCRPoY4RQ=s250-no"
-              }
+              image={"https://i.imgur.com/kuTb09D.png"}
               imagetitle="Colas Logo"
               title="Déploiement d'un outil de GMAO dans 30 centrales d'enrobé"
               company="Colas"
@@ -441,9 +399,7 @@ export default function About(props) {
               avatarlink={"https://www.colas.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/he4L-29dAab3KbM9tQ8kmrYXqwYE2-nWDg8bfjhYS77ohE46vC_npbsinFe2KEEnyNmIV4tkNnpV9Hp8tkJDlzDuQvceXwSP5P4NCi0ICu2Fy9A-9WG5JmyIK9fQadUJS27b13cQB_9yNV-H-NzQVRwHQ3XZfjWpgVIL01x5OX46oG87mafDhSAbKi1YNJJJbiiYcEudSrV0cZg4oM8Fbs-oNx66S709jxzO5kQ2btsOd38f9nDecmV1s6UeyX_1SPW4WicCuPE8q0QE_JnQCi2cTzVO1V7GsToE3XBg0jHEvMHL8J89yjsu6_gcxriZozKwuI8_GoafMx2ROwAcgqL8YAEkVazzDfy3bSHtSU3kKfmAt5yGAkABPYa_brcUrHcCfkMfKgf9_LrgaFoCCOOUBxvrLGzSzNE2wqyThuPsIGs_UFgI0YEg9F_gs3pTQIQ5dZf18_uO6FwscTYGKUwfoJnay5SMQRM38MR22HOyJ1zfxxe8-bs_0Qm70xVl0FB2Tu-FmasBPO1DEXwn-ikZLEKE6XaHDRhihw-btpXhsyqlo7iyLfzT8Ato5K-9z3YizuJxSvZtm8qJMsuhgGMRMXfWypGHk-dBuqHtZ75FjbaDZcjZc3iunhk5Rls58iB9kGnMs6_I0Mstqn_JvQMm60oVeyYoLlBkSV_iggpoBkOlCinLxRq2FDXhPkOoqCcoBP2g3L_hrnRim-s1cmM0eVhcc1DFWMEvox4mqOxjhyw=w555-h383-no"
-                }
+                imageBox={"https://i.imgur.com/UgIidzE.jpg"}
               />
               <Typography gutterBottom>
                 Pour une durée de 10 semaines, ma mission était de déployer un
@@ -455,9 +411,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/Q23jvYCxZfiLevOSHQkPk9H_5BT_FicABjZbqfVIOqw6KqbREQfgc_ab6hQmEWDwv4EV2MCbDCyG0PUChLrS67V-kbqqObCr48JLDpB9twMgs-jb_UHTsIMoK30Wo_4Cf9HU7C7zYpNwqiC7G4v7TbPio0RcCpQqsjILEv_zbbRix6rog-1STS5wqb3yQkVr3-yK59xGYC8i5C_q_8ofNPd345WODXH2D-kllTnC-UvSytXf6DVrUi2WpBGliZkcoQYJoo5PeGl48_ftFxNF5tQCTt7KQiNedBPySDRwHJUqvKDeE8y_RCq3VeNwXWcL63yFcNHRO0qEhaXYIXPJn3bNjqJbZNW02qNYw0qTPFZ_TpUnyLLA8XwEHxP8F6YqDyKMN4-L8dpupOEIbEHLt2LgIjpEUUj0w-_4tg_xsMbHZwXz0AuV_v7CG4n5bBjj48NLc18z0rB02ptu0M1rjlXayMzlHikpW6c_snwoGtHM22kr8U5rJpMBQqpxvGxBQ30rwWFX1vWOC6XHQ66yNn8VkajyfqRpwJTPkhwlsw5cIOMSvgOPENWF39fj0TTXphv1M_ZwR_l9Jeig4yFUeIXpe9LMOzGPJklZpfWs6JZHEC3M4m8YJl1tFlyF-1Dft4Kv4ITfOu2WvpBfr8ilX5LL0TdFqchz7aOFrE4XOvYSY2A-qfh5kg=s400-no"
-              }
+              image={"https://i.imgur.com/QpkmRKQ.jpg"}
               imagetitle="Lovelace Logo"
               title="Stagiaire au service maintenance et administratif"
               company="Lovelace Health System"
@@ -465,9 +419,7 @@ export default function About(props) {
               avatarlink={"http://lovelace.com/"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/l5t4ZvfvyagTHEPFw3YmgT4gzCPmCTH7SdgscDRAcxNbKAOiz1HvJs7IMHLdtLYInK6cC2FtqmKGDjlP1t5-HGiI_0ieM8TP2695o6yZnWRhE16b6_iLqeCY4qD_DqtI0rnDB_N2yV_L2b-Xzt8e_9bZh5u4BmmSB5SmO1VqB4B3--gUqZIbK3WDBrBea4GUEUK6jop_0JTax9KrbBHfhQx50h34ANuG1-4KJZ939rUI0EyrpVc-xdL3ywAy1PXWIbc0EpqpMz9TwC6ukqVD-AfrBqkboe0FIwTDmax9gEQKq9Vdt5UtvEpmLPv6wjVJLYDcBISlP-lv0az2cVOsRjnJ7hW4wqmVLMi6Ryzm-p9hfu3RDlODE3uksUadN7YbeNprjIGfAYWBlxUTV3v1oT_Ykbz5vSXh_OtaLhr8lNekYxUuefYYmnKq8_j97Ol8LO_SUiKDby1Uz8XvBcqfo8_SdKShdvRqH1qb3E7Hr2T8akRbANLy6_GyLLWcf8Q7xmQ3wNmpmxaPnbE3uvIlIOwmwMlRkeFYZVpa9_uutwaY-FQM91YB9CV08thbvsANjrM2dh8-9WjpojcefNXUoaKu0FpMSv-5MG0AJU0fEPhEKHzzRwKxAgxM64KdIKmV0XUHboGxQGZfr0mT0MdS2uyKAaC3X34CrjN9-qqBrW1QoluAGRL7URmmwkRBJ0yDjAM-d0AtFpYV-4mwqfO6aokErp-GzR-bwJPQXTrQ4omMh7k=w920-h436-no"
-                }
+                imageBox={"https://i.imgur.com/OAiKKLT.jpg"}
               />
               <Typography gutterBottom>
                 Stagiaire en maintenance 4 jours sur 5, travaillant sur les
@@ -484,9 +436,7 @@ export default function About(props) {
           </Typography>
           <List className={classes.root}>
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/X5pPJiGOz6U8RwPFwdIa9woVSix3pzTzA5d9v686o4TnNVhjuM_fuLtl1xExJRekZ66PGJkrlJ9r5VzS-GqZ9_scplp1tIsAwEs_340kEWb6ChyANCbFf5cBwwGvDKbPkC7AJcYLXuFj3SMA5oxgBmAP5JeC2g309qgoJWfqikxR8vn-ctgxlccU8_lvHdsLwawYm4N2bxjIXstV5RgbHmNCbFIySOwmcgttuLYAu-8RmCc7bLGW-4l22K0f2BTlAxHJqjD3Dw5i62R7UM9bOGAYxbQ0lJYls_R-WzjD50rPvVnZM7KLT34VLjpwdpAp62TE36FU_igh4goqtXiju6Zm0RZSbzdeeEJrF-QkOSSJ5JriQzPh_Ti4LwAuARyZPei2JnOpA9LMfmcf_quWm9BSfRq_xhokaK8DHcCqQXb1pncSW4xARJ2gADHrk82awXslcLTRvauqfdm8NBJibVv8Cc1gNYKXfrpTn9wcCpXMMm4xP41-WewCBaJH1z10plMaE5KOCMLQuw_TvtueHfn0FdXK8YYPKEnELMRsjUvUSJ47159AK2_CwjMT0SmsLUNCgbYTpWF6CAB5BcRiAbriT_TAG2sXbwqIobxLrnLsXsrov7mDGGoimwiYYtfJN20-dFRnC7nqImDmIE5li3TyHK0NeRUq-Be6KvpvaJlipdX7gt5euA=w350-h250-no"
-              }
+              image={"https://i.imgur.com/wkePpuN.png"}
               imagetitle="BME Logo"
               title="Double Diplôme - Budapest University of Technology and Economics"
               company="Master en ingénierie"
@@ -494,9 +444,7 @@ export default function About(props) {
               avatarlink={"https://www.bme.hu/?language=en"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/0a-sP-eKmp0rd2Pg6j21UTAKfv_ESGzYzHkkEeq4M6VuwiVVTDbepHXSTQz8Hz3SN3LHHwMp5N_heLjfgkRH_-fxrnI8GeIVT9s81q_EXsdluXKnj9GpTBH1BOet2r5zsfIInxwybPgHBZ5U7YEonOAE6voI64uOZhGa4x4DvygJIn3Nl_YZno2MEIEKYQsY7kJ0HLnLway8XFXhC8hW8AkUoXlWgk9pnqa49vus8ApslId-IY1YKQo3uwSxS19FbNcM2d9vpsTRy74Bjek2sawIRr-YPlVAP3WTSkpML479vCCnN21Pio_3LGmundUlxfuPks_7wmTRcZhDrgjxC553KhQdHB4Lc-usPaHUoCeTlvZZoVpvpDrmY-XfvOEqNDim_7rtKBs-vHvBxYqA8ycmeMhd5Oa1KDN6woBBZt_rGZOnTzYGNNcVXIvUerGm223f_X3iFzCjXOhLxBAdjaJryUEjxJUFx0uLQ_jRsX_lT_kOKKC54q7L7QhrkSLR93zlLFukGn3Ph8bfIU0tv5C0RArRmXAceFcYs8A4sPa9W_A6LAEe5PYj3TLRJ3x70urw3Xj4IS5W3T9p1gD5Op2hIGDWWymEZKiuJBRn0yT-SFUOrhMOlCnEpybhnoNPQE81O5MH1qtjh2PqqiW3Eaf-A3tq3cF0LZ6Q9JLyZ6X-Yj6J-nzVktG0cfcNciiBwuuDsO8YcsOmnrYhKDa1m8DK-7iZbWBjdVDYEnxfJEMwE-U=w700-h245-no"
-                }
+                imageBox={"https://i.imgur.com/IzuNA4S.jpg"}
               />
               <Typography gutterBottom>
                 Double diplôme, majeur en "Design & Technology", mineur en
@@ -516,9 +464,7 @@ export default function About(props) {
             </ListItemElement>
             <Divider variant="inset" component="li" />
             <ListItemElement
-              image={
-                "https://lh3.googleusercontent.com/eHQOGyJpNC9F7ikX-2eqN5y1g3Zn3UKeci4CfwmfDaDwg1ER-_63J7GuQG1WBT6vRQFfERDWOJfMqP-6d-xNKAoCU9gSN-iDsbnPoSvJ255C5E8nIh8P1Fiv8bvT1nzrPB-AZDleyhBrnifwsCGl_UZriu6zQ-_dmm-xbhfZDcvULGdJ68XHIwA1unf6w57VCEsMGrhhuw-VRIekyP4aj-np761e-h7c0VigVPO1l7V3497xlp9uUbIMlY85sj4TzmY1FB5KWhwecM605xJQzgMWxtDorCC1ZL22lV_s8aSI5mp889VIyDck8XRZ8dHAPvM60TArKZY9Sjbqu2ycLl9gAnLZtMKONDHQyyi2uEae_5S-VhUOVDIwYF2ty4g3uo_Nu0WI9rQb1lPVWdQtmBEUH3fRKAGDVd7OvzrSmmop2ZcpmgbDoMrVlx3uNcXeGrvc2rF2MSFm4Ht_rJ1O7V2npvbHefbOeu4Kw6jAQHms-U4_9FWFbQxAas1ZVhDFCXAs9HjA-ewIup5udWjF-MbmioKy-iYqZ1YPHZYrN2llHumXdxJBiTconAR_yLcqKGzKxeqdvBv3CV53qpSOFaKD2YIXrLanl5hnulzekHz4ZAXnJpjRjDHhOrYuTYRw7SkWoHCGZ0PpmoAfaPO3D65F55-MbS9Vh8rkTrYipjOR_0AX7jaHcg=s296-no"
-              }
+              image={"https://i.imgur.com/5APEJjm.jpg"}
               imagetitle="Ensam Logo"
               title="Double Diplôme - École Nationale Supérieure d'Arts et Métiers Paristech"
               company="Diplôme d'ingénieur généraliste"
@@ -526,9 +472,7 @@ export default function About(props) {
               avatarlink={"https://artsetmetiers.fr/en"}
             >
               <ImageBox
-                imageBox={
-                  "https://lh3.googleusercontent.com/W6JYoi-L9MUm69fFlmazX6zYMkPoX_XY97WFMPiVJvX43qG5Oggzc_xDPTU8rXDdg1oaUyLHGIGOSL75DOcnCU7PPMT7Ytz4YyYsyy8p5U6nB4YsfQ7iy1-lV_4m6gakzlbsl1aU6VXkR66MGGsIRT4UExa2km3Vev2fa6Gy2_SXGGhSV9S5qcoD-4OKeWh8bPvfmDe-l0JUujqFjf3LIgBhZ2Q0pRUSetRalfiZQyGpJ6C-WMaEMvM__Me4cm4a_ogZ41-0FkxfuzXHEAjbd-qgYcprwBt8XBJZntcX8LeRbZnMN20o46uAjG3dfauwl0leR3HPKUJQz93dhjtop_NjPKh217za_xQ_wA3cPwKlmJFs7ob8krJho_LdPwYdZ_dswdG-yr_0mP9REV_SOAE4pkSNWn5Zdrh95ATc3_nsODNFhAu6GccPVqXoXHnDb8VNkE_gl2B84tfxaUtgxVUfv8xKEpFwUsXk8FJ1oADwOaS8809cSYoxZioRqFMAMmRoIcxSOJ07kgaJhcdNT6mwGcywM5Y1GlLYdqUDPQqRQvkdZpkGg_b_sPGiKYvABKL3vSIkr_xM5_7ZrBX2Hu-oLu6XmwXGT6yB32eBnNyywyRu4zNt40W007y3QmJlbfg0RVJFSqT_C309wEYFDQ8KGzePAl6zy-bV4GqGli0fwgc7uMjTMVVrbgemVaFfSWxuyZtQVGrct-faRjILxHa2iSGB7nWD1uIkao-E4TZMOXw=w920-h319-no"
-                }
+                imageBox={"https://i.imgur.com/Cr5dztz.jpg"}
               />
               <Typography gutterBottom>
                 Président du club de musique, j'ai organisé 7 concerts et géré
