@@ -96,7 +96,7 @@ export default function Presentation(props) {
           <Grid container className={classes.root} spacing={4}>
             <Grid item xs={12} sm={6} md={4}>
               <WorkCard
-                image={"https://i.imgur.com/oWtaw4m.jpg"}
+                image={"https://i.imgur.com/hQqM2cl.png"}
                 imageTitle="Picture of myself"
                 date="2019"
                 title="Portfolio"

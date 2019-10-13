@@ -45,8 +45,7 @@ export default function About(props) {
         <Box className={classes.subtitleBox}>
           <Typography align="center">
             Sometimes I take surprisingly good/cool pictures, other times I have
-            a little fun with computer art... Whatever it is, it falls here, for
-            the world to see!
+            a little fun with computer art... Whatever it is, it falls here!
           </Typography>
         </Box>
         <Box className={classes.imagebox}>

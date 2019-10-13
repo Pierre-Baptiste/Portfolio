@@ -139,7 +139,7 @@ export default function About(props) {
               avatarlink={"https://indelec.com/"}
             >
               <ImageBox
-                imageBox={"https://i.imgur.com/eBYQ9OS.jpg"}
+                imageBox={"https://i.imgur.com/5qFmWMf.jpg"}
               />
               <Typography gutterBottom>
                 Verify and maintain the equipment that was already there
@@ -158,7 +158,14 @@ export default function About(props) {
               </Typography>
               <Typography gutterBottom>
                 Writing a scientific paper presented in an international
-                conference about my study on-field.
+                conference about my study on-field, look <a
+                    href="https://twitter.com/IndelecFrance/status/1055309483713458177"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "#001aff" }}
+                  >
+                    here
+                  </a>.
               </Typography>
             </ListItemElement>
             <Divider variant="inset" component="li" />
