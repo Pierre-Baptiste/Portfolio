@@ -1,69 +1,245 @@
 export const photos = [
          {
            src:
-             "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
-           width: 4,
-           height: 3,
+             "https://i.imgur.com/NQPutNo.jpg",
+           width: 16,
+           height: 9,
            author: {
-             url: "this is a test",
-             name: "Pierre-Baptiste Dupire - Csobanc Castle",
+             url: "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
+             name: "Hungarian Parlement - Budapest, Hungary",
            },
            
          },
          {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/bfLk4Dr.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://en.wikipedia.org/wiki/Csob%C3%A1nc",
+            name: "Csobánc - Hungary",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/U4c0u1U.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://fr.wikipedia.org/wiki/Ulcinj",
+            name: "Ulcinj, Montenegro",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/HFOT0oV.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://en.wikipedia.org/wiki/Pantheon,_Rome",
+            name: "Pantheon - Rome, Italy",
+          },
+        },
+        
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/uMwHk54.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://en.wikipedia.org/wiki/La_Rochelle",
+            name: "La Rochelle, France",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
-          width: 4,
-          height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+            "https://i.imgur.com/3IrEKYx.jpg",
+          width: 3,
+          height: 2,
+          author: {
+            url: "https://en.wikipedia.org/wiki/La_Rochelle",
+            name: "La Rochelle, France",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
-          width: 4,
-          height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+            "https://i.imgur.com/vCSp0Dd.jpg",
+          width: 3,
+          height: 2,
+          author: {
+            url: "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+            name: "St. Peter Basilica - Vatican City, Vatican",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/eq783Ov.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://en.wikipedia.org/wiki/Brussels_Town_Hall",
+            name: "Town Hall - Brussels, Belgium",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/aoOKZPD.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
-        },{
+          author: {
+            url: "https://fr.wikipedia.org/wiki/Ulcinj",
+            name: "Ulcinj, Montenegro",
+          },
+        },
+        {
           src:
-            "https://lh3.googleusercontent.com/nENAjn0D3umcm_7kDKtF1nKkB13Y7siSFiLTzeiZKWzBKFf74A1U0B9p-bkAf1aeKxRdtg7vIgLV_3GUNPk6VfuxUqwlD35z5gjxN9804_ZkT07I9zNTKJaoRhf2lImOMFLNCC7pHfCqFwWWITxu_vTYBaTJx7AKXIBFvwfxYX7J_G_9paYbAibejwCFBP9skIIIQvGKJtOyah0JctogLqvSEZlWn-9Zo7tYUKtVuVCUIXCSTOCrPlWW8L8YJ22xpkJiSuwGxp4qOOfjnfIlirCubOz7ibzyz7SZshrPC41foRIgxdmlVvA6wk3NIzlVRVxnRUDc99XgvXgzA70YGhb3y4BzRgxqvV-UGXa9iVRayDSkTMpV-7ZcaQc0MNFaWl8EYAuK8LrTY9KDWQkdS7glnlZN2r1RGYaHUpFtW29AU5vBMyAUI2DnaUWpybM3nFwoEXhNRkd2TVxdVtAF3_AaEB-pVuM_b-TikrwC5clb6Btr-fxpjNiMjXvQQWQy0e2yVXRN4w1gDj_hpsPjhKfxV-C2UbLBKbomOGFpSvRJNK8ZZyaR7fmFyGql0iqXXlUUHoUEYJplnPbOHi0gNGYFr_a1k53XEpOAWKEtrECZU0KmWS_qvcjtZei15XMo8QFovAaxu_hZ-RDX6XwzrIRsioni9zvsvFe8OvMhdfYnyDkV8f6N8joxVdxVHVb5234I7FxUYRM87Me7EUuLuTnHKaMD9kV1gyazJsvtUYy7AnQF=w888-h666-no",
+            "https://i.imgur.com/ZBqZkAt.jpg",
           width: 4,
           height: 3,
-          footer: "Cobanc Castle - Hungary"
+          author: {
+            url: "https://en.wikipedia.org/wiki/Rome",
+            name: "Rome, Italy",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/aA2J3wK.jpg",
+          width: 3,
+          height: 4,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Jerusalem",
+            name: "Archiduc Charles - Vienna, Austria",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/kkWZ9FV.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Liberty_Statue_(Budapest)",
+            name: "Liberty Statue - Budapest, Hungary",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/FuUtNQu.jpg",
+          width: 3,
+          height: 4,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Sistine_Chapel",
+            name: "Sistine Chapel - Vatican City, Vatican",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/kyEisA5.jpg",
+          width: 16,
+          height: 9,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Colosseum",
+            name: "Colosseum - Rome, Italy",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/seMt8YE.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Pagosa_Springs,_Colorado",
+            name: "Pagosa Springs, Colorado, USA",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/CISBjH4.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://fr.wikipedia.org/wiki/Ulcinj",
+            name: "Ulcinj, Montenegro",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/LxwJnro.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/New_York_City",
+            name: "New York City, New York, USA",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/rjaozBs.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Albuquerque_International_Balloon_Fiesta",
+            name: "Balloon Fiesta - Albuquerque, New Mexico, USA",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/Gn0FvSh.jpg",
+          width: 16,
+          height: 9,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Buda_Castle",
+            name: "Buda Castle - Budapest, Hungary",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/14FsAWH.jpg",
+          width: 3,
+          height: 4,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Jerusalem",
+            name: "Jerusalem, Israel and Palestine",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/waa9Xn9.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Belem_(ship)",
+            name: "Belem Ship - Dunkirk, France",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/53mkmVN.jpg",
+          width: 4,
+          height: 3,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Tihany",
+            name: "Lake Balaton - Tihany, Hungary",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/pzcUoaO.jpg",
+          width: 16,
+          height: 9,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Tihany",
+            name: "Vienna, Austria",
+          },
+        },
+        {
+          src:
+            "https://i.imgur.com/w9ofwvE.jpg",
+          width: 16,
+          height: 9,
+          author: {
+            url: "https://en.wikipedia.org/wiki/Petrified_Forest_National_Park",
+            name: "Petrified Forest - Arizona, USA",
+          },
         },
        ];
   
