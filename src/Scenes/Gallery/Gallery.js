@@ -25,7 +25,11 @@ const useStyles = makeStyles(theme => ({
   },
   imagebox: {
     maxWidth: "1000px",
-    margin: "auto"
+    margin: "auto",
+    marginBottom: "50px"
+  },
+  gridMargin: {
+    marginBottom: "50px"
   }
 }));
 
@@ -46,7 +50,7 @@ export default function About(props) {
           </Typography>
         </Box>
         <Box className={classes.imagebox}>
-          <Grid />
+          <Grid/>
         </Box>
       </div>
     );
