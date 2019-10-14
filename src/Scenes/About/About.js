@@ -393,7 +393,15 @@ export default function About(props) {
                 avec le ministère sont organisées. Enfin la dernière partie,
                 d'un mois également, sera consacrée au traitement des données
                 relevées, à l'élaboration de statistique et à la rédaction d'un
-                rapport de la mission en français et en anglais.
+                rapport de la mission en français et en anglais qui sera présenté lors d'une conférence internationale.
+                Voir <a
+                    href="https://twitter.com/IndelecFrance/status/1055309483713458177"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "#001aff" }}
+                  >
+                    ici
+                  </a>.
               </Typography>
             </ListItemElement>
             <Divider variant="inset" component="li" />
