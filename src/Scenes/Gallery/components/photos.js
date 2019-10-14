@@ -1,7 +1,7 @@
 export const photos = [
          {
            src:
-             "https://i.imgur.com/NQPutNo.jpg",
+             "https://i.imgur.com/pPeB4n0.jpg",
            width: 16,
            height: 9,
            author: {
@@ -12,7 +12,7 @@ export const photos = [
          },
          {
           src:
-            "https://i.imgur.com/bfLk4Dr.jpg",
+            "https://i.imgur.com/GOMQfbf.jpg",
           width: 4,
           height: 3,
           author: {
@@ -22,7 +22,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/U4c0u1U.jpg",
+            "https://i.imgur.com/guT0n3V.jpg",
           width: 4,
           height: 3,
           author: {
@@ -32,7 +32,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/HFOT0oV.jpg",
+            "https://i.imgur.com/q483CYa.jpg",
           width: 4,
           height: 3,
           author: {
@@ -43,7 +43,7 @@ export const photos = [
         
         {
           src:
-            "https://i.imgur.com/uMwHk54.jpg",
+            "https://i.imgur.com/GNY6UIH.jpg",
           width: 4,
           height: 3,
           author: {
@@ -53,7 +53,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/3IrEKYx.jpg",
+            "https://i.imgur.com/yHCINES.jpg",
           width: 3,
           height: 2,
           author: {
@@ -63,7 +63,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/vCSp0Dd.jpg",
+            "https://i.imgur.com/ADYWd3Z.jpg",
           width: 3,
           height: 2,
           author: {
@@ -73,7 +73,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/eq783Ov.jpg",
+            "https://i.imgur.com/V909cIh.jpg",
           width: 4,
           height: 3,
           author: {
@@ -83,7 +83,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/aoOKZPD.jpg",
+            "https://i.imgur.com/5VWgMDt.jpg",
           width: 4,
           height: 3,
           author: {
@@ -93,7 +93,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/ZBqZkAt.jpg",
+            "https://i.imgur.com/dp5NoSS.jpg",
           width: 4,
           height: 3,
           author: {
@@ -103,7 +103,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/aA2J3wK.jpg",
+            "https://i.imgur.com/oO3I3Q3.jpg",
           width: 3,
           height: 4,
           author: {
@@ -113,7 +113,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/kkWZ9FV.jpg",
+            "https://i.imgur.com/rwXEiT2.jpg",
           width: 4,
           height: 3,
           author: {
@@ -123,7 +123,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/FuUtNQu.jpg",
+            "https://i.imgur.com/RLEfp1f.jpg",
           width: 3,
           height: 4,
           author: {
@@ -133,7 +133,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/kyEisA5.jpg",
+            "https://i.imgur.com/4SPNlSx.jpg",
           width: 16,
           height: 9,
           author: {
@@ -143,7 +143,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/seMt8YE.jpg",
+            "https://i.imgur.com/a8b1W7T.jpg",
           width: 4,
           height: 3,
           author: {
@@ -153,7 +153,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/CISBjH4.jpg",
+            "https://i.imgur.com/DUqUoVC.jpg",
           width: 4,
           height: 3,
           author: {
@@ -163,7 +163,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/LxwJnro.jpg",
+            "https://i.imgur.com/Sm5Ms6u.jpg",
           width: 4,
           height: 3,
           author: {
@@ -173,7 +173,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/rjaozBs.jpg",
+            "https://i.imgur.com/XCJMRVc.jpg",
           width: 4,
           height: 3,
           author: {
@@ -183,17 +183,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/Gn0FvSh.jpg",
-          width: 16,
-          height: 9,
-          author: {
-            url: "https://en.wikipedia.org/wiki/Buda_Castle",
-            name: "Buda Castle - Budapest, Hungary",
-          },
-        },
-        {
-          src:
-            "https://i.imgur.com/14FsAWH.jpg",
+            "https://i.imgur.com/DmOnt0w.jpg",
           width: 3,
           height: 4,
           author: {
@@ -203,7 +193,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/waa9Xn9.jpg",
+            "https://i.imgur.com/utW1oAt.jpg",
           width: 4,
           height: 3,
           author: {
@@ -213,7 +203,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/53mkmVN.jpg",
+            "https://i.imgur.com/LgP84QX.jpg",
           width: 4,
           height: 3,
           author: {
@@ -223,7 +213,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/pzcUoaO.jpg",
+            "https://i.imgur.com/brevW3o.jpg",
           width: 16,
           height: 9,
           author: {
@@ -233,7 +223,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/w9ofwvE.jpg",
+            "https://i.imgur.com/aDK28Oo.jpg",
           width: 16,
           height: 9,
           author: {
@@ -243,7 +233,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/Pd3Qywc.jpg",
+            "https://i.imgur.com/EmcWYx7.jpg",
           width: 4,
           height: 3,
           author: {
@@ -253,7 +243,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/puaXEL5.jpg",
+            "https://i.imgur.com/ee4vpja.jpg",
           width: 3,
           height: 4,
           author: {
@@ -263,7 +253,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/qkEtrKN.jpg",
+            "https://i.imgur.com/SkFtj8D.jpg",
           width: 4,
           height: 3,
           author: {
@@ -273,7 +263,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/0pUTEQg.jpg",
+            "https://i.imgur.com/JmwADDq.jpg",
           width: 4,
           height: 3,
           author: {
@@ -283,7 +273,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/PTx6lxy.jpg",
+            "https://i.imgur.com/Xy4Ld5E.jpg",
           width: 4,
           height: 3,
           author: {
@@ -293,7 +283,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/Hjl24pp.jpg",
+            "https://i.imgur.com/kMxEakI.jpg",
           width: 3,
           height: 2,
           author: {
@@ -303,7 +293,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/mSekvBi.jpg",
+            "https://i.imgur.com/S1BOpAZ.jpg",
           width: 16,
           height: 10,
           author: {
@@ -313,7 +303,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/AT1MJ9f.jpg",
+            "https://i.imgur.com/f40Uteq.jpg",
           width: 3,
           height: 4,
           author: {
@@ -323,7 +313,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/txYZO33.jpg",
+            "https://i.imgur.com/hparCZL.jpg",
           width: 4,
           height: 3,
           author: {
@@ -333,7 +323,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/pLWU29A.jpg",
+            "https://i.imgur.com/frHlhL1.jpg",
           width: 4,
           height: 3,
           author: {
@@ -343,7 +333,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/lfKkTbt.jpg",
+            "https://i.imgur.com/7ScIAjt.jpg",
           width: 4,
           height: 3,
           author: {
@@ -353,7 +343,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/7l3FDmQ.jpg",
+            "https://i.imgur.com/abb5bKy.jpg",
           width: 4,
           height: 3,
           author: {
@@ -363,7 +353,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/dbqbhFf.jpg",
+            "https://i.imgur.com/zZeImwD.jpg",
           width: 4,
           height: 3,
           author: {
@@ -373,7 +363,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/jPFyK94.jpg",
+            "https://i.imgur.com/mSIlSkM.jpg",
           width: 4,
           height: 3,
           author: {
@@ -383,7 +373,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/XiF6rPV.png",
+            "https://i.imgur.com/Y42cCoE.png",
           width: 1,
           height: 1,
           author: {
@@ -393,7 +383,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/j1cFlJI.jpg",
+            "https://i.imgur.com/ldLhyXJ.jpg",
           width: 4,
           height: 3,
           author: {
@@ -403,7 +393,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/dscQCUJ.jpg",
+            "https://i.imgur.com/H81B1nn.jpg",
           width: 4,
           height: 3,
           author: {
@@ -413,7 +403,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/frZthlm.jpg",
+            "https://i.imgur.com/LArmzZ4.jpg",
           width: 4,
           height: 3,
           author: {
@@ -423,7 +413,7 @@ export const photos = [
         },
         {
           src:
-            "https://i.imgur.com/WD8z74a.jpg",
+            "https://i.imgur.com/p59M8yd.jpg",
           width: 4,
           height: 3,
           author: {
