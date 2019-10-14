@@ -48,7 +48,7 @@ export default class Theming extends Component {
 				maxWidth="xl"
 				style={{
 					padding: "0",
-					width: "100vw",
+					width: "calc(100vw - (100vw - 100%))",
 					minHeight: "100vh",
 					backgroundColor: "#fff"
 				}}

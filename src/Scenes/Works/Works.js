@@ -32,7 +32,7 @@ const useStyles = makeStyles(theme => ({
   },
   article: {
     color: "secondary",
-
+    maxWidth: "100%",
     padding: "0 20px",
     marginBottom: "10px",
     textAlign: "justify"
@@ -61,7 +61,8 @@ const useStyles = makeStyles(theme => ({
     margin: "auto"
   },
   eqElement: {
-    maxWidth:"400px",
+    maxWidth: "100%",
+    
     display: "block",
     margin: "auto"
   },
