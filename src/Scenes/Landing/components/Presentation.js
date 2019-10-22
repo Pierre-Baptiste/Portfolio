@@ -157,7 +157,7 @@ export default function Presentation(props) {
             </span>
             <Typist.Backspace count={12} delay={1000} />
             <span>
-              passioné<span style={{ color: "#001aff" }}>.</span>
+              passionné<span style={{ color: "#001aff" }}>.</span>
             </span>
             <Typist.Backspace count={11} delay={1000} />
             <span>
