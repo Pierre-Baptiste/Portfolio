@@ -57,7 +57,7 @@ export default function About(props) {
     return (
       <div>
         <Typography align="center" variant="h3" className={classes.title}>
-          | 04 : Gallerie |
+          | 04 : Galerie |
         </Typography>
         <Box className={classes.subtitleBox}>
           <Typography align="center">
