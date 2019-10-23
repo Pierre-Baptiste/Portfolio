@@ -135,7 +135,7 @@ export default function SimpleAppBar(props) {
 					"01 : Accueil",
 					"02 : Travaux",
 					"03 : À propos",
-					"04 : Gallerie",
+					"04 : Galerie",
 					"04 : Contact",
 				].map((text, i) => (
 					<ListItem button key={text}>
@@ -350,7 +350,7 @@ export default function SimpleAppBar(props) {
 							className={classes.item}
 						>
 							<Link to="/gallery" className={classes.link}>
-								04 : Gallerie
+								04 : Galerie
 							</Link>
 						</Typography>
 						<Typography
