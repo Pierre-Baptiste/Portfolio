@@ -111,7 +111,16 @@ export default function Presentation(props) {
 										H
 									</span>
 									acker News reader is a project that I
-									pursued in order to work on my API skills.
+									pursued in order to work on my API skills. I
+									greatly followed Karl Hadwen's{' '}
+									<a
+										href='https://www.youtube.com/watch?v=7DLRJj1YjvQ&t=7s'
+										target='_blank'
+										rel='noopener noreferrer'>
+										tutorial
+									</a>{' '}
+									but took a different approach in terms of
+									styling.
 								</Typography>
 								<Typography className={classes.article}>
 									You can check it out{' '}
@@ -121,7 +130,13 @@ export default function Presentation(props) {
 										rel='noopener noreferrer'>
 										here
 									</a>
+									.
 								</Typography>
+								<img
+									src={'https://i.imgur.com/1ekj3xa.png'}
+									alt='Landing of website'
+									className={classes.imageElement}
+								/>
 								<Typography className={classes.articleTitle}>
 									#01 - API
 								</Typography>
@@ -134,9 +149,44 @@ export default function Presentation(props) {
 									#02 - TESTS
 								</Typography>
 								<Typography className={classes.article}>
-									To reach the HackerNews API, I used the
-									package "Axios".
+									Tests have been implemented to make sure the
+									app runs smoothly in every conditions. I
+									have tested that the app renders properly,
+									that it reaches the API and if not, that it
+									handles gracefully, that the content of one
+									story renders properly and finally that the
+									container for the stories renders correctly.
 								</Typography>
+								<Typography className={classes.articleTitle}>
+									#03 - STYLING
+								</Typography>
+								<Typography className={classes.article}>
+									Styled Components were used for the styling
+									of the page, which was quite enjoyable as I
+									could go back to using vanilla CSS instead
+									of a library. I experimented with several
+									palettes and animations and eventually came
+									to a result that I'm satisfied with.
+								</Typography>
+								<Typography
+									className={classes.article}
+									style={{ textAlign: 'center' }}>
+									<Circle style={{ color: '#42c58a' }} />{' '}
+									#42c58a
+									<br />
+									<Circle style={{ color: '#4ec7f3' }} />{' '}
+									#4ec7f3
+									<br />
+									<Circle style={{ color: '#dc143c' }} />{' '}
+									#dc143c
+									<br />
+									<Circle style={{ color: '#fffd98' }} />{' '}
+									#fffd98
+									<br />
+									<Circle style={{ color: '#474350' }} />{' '}
+									#474350
+								</Typography>
+
 								<Typography className={classes.articleEnd}>
 									#THANK YOU FOR READING
 								</Typography>
