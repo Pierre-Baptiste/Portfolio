@@ -129,8 +129,19 @@ export default function Presentation(props) {
 										target='_blank'
 										rel='noopener noreferrer'>
 										here
+									</a>{' '}
+									and the code{' '}
+									<a
+										href='https://github.com/Pierre-Baptiste/HackerNews-Reader'
+										target='_blank'
+										rel='noopener noreferrer'>
+										there
 									</a>
 									.
+								</Typography>
+								<Typography className={classes.article}>
+									Stack: React, Node/Express, Axios,
+									Styled-Components, React Testing Library
 								</Typography>
 								<img
 									src={'https://i.imgur.com/1ekj3xa.png'}
@@ -1265,6 +1276,118 @@ export default function Presentation(props) {
 				</Box>
 				<Box className={classes.workCardBox} align='center'>
 					<Grid container className={classes.root} spacing={4}>
+						<Grid item xs={12} sm={6} md={4}>
+							<WorkCard
+								image={'https://i.imgur.com/m1SDG4L.png'}
+								imageTitle='HackerNewsReader'
+								date='2020'
+								title='HackerNews Feed'
+								subTitle='Projet Personnel'
+								description='Lecteur des derniers articles postés sur HackerNews'>
+								<Typography className={classes.article}>
+									<span className={classes.firstLetter}>
+										H
+									</span>
+									ackerNews Feed est un projet que j'ai
+									réalisé pour travailler sur mes compétences
+									et connaissances sur les API. Ce projet a
+									été largement inspiré du{' '}
+									<a
+										href='https://www.youtube.com/watch?v=7DLRJj1YjvQ&t=7s'
+										target='_blank'
+										rel='noopener noreferrer'>
+										tutoriel
+									</a>{' '}
+									de Karl Hadwen qui est merveilleusement
+									réalisé. J'ai cependant pris mon
+									indépendance quant au design de celui ci.
+								</Typography>
+								<Typography className={classes.article}>
+									Vous pouvez trouver le résultat{' '}
+									<a
+										href='https://hackernews.pbdupire.com/'
+										target='_blank'
+										rel='noopener noreferrer'>
+										ici
+									</a>{' '}
+									et le code{' '}
+									<a
+										href='https://github.com/Pierre-Baptiste/HackerNews-Reader'
+										target='_blank'
+										rel='noopener noreferrer'>
+										là-bas
+									</a>
+									.
+								</Typography>
+								<Typography className={classes.article}>
+									Stack: React, Node/Express, Axios,
+									Styled-Components, React Testing Library
+								</Typography>
+								<img
+									src={'https://i.imgur.com/1ekj3xa.png'}
+									alt='Landing of website'
+									className={classes.imageElement}
+								/>
+								<Typography className={classes.articleTitle}>
+									#01 - API
+								</Typography>
+								<Typography className={classes.article}>
+									Pour communiquer avec l'API, j'ai utilisé le
+									package "axios" que je ne connaissais que
+									très peu avant ce projet. J'ai pu donc
+									travailler sur le appels asynchrones et les
+									promises de JavaScript.
+								</Typography>
+								<Typography className={classes.articleTitle}>
+									#02 - TESTS
+								</Typography>
+								<Typography className={classes.article}>
+									Plusieurs tests ont été implémentés
+									également pour s'assurer du bon
+									fonctionnement de l'application dans toutes
+									les conditions. Il faut que l'application
+									"renders" correctement, qu'elle communique
+									comme il faut avec l'API d'HackerNews, et
+									que, dans le cas d'un échec de
+									communication, qu'elle ne crash pas, que
+									chaque article s'affiche correctement et que
+									le container aussi.
+								</Typography>
+								<Typography className={classes.articleTitle}>
+									#03 - STYLING
+								</Typography>
+								<Typography className={classes.article}>
+									Du côté graphique, j'ai utilisé Styled
+									Components, une librairie qui m'a permis
+									d'utilisé du pur CSS dans react ce que j'ai
+									trouvé assez agréable. J'ai expérimenté avec
+									plusieurs palettes et animations jusqu'à
+									arriver à un résultat qui me plait.
+								</Typography>
+								<Typography
+									className={classes.article}
+									style={{ textAlign: 'center' }}>
+									<Circle style={{ color: '#42c58a' }} />{' '}
+									#42c58a
+									<br />
+									<Circle style={{ color: '#4ec7f3' }} />{' '}
+									#4ec7f3
+									<br />
+									<Circle style={{ color: '#dc143c' }} />{' '}
+									#dc143c
+									<br />
+									<Circle style={{ color: '#fffd98' }} />{' '}
+									#fffd98
+									<br />
+									<Circle style={{ color: '#474350' }} />{' '}
+									#474350
+								</Typography>
+
+								<Typography className={classes.articleEnd}>
+									#MERCI D'AVOIR LU JUSQUE LÀ
+								</Typography>
+							</WorkCard>
+						</Grid>
 						<Grid item xs={12} sm={6} md={4}>
 							<WorkCard
 								image={'https://i.imgur.com/hQqM2cl.png'}
